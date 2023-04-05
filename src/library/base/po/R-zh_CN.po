@@ -360,7 +360,7 @@ msgid "numbers of columns of arguments do not match"
 msgstr "变量的列数不对"
 
 msgid "invalid list argument: all variables should have the same length"
-msgstr "列表参数有错：所有变数的长度都应该是一样的"
+msgstr "列表参数有错误：所有变量的长度都应该是一样的"
 
 #, fuzzy
 msgid "number of columns of result, %d, is not a multiple of vector length %d of arg %d"
@@ -395,7 +395,7 @@ msgid "cannot xtfrm data frames"
 msgstr "不是数据框"
 
 msgid "all variables should have the same length"
-msgstr "列表参数有错：所有变数的长度都应该是一样的"
+msgstr "列表参数有错误：所有变量的长度都应该是一样的"
 
 msgid "character string is not in a standard unambiguous format"
 msgstr "字符串的格式不足标准明确"
@@ -635,7 +635,7 @@ msgid "level sets of factors are different"
 msgstr "因子的水平集不同"
 
 msgid "invalid factor level, NA generated"
-msgstr "因子水平有错，产生了NA"
+msgstr "因子水平有错误，产生了NA"
 
 msgid "'%s' is not meaningful for ordered factors"
 msgstr "'%s'对順序化的因子没有意义"
