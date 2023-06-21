@@ -495,7 +495,7 @@ msgstr "警告: 没有设定'%s'的值"
 #: src/main/CommandLineArgs.c:222
 #, c-format
 msgid "WARNING: '%s' value is invalid: ignored"
-msgstr "警告: '%s'的值无效: 略过不用"
+msgstr "警告: '%s'的值无效: 忽略不用"
 
 #: src/main/CommandLineArgs.c:226
 #, c-format
@@ -1198,7 +1198,7 @@ msgstr "行名必需是'character'或'integer'，不能是'%s'"
 #: src/main/attrib.c:141
 #, c-format
 msgid "getAttrib: invalid type (%s) for TAG"
-msgstr "getAttrib: 标记的种类(%s)无效"
+msgstr "getAttrib: 标记的类型(%s)无效"
 
 #: src/main/attrib.c:359
 msgid "cannot set attribute on a symbol"
@@ -1207,7 +1207,11 @@ msgstr "无法在符号上设置属性"
 #: src/main/attrib.c:407
 #, c-format
 msgid "invalid type (%s) for 'names': must be vector or NULL"
+<<<<<<< HEAD
 msgstr "'names' 的类型（%s）无效：必须是向量或为NULL"
+=======
+msgstr "'names'的类型(%s)无效: 必需是向量"
+>>>>>>> f5b22048 (resolve conflict in src/library/base/po/zh_CN.po)
 
 #: src/main/attrib.c:410
 #, fuzzy, c-format
@@ -1249,7 +1253,11 @@ msgstr "无法设非适当'class'属性"
 #: src/main/attrib.c:926
 #, c-format
 msgid "invalid to use names()<- on an S4 object of class '%s'"
+<<<<<<< HEAD
 msgstr "在类 '%s' 的 S4 对象上使用 names()<- 无效"
+=======
+msgstr "在非向量类别('%s')里不能用names()<-来设'names'这个类型"
+>>>>>>> f5b22048 (resolve conflict in src/library/base/po/zh_CN.po)
 
 #: src/main/attrib.c:969
 msgid "incompatible 'names' argument"
@@ -1277,7 +1285,7 @@ msgstr "'dimnames'的长度[%d]必需同'dims'的长度[%d]相等"
 #: src/main/attrib.c:1137
 #, c-format
 msgid "invalid type (%s) for 'dimnames' (must be a vector)"
-msgstr "设'dimnames'时的种类(%s)无效(必需为矢量)"
+msgstr "设'dimnames'时的类型(%s)无效(必需为向量)"
 
 #: src/main/attrib.c:1140
 #, c-format
@@ -1707,7 +1715,7 @@ msgstr "'mode'参数无效"
 
 #: src/main/coerce.c:35
 msgid "applies only to lists and vectors"
-msgstr "只能用于列表和矢量"
+msgstr "只能用于列表和向量"
 
 #: src/main/coerce.c:82 src/main/errors.c:1446
 msgid "NAs introduced by coercion"
@@ -1808,7 +1816,7 @@ msgstr "没有实现的谓词"
 #: src/main/coerce.c:2333
 #, c-format
 msgid "%s() applied to non-(list or vector) of type '%s'"
-msgstr "%s()不适用于类别为'%s'的非列表或非矢量"
+msgstr "%s()不适用于类别为'%s'的非列表或非向量"
 
 #: src/main/coerce.c:2529 src/main/coerce.c:2590 src/main/coerce.c:2666
 #, c-format
@@ -2746,7 +2754,7 @@ msgstr "在编译R程序时没有建立存储轮廓这一功能"
 
 #: src/main/deparse.c:176
 msgid "invalid 'cutoff' value for 'deparse', using default"
-msgstr "'deparse'的'cutoff'值无效, 用缺省值"
+msgstr "'deparse'的'cutoff'值无效, 用默认值"
 
 #: src/main/deparse.c:305
 msgid "deparse may be incomplete"
@@ -3652,7 +3660,7 @@ msgstr "参数数目无效"
 
 #: src/main/errors.c:1432 src/main/logic.c:190
 msgid "invalid argument type"
-msgstr "参数种类无效"
+msgstr "参数类型无效"
 
 #: src/main/errors.c:1434
 msgid "time-series/vector length mismatch"
@@ -3874,7 +3882,7 @@ msgstr "\"function\"正式参数列表无效"
 #: src/main/eval.c:3882 src/main/eval.c:3913 src/main/eval.c:3918
 #, c-format
 msgid "invalid '%s' argument of type '%s'"
-msgstr "种类'%2$s'的参数'%1$s'无效"
+msgstr "类型'%2$s'的参数'%1$s'无效"
 
 #: src/main/eval.c:3910
 msgid "numeric 'envir' arg not of length one"
@@ -3913,7 +3921,7 @@ msgstr "opcode不对"
 #: src/main/eval.c:6696
 #, c-format
 msgid "invalid %s type in 'x %s y'"
-msgstr "'x %2$s y'中%1$s种类无效"
+msgstr "'x %2$s y'中%1$s类型无效"
 
 #: src/main/eval.c:7132
 msgid "bytecode version mismatch; using eval"
@@ -4466,12 +4474,12 @@ msgstr "'%s'运算符需要两个参数"
 #: src/main/logic.c:284
 #, c-format
 msgid "invalid 'x' type in 'x %s y'"
-msgstr "'x %s y'里的'x'种类无效"
+msgstr "'x %s y'里的'x'类型无效"
 
 #: src/main/logic.c:293
 #, c-format
 msgid "invalid 'y' type in 'x %s y'"
-msgstr "'x %s y'里的'y'种类无效"
+msgstr "'x %s y'里的'y'类型无效"
 
 #: src/main/logic.c:371
 msgid "Unary operator `!' called with two arguments"
@@ -4677,7 +4685,7 @@ msgstr "无法分配长度为%lld的向量"
 #: src/main/memory.c:2773
 #, c-format
 msgid "invalid type/length (%s/%d) in vector allocation"
-msgstr "矢量分配的种类/长度(%s/%d)无效"
+msgstr "向量分配的类型/长度(%s/%d)无效"
 
 #: src/main/memory.c:2909
 #, c-format
@@ -4727,7 +4735,7 @@ msgstr ""
 
 #: src/main/memory.c:4128
 msgid "not safe to return vector pointer"
-msgstr "返回向量指针不是安全的做法"
+msgstr "回覆向量指针不是安全的做法"
 
 #: src/main/memory.c:4139
 #, c-format
@@ -5387,11 +5395,11 @@ msgstr "'na.print'设定无效"
 
 #: src/main/print.c:159
 msgid "invalid row labels"
-msgstr "行標記无效"
+msgstr "行标签无效"
 
 #: src/main/print.c:161
 msgid "invalid column labels"
-msgstr "列標記无效"
+msgstr "列标签无效"
 
 #: src/main/print.c:269
 msgid "'gap' must be non-negative integer"
@@ -5568,7 +5576,6 @@ msgid "invalid UTF-8 string"
 msgstr "UTF-8字符串有错误"
 
 #: src/main/raw.c:391
-#, fuzzy
 msgid "argument 'allow_surrogate_pairs' must be TRUE or FALSE"
 msgstr "'multiple'的参数值必需是TRUE或是FALSE"
 
@@ -5925,7 +5932,7 @@ msgstr "NA/NaN参数"
 #: src/main/seq.c:354
 #, fuzzy, c-format
 msgid "invalid type (%s) for '%s' (must be a vector)"
-msgstr "设'dimnames'时的种类(%s)无效(必需为矢量)"
+msgstr "设'dimnames'时的类型(%s)无效(必需为向量)"
 
 #: src/main/seq.c:358
 #, c-format
@@ -6325,7 +6332,7 @@ msgstr "只允许%d个参数"
 #: src/main/sprintf.c:119
 #, c-format
 msgid "invalid type of argument[%d]: '%s'"
-msgstr "参数[%d] 的种类无效：'%s'"
+msgstr "参数[%d] 的类型无效：'%s'"
 
 #: src/main/sprintf.c:130 src/main/sprintf.c:133
 msgid "arguments cannot be recycled to the same length"
@@ -6429,7 +6436,7 @@ msgstr "不能把非向量变大"
 #: src/main/subassign.c:147
 #, c-format
 msgid "assignment outside vector/list limits (extending from %d to %d)"
-msgstr "不能在矢量/列表极限外赋值(%d加大到%d)"
+msgstr "不能在向量/列表极限外赋值(%d加大到%d)"
 
 #: src/main/subassign.c:267
 #, fuzzy
@@ -6676,7 +6683,7 @@ msgstr "没有参数"
 
 #: src/main/summary.c:1214 src/main/summary.c:1232
 msgid "invalid input type"
-msgstr "输入种类无效"
+msgstr "输入类型无效"
 
 #: src/main/summary.c:1249
 msgid "an argument will be fractionally recycled"
@@ -6758,7 +6765,7 @@ msgstr "'x'必需是字符向量"
 
 #: src/main/sysutils.c:688
 msgid "'x' must be a character vector or a list of NULL or raw vectors"
-msgstr "'x'必需是NULL列表或原始矢量"
+msgstr "'x'必需是NULL列表或原始向量"
 
 #: src/main/sysutils.c:709 src/main/sysutils.c:734 src/main/sysutils.c:755
 #, c-format
@@ -7290,7 +7297,7 @@ msgstr "'width'或'height'的值无效"
 
 #: src/modules/X11/devX11.c:3251
 msgid "invalid colortype passed to X11 driver"
-msgstr "传给X11驅動器的颜色种类无效"
+msgstr "传给X11驅動器的颜色类型无效"
 
 #: src/modules/X11/devX11.c:3265
 msgid "unknown X11 color/colour model -- using monochrome"
