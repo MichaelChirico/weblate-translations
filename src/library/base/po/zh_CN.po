@@ -9,6 +9,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-11-30 14:39+0100\n"
 "PO-Revision-Date: 2023-04-22 22:40+0200\n"
+"POT-Creation-Date: 2022-01-14 11:27+0000\n"
+"PO-Revision-Date: 2023-01-30 10:05+0000\n"
 "Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
 "Language-Team: Chinese\n"
 "Language: zh_CN\n"
@@ -740,7 +742,6 @@ msgstr "无法为“DllInfo”分配空间"
 msgid "path too long"
 msgstr "路径太长"
 
-#: src/main/Rdynload.c:1223 src/main/Rdynload.c:1240 src/main/util.c:826
 msgid "character argument expected"
 msgstr "需要字符参数"
 
@@ -1207,11 +1208,7 @@ msgstr "无法在符号上设置属性"
 #: src/main/attrib.c:407
 #, c-format
 msgid "invalid type (%s) for 'names': must be vector or NULL"
-<<<<<<< HEAD
-msgstr "'names' 的类型（%s）无效：必须是向量或为NULL"
-=======
 msgstr "'names'的类型(%s)无效: 必需是向量"
->>>>>>> f5b22048 (resolve conflict in src/library/base/po/zh_CN.po)
 
 #: src/main/attrib.c:410
 #, fuzzy, c-format
@@ -1253,11 +1250,7 @@ msgstr "无法设非适当'class'属性"
 #: src/main/attrib.c:926
 #, c-format
 msgid "invalid to use names()<- on an S4 object of class '%s'"
-<<<<<<< HEAD
-msgstr "在类 '%s' 的 S4 对象上使用 names()<- 无效"
-=======
 msgstr "在非向量类别('%s')里不能用names()<-来设'names'这个类型"
->>>>>>> f5b22048 (resolve conflict in src/library/base/po/zh_CN.po)
 
 #: src/main/attrib.c:969
 msgid "incompatible 'names' argument"
@@ -4117,7 +4110,6 @@ msgstr "剪裁多重线的时候内存不足"
 msgid "contextstack overflow (%s:%d:%d)"
 msgstr "节点堆叠上溢"
 
-#: src/main/gram.y:2380 src/main/gram.y:2386 src/main/gram.y:2408
 #, c-format
 msgid "unexpected input"
 msgstr "意外的输入"
