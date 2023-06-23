@@ -10,7 +10,7 @@ msgstr ""
 "POT-Creation-Date: 2023-11-30 14:39+0100\n"
 "PO-Revision-Date: 2023-04-22 22:40+0200\n"
 "POT-Creation-Date: 2022-01-14 11:27+0000\n"
-"PO-Revision-Date: 2023-01-30 10:05+0000\n"
+"PO-Revision-Date: 2023-02-04 02:05+0000\n"
 "Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
 "Language-Team: Chinese\n"
 "Language: zh_CN\n"
@@ -4237,7 +4237,7 @@ msgstr "\\U{xxxxxxxx}顺序无效(%d行)"
 
 #: src/main/gram.y:3096
 #, fuzzy, c-format
-msgid "'\\%s' is an unrecognized escape in character string (%s:%d:%d)"
+msgid "'\\%c' is an unrecognized escape in character string starting \"%s\""
 msgstr "“\\%c”转义符号在以“%s”开头的字符串中无法识别"
 
 #: src/main/gram.y:3177 src/main/gram.y:3317
