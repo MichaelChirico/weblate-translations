@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 2.3.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-07-31 14:59\n"
-"PO-Revision-Date: 2023-01-30 10:05+0000\n"
+"PO-Revision-Date: 2023-07-12 03:05+0000\n"
 "Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
 "Language-Team: Chinese\n"
 "Language: zh_CN\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.13.1\n"
+"X-Generator: Weblate 4.16.4\n"
 
 msgid "OOPS: something wrong with '.OldClassesPrototypes[[%d]]'"
 msgstr "啊呀：'.OldClassesPrototypes'里第[[%d]]行那里出错了"
@@ -196,7 +196,8 @@ msgid "%s has no methods defined"
 msgstr "%s没有设定任何方法"
 
 msgid "bad class specified for element %d (should be a single character string)"
-msgstr "为單元%d所设定的类别不对(应当是条单字符字串)"
+"bad class specified for element %d (should be a single character string)"
+msgstr "为單元%d所设定的类别不正确(应当是条单字符字串)"
 
 msgid "first argument should be the names of one of more generic functions (got object of class %s)"
 msgstr "第一个参数应当为泛型函数的名称(现在却是类别为%s的对象)"
@@ -457,9 +458,8 @@ msgstr "类别%s里的类型%s目前被定义为(或继承于)\"%s\"，这与类
 msgid "class %s extends an undefined class (%s)"
 msgstr "类别%s擴充不存在的类别(%s)"
 
-#, fuzzy
 msgid "The prototype for class %s has undefined slot(s): %s"
-msgstr "类别为%2$s的'%1$s'列表，包含不存在的类别%3$s"
+msgstr "类 %s 的原型具有未定义的插槽： %s"
 
 msgid "%s is not eligible to be the data part of another class (must be a basic class or a virtual class with no slots)"
 msgstr "%s不可以成为另外一个类别的数据部分(必需是没有类型的基本类别或虛擬类别才可以)"
@@ -503,19 +503,17 @@ msgstr "找不到所需要的程輯包%s"
 msgid "unable to find an environment containing class %s"
 msgstr "找不到包含类别%s的环境"
 
-#, fuzzy
 msgid "Note: some superclasses of class %s in package %s have duplicate definitions.  This definition is not being treated as equivalent to that from package %s"
-msgstr "在程序包%2$s中类别%1$s的某些超类有重复的定义。这个定义不同于程序包%3$s里的定义"
+msgstr "注意：包 %s 中类 %s 的某些超类具有重复的定义。 此定义未被视为等效于包 %s 中的定义"
 
-#, fuzzy
 msgid "Note: the specification for class %s in package %s seems equivalent to one from package %s: not turning on duplicate class definitions for this class."
-msgstr "程序包%2$s里的%1$s类别定义似乎与程序包%3$s里的类别定义相当，因此不打开重复的类别定义"
+msgstr "注意：包 %s 中类 %s 的规范似乎等同于包 %s 中的规范：不为此类打开重复的类定义。"
 
 msgid "Found more than one class \"%s\" in cache; using the first, from namespace '%s'"
-msgstr ""
+msgstr "在缓存中找到多个类“%s”;使用第一个，从命名空间 '%s'"
 
 msgid "Also defined by"
-msgstr ""
+msgstr "也被定义由"
 
 msgid "undefined subclass %s of class %s; definition not updated"
 msgstr "%2$s类别的子类别%1$s没有定义；因此没有更新"
@@ -525,6 +523,8 @@ msgstr "不存在从%s到\"%s\"类别的繼承定义，虽然%s的setIs()暗示�
 
 msgid "Debugging .checkSubclasses(): assignClassDef(what=\"%s\", *, where=%s, force=TRUE);"
 msgstr ""
+"调试 .checkSubclasses(): assignClassDef(what=\"%s\", *, where=%s, "
+"force=TRUE);"
 
 msgid "E := environment(): %s; parent.env(E): %s"
 msgstr ""
@@ -682,16 +682,16 @@ msgid "only arguments 'Class' and 'where' can be supplied when argument 'represe
 msgstr "当参数'representation'是'classRepresentation'对象时只能使用'Class'和'where'变元"
 
 msgid "error in contained classes (%s) for class %s and unable to remove definition from %s"
-msgstr "%2$s类别里包含的子类别(%1$s)不对，但无法将定义从%3$s中删除"
+msgstr "%2$s类别里包含的子类别(%1$s)不正确，但无法将定义从%3$s中删除"
 
 msgid "error in contained classes (%s) for class %s; class definition removed from %s"
-msgstr "%2$s类别里包含的子类别(%1$s)不对；类别定义从%3$s中被删除"
+msgstr "%2$s类别里包含的子类别(%1$s)不正确；类别定义从%3$s中被删除"
 
 msgid "error in contained classes (%s) for class %s and unable to restore previous definition from %s"
-msgstr "%2$s类别里包含的子类别(%1$s)不对，但无法将%3$s中原来的定义重新储存"
+msgstr "%2$s类别里包含的子类别(%1$s)不正确，但无法将%3$s中原来的定义重新储存"
 
 msgid "error in contained classes (%s) for class %s; previous definition restored to %s"
-msgstr "%2$s类别里包含的子类别(%1$s)不对；原来的定义重新储存到%3$s中"
+msgstr "%2$s类别里包含的子类别(%1$s)不正确；原来的定义重新储存到%3$s中"
 
 msgid "element %d of the representation was not a single character string"
 msgstr "表现的%d單元不是单字符的字串"
@@ -999,7 +999,7 @@ msgid "multiple definitions of %s found; using the one on %s"
 msgstr "%s有多个定义；用%s这一个"
 
 msgid "%s is not a valid field or method name for reference class %s"
-msgstr "\"%s\"场要么无效，要么引用类%s的方法名不对"
+msgstr "\"%s\"场要么无效，要么引用类%s的方法名不正确"
 
 msgid "a call to superClass() is in the method %s but there is no superclass definition of this method for class %s"
 msgstr "在%s方法里调用了superClass()，但是%s类别里没有这个方法的超类别定义"
