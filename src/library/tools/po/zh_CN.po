@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 2.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-11-30 14:40+0100\n"
-"PO-Revision-Date: 2023-01-30 10:05+0000\n"
+"PO-Revision-Date: 2023-07-12 03:05+0000\n"
 "Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
 "Language-Team: Chinese\n"
 "Language: zh_CN\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.13.1\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: Rmd5.c:47
 msgid "argument 'files' must be character"
@@ -141,7 +141,7 @@ msgstr "状态不好"
 #: gramRd.c:4612 y.tab.c:4612
 #, c-format
 msgid "bad text mode %d in 'deparseRd'"
-msgstr "'deparseRd'里的文本模式%d不对"
+msgstr "'deparseRd'里的文本模式%d不正确"
 
 #: http.c:32
 msgid "invalid bind address specification"
