@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 2.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-07-31 14:59+0200\n"
-"PO-Revision-Date: 2022-11-18 10:04+0000\n"
+"PO-Revision-Date: 2023-07-12 03:05+0000\n"
 "Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
 "Language-Team: Chinese\n"
 "Language: zh_CN\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.13.1\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: class_support.c:29
 msgid "calling the C routine used as an initializer for 'externalptr' objects"
@@ -29,11 +29,11 @@ msgstr "置换时用的列表出了错"
 #: methods_list_dispatch.c:129
 #, c-format
 msgid "unexpected type '%s' for condition message"
-msgstr ""
+msgstr "条件消息的未知类型'%s'"
 
 #: methods_list_dispatch.c:132
 msgid "condition message must be length 1"
-msgstr ""
+msgstr "条件消息的长度必须为 1"
 
 #: methods_list_dispatch.c:213
 msgid "could not find the skeleton calls for 'methods' (package detached?): expect very bad things to happen"
@@ -45,13 +45,13 @@ msgid "no \"allMethods\" slot found in object of class \"%s\" used as methods li
 msgstr "当函数'%2$s'方法列表来用的，类别为\"%1$s\" 的对象缺少\"allMethods\"这么一个类型。"
 
 #: methods_list_dispatch.c:407
-#, fuzzy, c-format
+#, c-format
 msgid "S language method selection did not return normally when called from internal dispatch for function '%s'"
-msgstr "在为函数'%s'进行内部調度时S语言方法选择出了错"
+msgstr "从函数“%s”的内部调度调用时，S 语言方法选择未正常返回"
 
 #: methods_list_dispatch.c:409
 msgid "Function name for method selection called internally"
-msgstr ""
+msgstr "内部调用的方法选择的函数名称"
 
 #: methods_list_dispatch.c:503
 #, c-format
