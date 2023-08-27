@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 2.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-11-30 14:40\n"
-"PO-Revision-Date: 2022-12-15 08:04+0000\n"
+"PO-Revision-Date: 2023-07-12 03:05+0000\n"
 "Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
 "Language-Team: Chinese\n"
 "Language: zh_CN\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.13.1\n"
+"X-Generator: Weblate 4.16.4\n"
 
 msgid "models are not all fitted to the same number of observations"
 msgstr "模型拟合时没有用同样大小的数据集"
@@ -752,7 +752,7 @@ msgid "bad value for 'lag' or 'differences'"
 msgstr "'lag'或'differences'的值有错误"
 
 msgid "'xi' does not have the right length"
-msgstr "'xi'的长度不对"
+msgstr "'xi'的长度不正确"
 
 msgid "incorrect dimensions for 'xi'"
 msgstr "'xi'的尺寸不正确"
@@ -816,7 +816,7 @@ msgid "factor analysis applies only to numerical variables"
 msgstr "因子分析只适用于数值变量"
 
 msgid "'covmat' is of unknown type"
-msgstr "'covmat'的类型不对"
+msgstr "'covmat'的类型不正确"
 
 msgid "requested scores without an 'x' matrix"
 msgstr "被要求的分数没有'x'矩阵"
@@ -1019,7 +1019,7 @@ msgid "profiling has found a better solution, so original fit had not converged"
 msgstr ""
 
 msgid "'family' not recognized"
-msgstr "'family'设定得不对"
+msgstr "'family'设定得不正确"
 
 msgid "invalid 'method' argument"
 msgstr "'method'参数无效"
@@ -1106,10 +1106,10 @@ msgid ","
 msgstr ","
 
 msgid "using F test with a '%s' family is inappropriate"
-msgstr "将F检验用于%s分布族是不对的"
+msgstr "将F检验用于%s分布族是不正确的"
 
 msgid "using F test with a fixed dispersion is inappropriate"
-msgstr "将F检验用于固定疏散的分布是不对的"
+msgstr "将F检验用于固定疏散的分布是不正确的"
 
 msgid "models with response %s removed because response differs from model 1"
 msgstr "带响应%s的模型被删除了，因为响应同模型1不相对"
@@ -1193,7 +1193,7 @@ msgid "'coef' must be a vector"
 msgstr "'coef'必需是向量"
 
 msgid "'coef' does not have the correct length"
-msgstr "'coef'的长度不对"
+msgstr "'coef'的长度不正确"
 
 msgid "coefficients do not add to 1"
 msgstr "系数总和不是一"
@@ -1337,7 +1337,7 @@ msgid ""
 "lm object does not have a proper 'qr' component.\n"
 " Rank zero or should not have used lm(.., qr=FALSE)."
 msgstr ""
-"lm对象的'qr'组件不对。\n"
+"lm对象的'qr'组件不正确。\n"
 " 其秩零，要么不应该调用lm(.., qr=FALSE)."
 
 #, fuzzy
@@ -1644,7 +1644,7 @@ msgstr "model.matrix()里的模型框和公式不相配"
 
 #, fuzzy
 msgid "non-list contrasts argument ignored"
-msgstr "'contrasts.arg'参数不对"
+msgstr "'contrasts.arg'参数不正确"
 
 #, fuzzy
 msgid "'contrasts.arg' argument must be named"
@@ -1922,7 +1922,7 @@ msgid "'newdata' does not have named columns matching one or more of the origina
 msgstr "'newdata'的列名同原始数据的列名没有任何相同的"
 
 msgid "'newdata' does not have the correct number of columns"
-msgstr "'newdata'列的数目不对"
+msgstr "'newdata'列的数目不正确"
 
 msgid "both 'x' and 'covmat' were supplied: 'x' will be ignored"
 msgstr "同时提供了'x'和'covmat': 'x'忽略不用"
@@ -2158,7 +2158,7 @@ msgid "type = \"partial\" is not yet implemented"
 msgstr "还没有实现type=\"partial\"的算法"
 
 msgid "not a valid \"smooth.spline\" object"
-msgstr " \"smooth.spline\"对象不对"
+msgstr "\"smooth.spline\"对象不正确"
 
 msgid "'span' must be between 0 and 1."
 msgstr "'span'必需在零和一之间。"
@@ -2224,7 +2224,7 @@ msgid "no 'as.stepfun' method available for 'x'"
 msgstr "没有适用于'x'的'as.stepfun'方法"
 
 msgid "not a valid step function"
-msgstr "步驟函数不对"
+msgstr "步驟函数不正确"
 
 msgid "'plot.stepfun' called with wrong type of argument 'x'"
 msgstr "調用'plot.stepfun'时参数'x'的类型有误"
@@ -2240,7 +2240,7 @@ msgid "series is not periodic or has less than two periods"
 msgstr "序列没有周期，或其周期小于二"
 
 msgid "unknown string value for s.window"
-msgstr "s.window所设定的字符串值不对"
+msgstr "s.window所设定的字符串值不正确"
 
 msgid "'cutpoints' must be unique in 0 < cuts < 1, but are ="
 msgstr "'cutpoints'必需在0 < cuts < 1之间，而相互必需不同, 但实际上是 ="
@@ -2312,16 +2312,16 @@ msgid "non-intersecting series"
 msgstr "非相叉序列"
 
 msgid "non-time series not of the correct length"
-msgstr "非时间序列的长度不对"
+msgstr "非时间序列的长度不正确"
 
 msgid "time series contains internal NAs"
 msgstr "时间序列含内部NA"
 
 msgid "series is corrupt, with no 'tsp' attribute"
-msgstr "系列不对：缺少'tsp'这一属性"
+msgstr "系列不正确：缺少'tsp'这一属性"
 
 msgid "series is corrupt: length %d with 'tsp' implying %d"
-msgstr "系列不对：长度为%d的'tsp'意味着%d"
+msgstr "系列不正确：长度为%d的'tsp'意味着%d"
 
 msgid "cannot plot more than 10 series as \"multiple\""
 msgstr "无法将多于10个序列画成\"multiple\""
@@ -2340,13 +2340,13 @@ msgid "'frequency' not changed"
 msgstr "'frequency'没有变化"
 
 msgid "bad value for 'start'"
-msgstr "'start'的值不对"
+msgstr "'start'的值不正确"
 
 msgid "'start' value not changed"
 msgstr "'start'值没有变化"
 
 msgid "bad value for 'end'"
-msgstr "'end'值不对"
+msgstr "'end'值不正确"
 
 msgid "'end' value not changed"
 msgstr "'end'值没有变化"
@@ -2497,7 +2497,7 @@ msgstr[0] "有%d个错误项，但最多只允许有一个"
 
 msgid "unknown name %s in the 'split' list"
 msgid_plural "unknown names %s in the 'split' list"
-msgstr[0] "'split'列表里的名字%s不对"
+msgstr[0] "'split'列表里的名字%s不正确"
 
 msgid "extra argument %s is not of class \"%s\""
 msgid_plural "extra arguments %s are not of class \"%s\"s"
