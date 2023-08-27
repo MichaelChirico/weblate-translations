@@ -3,8 +3,9 @@ msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-11-30 14:39+0100\n"
-"PO-Revision-Date: 2023-04-11 03:05+0000\n"
-"Last-Translator: Shreshtha Modi <modishreshtha48@gmail.com>\n"
+"POT-Creation-Date: 2022-01-14 11:27\n"
+"PO-Revision-Date: 2023-06-05 03:05+0000\n"
+"Last-Translator: Shriharsh <sheteshriharsh@gmail.com>\n"
 "Language-Team: none\n"
 "Language: hi\n"
 "MIME-Version: 1.0\n"
@@ -5859,6 +5860,9 @@ msgstr ""
 #: src/main/saveload.c:2131
 msgid "loaded data is not in pair list form"
 msgstr ""
+
+msgid "arguments imply differing number of rows: %s"
+msgstr "तर्क अलग-अलग पंक्तियों की संख्या दर्शाते हैं: %s"
 
 #: src/main/saveload.c:2167
 #, fuzzy
