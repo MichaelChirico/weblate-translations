@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-11-30 14:39\n"
 "POT-Creation-Date: 2022-01-14 11:27\n"
-"PO-Revision-Date: 2023-04-18 03:05+0000\n"
+"PO-Revision-Date: 2023-07-25 03:05+0000\n"
 "Last-Translator: Macarena Quiroga <macarenasolquiroga@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -455,17 +455,21 @@ msgstr "clase incorrecta"
 msgid "binary '+' is not defined for \"POSIXt\" objects"
 msgstr "el operador binario '+' no esta definido para objetos \"POSIXt\""
 
+#, fuzzy
 msgid "can only subtract from \"POSIXt\" objects"
-msgstr ""
+msgstr "solo se puede sustraer de objetos \"POSIXt\""
 
+#, fuzzy
 msgid "unary '-' is not defined for \"POSIXt\" objects"
-msgstr ""
+msgstr "el unario \"-\" no está definido para objetos \"POSIXt\""
 
+#, fuzzy
 msgid "can only subtract numbers from \"POSIXt\" objects"
-msgstr ""
+msgstr "solo se puede sustraer números de objetos \"POSIXt\""
 
+#, fuzzy
 msgid "unary '%s' not defined for \"POSIXt\" objects"
-msgstr ""
+msgstr "el unario '%s' no está definido para objetos \"POSIXt\""
 
 #, fuzzy
 msgid "'%s' not defined for \"POSIXt\" objects"
@@ -493,8 +497,9 @@ msgstr "necesita unidades explícitas para conversión numérica"
 msgid "invalid units specified"
 msgstr "unidades especificadas inválidas"
 
+#, fuzzy
 msgid "unary '%s' not defined for \"difftime\" objects"
-msgstr ""
+msgstr "el unario '%s' no está definido para objetos \"difftime\""
 
 #, fuzzy
 msgid "'%s' not defined for \"difftime\" objects"
@@ -508,21 +513,24 @@ msgstr "ambos argumentos de * no pueden ser objetos \"difftime\""
 msgid "second argument of / cannot be a \"difftime\" object"
 msgstr "el segundo argumento de / no puede ser un objeto \"difftime\""
 
+#, fuzzy
 msgid "'from' must be a \"POSIXt\" object"
-msgstr ""
+msgstr "'from' debe ser un objeto \"POSIXt\""
 
+#, fuzzy
 msgid "'to' must be a \"POSIXt\" object"
-msgstr ""
+msgstr "'to' debe ser un objeto \"POSIXt\""
 
 msgid "component subscript must be a character string"
-msgstr ""
+msgstr "el subíndice del componente debe ser una cadena de caracteres"
 
 #, fuzzy
 msgid "no Olson database found"
 msgstr "base de datos Olson no encontrada"
 
+#, fuzzy
 msgid "'file' must be a character string or connection"
-msgstr ""
+msgstr "'file' debe ser una conexión o cadena de caracteres"
 
 msgid ""
 "Invalid DCF format.\n"
@@ -530,6 +538,10 @@ msgid ""
 "Offending lines start with:\n"
 "%s"
 msgstr ""
+"Formato DCF inválido\n"
+"Las líneas regulares deben tener una etiqueta.\n"
+"Las líneas ofensivas deben empezar con:\n"
+"%s"
 
 msgid ""
 "Invalid DCF format.\n"
