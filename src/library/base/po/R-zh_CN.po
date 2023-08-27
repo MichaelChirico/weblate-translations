@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-11-30 14:39\n"
-"PO-Revision-Date: 2022-12-15 08:04+0000\n"
+"PO-Revision-Date: 2023-07-12 03:05+0000\n"
 "Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
 "Language-Team: Chinese\n"
 "Language: zh_CN\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.13.1\n"
+"X-Generator: Weblate 4.16.4\n"
 
 msgid "'%s' is defunct."
 msgstr "'%s'不再有用。"
@@ -199,7 +199,7 @@ msgid "not an interactive session"
 msgstr "非交互运行式"
 
 msgid "not a valid restart specification"
-msgstr "重新开始的规格不对"
+msgstr "重新开始的规格不正确"
 
 #, fuzzy
 msgid "condition handlers must be functions"
@@ -357,7 +357,7 @@ msgid "names do not match previous names"
 msgstr "名字同原来已有的名字不相对"
 
 msgid "numbers of columns of arguments do not match"
-msgstr "变量的列数不对"
+msgstr "变量的列数不正确"
 
 msgid "invalid list argument: all variables should have the same length"
 msgstr "列表参数有错误：所有变量的长度都应该是一样的"
@@ -973,7 +973,7 @@ msgid "input has been corrupted, with LF replaced by CR"
 msgstr "输入有破损，LF被CR取代"
 
 msgid "bad 'file' argument"
-msgstr "'file'参数不对"
+msgstr "'file'参数不正确"
 
 msgid "'file' must be specified"
 msgstr "必需设定'file'的值"
@@ -992,7 +992,7 @@ msgid "'compress = \"%s\"' is invalid"
 msgstr "'compress = \"%s\"'得无效"
 
 msgid "bad file argument"
-msgstr "文件参数值不对"
+msgstr "文件参数值不正确"
 
 msgid "can only save to a binary connection"
 msgstr "只能保存到二进列链结"
@@ -1214,7 +1214,7 @@ msgstr ""
 
 #, fuzzy
 msgid "--- processing classes"
-msgstr "类别不对"
+msgstr "类别不正确"
 
 msgid "'exportClassPattern' specified in 'NAMESPACE' but no matching classes in package %s"
 msgstr "虽然'exportClassPattern'在'NAMESPACE'有设定但它在%s程序包中没有相对应的类别"
