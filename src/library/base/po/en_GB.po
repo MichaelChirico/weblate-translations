@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: R 2.1.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-11-30 14:39+0100\n"
-"PO-Revision-Date: 2023-04-14 03:05+0000\n"
-"Last-Translator: Ella Kaye <ella.kaye@gmail.com>\n"
+"PO-Revision-Date: 2023-05-16 03:05+0000\n"
+"Last-Translator: Heather Turner <ht@heatherturner.net>\n"
 "Language-Team: English\n"
 "Language: en_GB\n"
 "MIME-Version: 1.0\n"
@@ -41,95 +41,95 @@ msgstr "function cannot be evaluated at initial parameters"
 
 #: src/appl/optim.c:497
 msgid "unknown 'type' in \"CG\" method of 'optim'"
-msgstr ""
+msgstr "unknown 'type' in \"CG\" method of 'optim'"
 
 #: src/appl/optim.c:510
 msgid "Function cannot be evaluated at initial parameters"
-msgstr ""
+msgstr "Function cannot be evaluated at initial parameters"
 
 #: src/appl/optim.c:565
 msgid "unknown type in \"CG\" method of 'optim'"
-msgstr ""
+msgstr "unknown type in \"CG\" method of 'optim'"
 
 #: src/appl/optim.c:662
 msgid "REPORT must be > 0 (method = \"L-BFGS-B\")"
-msgstr ""
+msgstr "REPORT must be > 0 (method = \"L-BFGS-B\")"
 
 #: src/appl/optim.c:685
 msgid "L-BFGS-B needs finite values of 'fn'"
-msgstr ""
+msgstr "L-BFGS-B needs finite values of 'fn'"
 
 #: src/appl/optim.c:741
 msgid "trace, REPORT must be >= 0 (method = \"SANN\")"
-msgstr ""
+msgstr "trace, REPORT must be >= 0 (method = \"SANN\")"
 
 #: src/appl/pretty.c:127
 #, c-format
 msgid "R_pretty(): infinite range; *ndiv=%d, should have ndiv >= 2"
-msgstr ""
+msgstr "R_pretty(): infinite range; *ndiv=%d, should have ndiv >= 2"
 
 #: src/appl/pretty.c:142
 #, c-format
 msgid "R_pretty(): very small range 'cell'=%g, corrected to %g"
-msgstr ""
+msgstr "R_pretty(): very small range 'cell'=%g, corrected to %g"
 
 #: src/appl/pretty.c:146
 #, c-format
 msgid "R_pretty(): very large range 'cell'=%g, corrected to %g"
-msgstr ""
+msgstr "R_pretty(): very large range 'cell'=%g, corrected to %g"
 
 #: src/gnuwin32/dynload.c:118
 #, c-format
 msgid "DLL attempted to change FPU control word from %x to %x"
-msgstr ""
+msgstr "DLL attempted to change FPU control word from %x to %x"
 
 #: src/gnuwin32/dynload.c:166
 msgid "cannot get working directory"
-msgstr ""
+msgstr "cannot get working directory"
 
 #: src/gnuwin32/extra.c:59 src/gnuwin32/extra.c:88 src/gnuwin32/extra.c:127
 msgid "R_HOME not set"
-msgstr ""
+msgstr "R_HOME not set"
 
 #: src/gnuwin32/extra.c:67
 #, c-format
 msgid "'%s' not found"
-msgstr ""
+msgstr "'%s' not found"
 
 #: src/gnuwin32/extra.c:69
 #, c-format
 msgid "file association for '%s' not available or invalid"
-msgstr ""
+msgstr "file association for '%s' not available or invalid"
 
 #: src/gnuwin32/extra.c:72
 #, c-format
 msgid "access to '%s' denied"
-msgstr ""
+msgstr "access to '%s' denied"
 
 #: src/gnuwin32/extra.c:73
 #, c-format
 msgid "problem in displaying '%s'"
-msgstr ""
+msgstr "problem in displaying '%s'"
 
 #: src/gnuwin32/extra.c:98
 #, c-format
 msgid "'%ls' not found"
-msgstr ""
+msgstr "'%ls' not found"
 
 #: src/gnuwin32/extra.c:100
 #, c-format
 msgid "file association for '%ls' not available or invalid"
-msgstr ""
+msgstr "file association for '%ls' not available or invalid"
 
 #: src/gnuwin32/extra.c:103
 #, c-format
 msgid "access to '%ls' denied"
-msgstr ""
+msgstr "access to '%ls' denied"
 
 #: src/gnuwin32/extra.c:104
 #, c-format
 msgid "problem in displaying '%ls'"
-msgstr ""
+msgstr "problem in displaying '%ls'"
 
 #: src/gnuwin32/extra.c:115 src/gnuwin32/extra.c:163 src/gnuwin32/extra.c:303
 #: src/gnuwin32/extra.c:860 src/gnuwin32/extra.c:885
@@ -263,47 +263,47 @@ msgstr ""
 #: src/unix/sys-std.c:1363 src/unix/sys-std.c:1386 src/unix/sys-unix.c:893
 #, c-format
 msgid "invalid '%s' argument"
-msgstr ""
+msgstr "invalid '%s' argument"
 
 #: src/gnuwin32/extra.c:188
 msgid "unsupported version of Windows"
-msgstr ""
+msgstr "unsupported version of Windows"
 
 #: src/gnuwin32/extra.c:679 src/gnuwin32/extra.c:796 src/main/util.c:1054
 msgid "'path' must be a character vector"
-msgstr ""
+msgstr "'path' must be a character vector"
 
 #: src/gnuwin32/extra.c:862 src/gnuwin32/extra.c:864 src/gnuwin32/extra.c:887
 #: src/gnuwin32/extra.c:889 src/gnuwin32/extra.c:924 src/main/gevents.c:63
 #: src/main/gevents.c:105
 msgid "invalid device"
-msgstr ""
+msgstr "invalid device"
 
 #: src/gnuwin32/extra.c:865
 msgid "requires SDI mode"
-msgstr ""
+msgstr "requires SDI mode"
 
 #: src/gnuwin32/extra.c:918 src/main/gevents.c:60 src/main/gevents.c:99
 #: src/main/gevents.c:102
 msgid "invalid graphical device number"
-msgstr ""
+msgstr "invalid graphical device number"
 
 #: src/gnuwin32/extra.c:928
 msgid "bad device"
-msgstr ""
+msgstr "bad device"
 
 #: src/gnuwin32/extra.c:1054 src/main/platform.c:1719
 msgid "file choice cancelled"
-msgstr ""
+msgstr "file choice cancelled"
 
 #: src/gnuwin32/run.c:446
 #, c-format
 msgid "'CreateProcess' failed to run '%s'"
-msgstr ""
+msgstr "'CreateProcess' failed to run '%s'"
 
 #: src/gnuwin32/run.c:603
 msgid "Child process not responding.  R will terminate it."
-msgstr ""
+msgstr "Child process not responding.  R will terminate it."
 
 #: src/gnuwin32/run.c:699
 #, c-format
