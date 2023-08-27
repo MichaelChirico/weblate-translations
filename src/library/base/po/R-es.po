@@ -4,8 +4,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-11-30 14:39\n"
 "POT-Creation-Date: 2022-01-14 11:27\n"
-"PO-Revision-Date: 2023-07-25 03:05+0000\n"
-"Last-Translator: Macarena Quiroga <macarenasolquiroga@gmail.com>\n"
+"PO-Revision-Date: 2023-08-10 03:05+0000\n"
+"Last-Translator: María Cristina Nanton <mcnanton@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -583,15 +583,17 @@ msgstr "solo se puede reemplazar matrices diagonales"
 msgid "replacement diagonal has wrong length"
 msgstr "la diagonal de reemplazo tiene una longitud errónea"
 
+#, fuzzy
 msgid "MARGIN = %s is invalid for dim = %s"
-msgstr ""
+msgstr "MARGIN = %s es inválido para dim = %s"
 
 #, fuzzy
 msgid "must pass a package name, %s or %s object"
 msgstr "se debe brindar un nombre de paquete, %s u objeto %s"
 
+#, fuzzy
 msgid "No DLL currently loaded with name or path %s"
-msgstr ""
+msgstr "No existe DLL actualmente cargado con nombre o ruta %s"
 
 #, fuzzy
 msgid "multiple DLLs match '%s'. Using '%s'"
@@ -747,8 +749,9 @@ msgstr "'format' debe ser uno de {\"f\",\"e\",\"E\",\"g\",\"G\", \"fg\", \"s\"}"
 msgid "'digits' reduced to %d"
 msgstr "'digits' reducidos a %d"
 
+#, fuzzy
 msgid "corrupt data frame: columns will be truncated or padded with NAs"
-msgstr ""
+msgstr "data frame corrupto: las columnas serán truncadas o rellenadas con NAs"
 
 msgid "'zero.print' has length > 1"
 msgstr "'zero.print' tiene longitud > 1"
@@ -870,9 +873,10 @@ msgstr "el paquete %s ha sido construido para %s"
 msgid "package %s is not installed for 'arch = %s'"
 msgstr "el paquete %s no está instalado para 'arch=%s'"
 
-msgid ""
-"Conflicts attaching package %s:\n"
-"%s"
+msgid "Conflicts attaching package %s:\n%s"
+msgstr "Conflictos adjuntando el paquete %s:\n%s"
+
+msgid "packageConflictError"
 msgstr ""
 
 msgid "Attaching package: %s"
