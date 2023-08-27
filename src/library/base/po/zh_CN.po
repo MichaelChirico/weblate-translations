@@ -8,9 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-11-30 14:39+0100\n"
-"PO-Revision-Date: 2023-04-22 22:40+0200\n"
-"POT-Creation-Date: 2022-01-14 11:27+0000\n"
-"PO-Revision-Date: 2023-03-09 07:05+0000\n"
+"PO-Revision-Date: 2023-07-12 03:05+0000\n"
 "Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
 "Language-Team: Chinese\n"
 "Language: zh_CN\n"
@@ -18,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.13.1\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: src/appl/optim.c:60
 msgid "non-finite value supplied by 'optim'"
@@ -2791,7 +2789,7 @@ msgstr "找不到对象'%s'"
 
 #: src/main/deparse.c:1905
 msgid "badly formed function expression"
-msgstr "函数表达式形式不对"
+msgstr "函数表达式形式不正确"
 
 #: src/main/devices.c:44
 msgid "the base graphics system is not registered"
@@ -3055,7 +3053,7 @@ msgstr "无法打开文件"
 
 #: src/main/edit.c:135
 msgid "argument 'editor' type not valid"
-msgstr "参数'editor'的类型不对"
+msgstr "参数'editor'的类型不正确"
 
 #: src/main/edit.c:137
 msgid "argument 'editor' is not set"
@@ -3477,7 +3475,7 @@ msgstr "无法切斷正在使用中的联编"
 
 #: src/main/envir.c:3774
 msgid "bad namespace name"
-msgstr "名字空间名字不对"
+msgstr "名字空间名字不正确"
 
 #: src/main/envir.c:3787
 msgid "namespace already registered"
@@ -3490,12 +3488,12 @@ msgstr "名字空间没有注册"
 #: src/main/envir.c:3863
 #, fuzzy
 msgid "bad variable name"
-msgstr "变量名字不对"
+msgstr "变量名字不正确"
 
 #: src/main/envir.c:3905
 #, fuzzy
 msgid "bad namespace"
-msgstr "名字空间名字不对"
+msgstr "名字空间名字不正确"
 
 #: src/main/envir.c:3941
 #, c-format
@@ -3504,11 +3502,11 @@ msgstr ""
 
 #: src/main/envir.c:3992
 msgid "bad import environment argument"
-msgstr "引进环境参数不对"
+msgstr "引进环境参数不正确"
 
 #: src/main/envir.c:3997
 msgid "bad export environment argument"
-msgstr "引出环境参数不对"
+msgstr "引出环境参数不正确"
 
 #: src/main/envir.c:4001
 msgid "length of import and export names must match"
@@ -3700,7 +3698,7 @@ msgstr "旧重新启动里的处理器或重新启动堆叠不相配"
 
 #: src/main/errors.c:2077 src/main/errors.c:2090
 msgid "bad error message"
-msgstr "错误信息不对"
+msgstr "错误信息不正确"
 
 #: src/main/errors.c:2131
 msgid "bad restart"
@@ -3726,7 +3724,7 @@ msgstr "'mode'的长度至少需要是一"
 #: src/main/errors.c:2720
 #, fuzzy
 msgid "first element of condition object must be a scalar string"
-msgstr "字符串类别的替换对象不对"
+msgstr "字符串类别的替换对象不正确"
 
 #: src/main/errors.c:2905
 msgid "protect(): protection stack overflow"
@@ -3912,7 +3910,7 @@ msgstr "\"%s\"不是%s函数"
 
 #: src/main/eval.c:5590
 msgid "bad opcode"
-msgstr "opcode不对"
+msgstr "opcode不正确"
 
 #: src/main/eval.c:6696
 #, c-format
@@ -3946,7 +3944,7 @@ msgstr "没有'%s'这个内部函数"
 
 #: src/main/eval.c:7708 src/main/eval.c:8130 src/main/eval.c:8171
 msgid "bad function"
-msgstr "函数不对"
+msgstr "函数不正确"
 
 #: src/main/eval.c:7721
 msgid "not a BUILTIN function"
@@ -3955,7 +3953,7 @@ msgstr "非BUILTIN函数"
 #: src/main/eval.c:8229
 #, fuzzy
 msgid "bad numeric 'switch' offsets"
-msgstr "数字开关偏移设定不对"
+msgstr "数字开关偏移设定不正确"
 
 #: src/main/eval.c:8235
 msgid "numeric EXPR required for 'switch' without named alternatives"
@@ -3964,7 +3962,7 @@ msgstr "没有名字替代的'switch'需要数值EXPR"
 #: src/main/eval.c:8239
 #, fuzzy
 msgid "bad character 'switch' offsets"
-msgstr "字符开关偏移不对"
+msgstr "字符开关偏移不正确"
 
 #: src/main/eval.c:8392
 msgid "cannot find index for threaded code address"
@@ -3988,7 +3986,7 @@ msgstr "常量缓冲区必须是向量类属"
 
 #: src/main/eval.c:8856
 msgid "bad constant count"
-msgstr "常量数目不对"
+msgstr "常量数目不正确"
 
 #: src/main/eval.c:8896
 msgid "profile timer in use"
@@ -4746,7 +4744,7 @@ msgstr ""
 #: src/main/memory.c:4366 src/main/memory.c:4381 src/main/memory.c:4397
 #: src/main/memory.c:4416
 msgid "bad value"
-msgstr "值不对"
+msgstr "值不正确"
 
 #: src/main/memory.c:4611
 msgid "memory profiling is not available on this system"
@@ -4789,11 +4787,11 @@ msgstr "类属'function'不是函数"
 
 #: src/main/objects.c:244
 msgid "bad generic call environment"
-msgstr "类属调用环境不对"
+msgstr "类属调用环境不正确"
 
 #: src/main/objects.c:252
 msgid "bad generic definition environment"
-msgstr "类属定义环境不对"
+msgstr "类属定义环境不正确"
 
 #: src/main/objects.c:312
 msgid "no '.S3MethodsClass' table, cannot use S4 objects with S3 methods ('methods' package not attached?)"
@@ -5006,7 +5004,7 @@ msgstr "\"device.ask.default\"的值无效，用FALSE"
 
 #: src/main/options.c:520
 msgid "list argument has no valid names"
-msgstr "列表参数的名字不对"
+msgstr "列表参数的名字不正确"
 
 #: src/main/options.c:572
 #, fuzzy, c-format
@@ -5762,7 +5760,7 @@ msgstr "復原文件幻数出错(文件可能有损坏)-- 没有载入任何数�
 
 #: src/main/saveload.c:1984
 msgid "bad file name"
-msgstr "文件名字不对"
+msgstr "文件名字不正确"
 
 #: src/main/saveload.c:1988 src/main/saveload.c:2016
 msgid "unable to open 'file'"
@@ -5783,7 +5781,7 @@ msgstr "第一参数必需是字符向量"
 
 #: src/main/saveload.c:2116
 msgid "not a valid named list"
-msgstr "带名字的列表不对"
+msgstr "带名字的列表不正确"
 
 #: src/main/saveload.c:2123 src/main/saveload.c:2144
 #, c-format
@@ -6020,7 +6018,7 @@ msgstr ""
 
 #: src/main/serialize.c:259 src/main/serialize.c:306 src/main/serialize.c:330
 msgid "unknown or inappropriate output format"
-msgstr "输出格式不对"
+msgstr "输出格式不正确"
 
 #: src/main/serialize.c:575
 msgid "must specify ascii, binary, or xdr format"
@@ -6058,7 +6056,7 @@ msgstr "载入时名字空间可能无用"
 #: src/main/serialize.c:1248
 #, c-format
 msgid "WriteItem: unknown type %i"
-msgstr "WriteItem不对: 没有这一类型%i"
+msgstr "WriteItem不正确: 没有这一类型%i"
 
 #: src/main/serialize.c:1434
 #, c-format
@@ -6167,7 +6165,7 @@ msgstr "只能用ascii格式读取文字状态的链结"
 #: src/main/serialize.c:2616 src/main/serialize.c:2772
 #: src/main/serialize.c:2921
 msgid "bad version value"
-msgstr "版本值不对"
+msgstr "版本值不正确"
 
 #: src/main/serialize.c:2641
 msgid "binary-mode connection required for ascii=FALSE"
@@ -6203,7 +6201,7 @@ msgstr "无法确定文件位置"
 
 #: src/main/serialize.c:3099
 msgid "bad offset/length argument"
-msgstr "位移/长度参数不对"
+msgstr "位移/长度参数不正确"
 
 #: src/main/serialize.c:3146 src/main/serialize.c:3159
 #: src/main/serialize.c:3170 src/main/serialize.c:3184
@@ -6217,7 +6215,7 @@ msgstr "环境有错误"
 
 #: src/main/serialize.c:3206
 msgid "bad variable names"
-msgstr "变量名字不对"
+msgstr "变量名字不正确"
 
 #: src/main/sort.c:95
 msgid "only atomic vectors can be tested to be sorted"
@@ -6292,7 +6290,7 @@ msgstr "忽略'%s = \"%s\"'参数值"
 
 #: src/main/split-incl.c:15
 msgid "factor has bad level"
-msgstr "因子的水平不对"
+msgstr "因子的水平不正确"
 
 #: src/main/split.c:39
 msgid "first argument must be a vector"
@@ -6422,7 +6420,7 @@ msgstr "参数不是矩阵"
 
 #: src/main/startup.c:72
 msgid "R_LibraryFileName: buffer too small"
-msgstr "R_Library文件名字不对: 缓冲区太小"
+msgstr "R_Library文件名字不正确: 缓冲区太小"
 
 #: src/main/subassign.c:142
 msgid "attempt to enlarge non-vector"
@@ -6436,7 +6434,7 @@ msgstr "不能在向量/列表极限外赋值(%d加大到%d)"
 #: src/main/subassign.c:267
 #, fuzzy
 msgid "bad names attribute"
-msgstr "名字空间名字不对"
+msgstr "名字空间名字不正确"
 
 #: src/main/subassign.c:482
 #, c-format
@@ -6497,7 +6495,7 @@ msgstr "给\"S4\"类型的对象所定义的[[<-只能在环境子类内有用"
 #: src/main/subassign.c:1811
 #, fuzzy
 msgid "improper dimensions"
-msgstr "量度数目不对"
+msgstr "量度数目不正确"
 
 #: src/main/subassign.c:1817
 msgid "wrong args for environment subassignment"
@@ -6509,7 +6507,7 @@ msgstr "用来替换的元素比所要替换的值多"
 
 #: src/main/subassign.c:1875 src/main/subassign.c:2059
 msgid "[[ ]] improper number of subscripts"
-msgstr "[[ ]] 下标数目不对"
+msgstr "[[ ]] 下标数目不正确"
 
 #: src/main/subassign.c:2025
 #, c-format
@@ -7016,7 +7014,7 @@ msgstr "警告信息缩短到255个字节"
 #: src/main/util.c:2003
 #, fuzzy
 msgid "Conversion failed"
-msgstr "版本值不对"
+msgstr "版本值不正确"
 
 #: src/main/util.c:2121
 #, c-format
@@ -7244,7 +7242,7 @@ msgstr "无法建立X11窗口"
 #: src/modules/X11/devX11.c:1744
 #, c-format
 msgid "'width=%d, height=%d' are unlikely values in pixels"
-msgstr "'width=%d, height=%d'作为象素值很有可能不对"
+msgstr "'width=%d, height=%d'这样的像素值很可能不正确"
 
 #: src/modules/X11/devX11.c:1749
 msgid "unable to create pixmap"
