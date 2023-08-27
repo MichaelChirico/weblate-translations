@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 2.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-11-30 14:40+0100\n"
-"PO-Revision-Date: 2022-12-09 10:04+0000\n"
+"PO-Revision-Date: 2023-07-12 03:05+0000\n"
 "Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
 "Language-Team: Chinese\n"
 "Language: zh_CN\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.13.1\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: Srunmed.c:63
 msgid "bandwidth/span of running medians is larger than n"
@@ -576,7 +576,7 @@ msgstr "'rho'必需为环境"
 
 #: nls.c:296
 msgid "'dir' is not a numeric vector of the correct length"
-msgstr "'dir'这个数字向量的长度不对"
+msgstr "'dir'这个数字向量的长度不正确"
 
 #: nls.c:299
 msgid "'central' is NA, but must be TRUE or FALSE"
@@ -817,7 +817,7 @@ msgstr "梯度的长度或其状态有误，因此忽略不用"
 
 #: pacf.c:87
 msgid "bad Starma struct"
-msgstr "Starma结构不对"
+msgstr "Starma结构不正确"
 
 #: pacf.c:233
 #, c-format
