@@ -8,20 +8,20 @@ msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-11-30 14:40+0100\n"
-"PO-Revision-Date: 2022-10-16 14:04+0000\n"
-"Last-Translator: Macarena Quiroga <macarenasolquiroga@gmail.com>\n"
+"POT-Creation-Date: 2021-11-06 17:18+0100\n"
+"PO-Revision-Date: 2023-08-08 03:05+0000\n"
+"Last-Translator: Paola Corrales <paobcorrales@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.13.1\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: Srunmed.c:63
-#, fuzzy
 msgid "bandwidth/span of running medians is larger than n"
-msgstr "la banda/intervalo de las medianas en ejecución es mayor que n"
+msgstr "el ancho/intervalo de las medianas móviles es mayor que n"
 
 #: Srunmed.c:262
 #, fuzzy, c-format
@@ -33,9 +33,9 @@ msgid "runmed(): invalid 'na.action'"
 msgstr "runmed(): 'na.action' inválida"
 
 #: Srunmed.c:315
-#, fuzzy, c-format
+#, c-format
 msgid "na_action logic error (%d), please report!"
-msgstr "na_action error lógico (%d), ¡por favor informe!"
+msgstr "na_action error lógico (%d), ¡por favor reportalo!"
 
 #: ansari.c:118
 msgid "probabilities outside [0,1] in qansari()"
@@ -116,9 +116,8 @@ msgid "the standard deviation is zero"
 msgstr "La desviación estándar es cero"
 
 #: deriv.c:158
-#, fuzzy
 msgid "invalid form in unary minus check"
-msgstr "Formulario no válido en la comprobación mínima unaria"
+msgstr "forma no válida en la comprobación unaria"
 
 #: deriv.c:682
 #, c-format
@@ -177,7 +176,7 @@ msgid "Non-numeric argument to mathematical function"
 msgstr "Argumento no numérico para una función matemática"
 
 #: family.c:45
-#, fuzzy, c-format
+#, c-format
 msgid "Value %g out of range (0, 1)"
 msgstr "Valor %g fuera del intervalo (0, 1)"
 
@@ -192,12 +191,12 @@ msgid "argument %s must be a numeric vector of length 1 or length %d"
 msgstr "argumento %s debe ser un vector numérico de longitud 1 o longitud %d"
 
 #: fexact.c:276
-#, fuzzy, c-format
+#, c-format
 msgid "integer overflow would happen in 'mult * ldkey' = %g"
-msgstr "El desbordamiento de enteros ocurriría en 'mult * ldkey' = %g"
+msgstr "overflow de enteros ocurriría en 'mult * ldkey' = %g"
 
 #: fexact.c:656
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "FEXACT error 6.  LDKEY=%d is too small for this problem,\n"
 "  (ii := key2[itp=%d] = %d, ldstp=%d)\n"
@@ -215,27 +214,27 @@ msgid ""
 msgstr ""
 
 #: fexact.c:1073
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "FEXACT error 30.  Stack length exceeded in f3xact,\n"
 "  (ldst=%d, key=%d, ipn=%d, itp=%d, ist[ii=%d]=%d).\n"
 "Increase workspace or consider using 'simulate.p.value=TRUE'"
 msgstr ""
-"Error FEXACT 30.  Longitud de pila superada en f3xact,\n"
+"Error FEXACT 30. Longitud de pila superada en f3xact,\n"
 "  (ldst=%d, key=%d, ipn=%d, itp=%d, ist[ii=%d]=%d).\n"
 "Aumente el espacio de trabajo o considere la posibilidad de usar 'simulate.p.value=TRUE'"
 
 #: fexact.c:1407
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "FEXACT error 6 (f5xact).  LDKEY=%d is too small for this problem: kval=%d.\n"
 "Try increasing the size of the workspace."
 msgstr ""
-"Error FEXACT 6 (f5xact).  LDKEY=%d es demasiado pequeño para este problema: kval=%d.\n"
+"Error FEXACT 6 (f5xact). LDKEY=%d es demasiado pequeño para este problema: kval=%d.\n"
 "Intente aumentar el tamaño del espacio de trabajo."
 
-#: fexact.c:1420
-#, fuzzy, c-format
+#: fexact.c:1417
+#, c-format
 msgid ""
 "FEXACT error 7(%s). LDSTP=%d is too small for this problem,\n"
 "  (kval=%d, itop-ldstp=%d).\n"
@@ -246,7 +245,7 @@ msgstr ""
 "Aumente el espacio de trabajo o considere la posibilidad de usar 'simulate.p.value=TRUE'."
 
 #: fexact.c:1458
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "FEXACT error 7(%s). LDSTP=%d is too small for this problem,\n"
 "  (pastp=%g, ipn_0:=ipoin[itp=%d]=%d, stp[ipn_0]=%g).\n"
@@ -274,9 +273,9 @@ msgid "nextn() found no solution < %d = INT_MAX (the maximal integer); pass '0+ 
 msgstr "nextn() no encontró solución < %d = INT_MAX (el entero máximo); pase '0+ n' en lugar de 'n'"
 
 #: fourier.c:233
-#, fuzzy, c-format
-msgid "nextn<64>() found no solution < %llu = UINT64_MAX (the maximal integer)"
-msgstr "nextn<64>() no encontró solución < %llu = UINT64_MAX (el entero máximo)"
+#, c-format
+msgid "nextn<64>() found no solution < %ld = UINT64_MAX (the maximal integer)"
+msgstr "nextn<64>() no encontró solución < %ld = UINT64_MAX (el entero máximo)"
 
 #: fourier.c:249
 msgid "no factors"
@@ -291,12 +290,11 @@ msgid "invalid factors"
 msgstr "factores inválidos"
 
 #: fourier.c:257
-#, fuzzy
 msgid "'n' must have typeof(.) \"integer\" or \"double\""
-msgstr "'n' debe tener typeof(.) \"entero\" o \"doble\""
+msgstr "'n' debe tener typeof(.) \"integer\" o \"double\""
 
 #: fourier.c:298
-#, fuzzy, c-format
+#, c-format
 msgid "nextn() = %<PRIu64> > 2^53 may not be exactly representable in R (as \"double\")"
 msgstr "nextn() = %<PRIu64> > 2^53 puede no ser exactamente representable en R (como \"doble\")"
 
@@ -329,9 +327,8 @@ msgid "NA/NaN/Inf in '%s'"
 msgstr "NA/NaN/Inf en '%s'"
 
 #: loessc.c:242
-#, fuzzy
 msgid "span is too small"
-msgstr "El lapso es demasiado pequeño"
+msgstr "El rango es demasiado pequeño"
 
 #: loessc.c:257
 #, c-format
@@ -418,9 +415,8 @@ msgid "variable lengths differ (found for '%s')"
 msgstr "las longitudes variables difieren (encontradas para '%s')"
 
 #: model.c:218
-#, fuzzy
 msgid "invalid result from na.action"
-msgstr "Resultado no válido de na.action"
+msgstr "Resultado no válido en na.action"
 
 #: model.c:379 model.c:387 optim.c:227
 #, c-format
@@ -429,7 +425,7 @@ msgstr "argumento '%s' inválido"
 
 #: model.c:398
 msgid "invalid model frame"
-msgstr ""
+msgstr "fórmula de modelo inválida"
 
 #: model.c:400
 msgid "do not know how many cases"
@@ -446,9 +442,8 @@ msgid "variable %d has no levels"
 msgstr "variable %d no tiene niveles"
 
 #: model.c:547
-#, fuzzy
 msgid "the response appeared on the right-hand side and was dropped"
-msgstr "La respuesta apareció en el lado derecho y cayó"
+msgstr "La respuesta apareció en el lado derecho y se descartó"
 
 #: model.c:567
 #, c-format
@@ -470,7 +465,6 @@ msgid "term names will be truncated"
 msgstr "los nombres de los términos se truncarán"
 
 #: model.c:645
-#, fuzzy
 msgid "complex variables are not currently allowed in model matrices"
 msgstr "las variables complejas no están actualmente permitidas en las matrices de modelos"
 
@@ -480,7 +474,6 @@ msgid "variables of type '%s' are not allowed in model matrices"
 msgstr "las variables del tipo %s no están permitidas en las matrices del modelo"
 
 #: model.c:894
-#, fuzzy
 msgid "invalid formula in 'update'"
 msgstr "fórmula inválida en 'update'"
 
@@ -497,7 +490,6 @@ msgid "invalid model formula"
 msgstr "fórmula de modelo inválida"
 
 #: model.c:1219 model.c:1525
-#, fuzzy
 msgid "invalid power in formula"
 msgstr "poder inválido en la fórmula"
 
@@ -506,7 +498,7 @@ msgid "invalid model formula in ExtractVars"
 msgstr "fórmula de modelo inválida en ExtractVars"
 
 #: model.c:1636
-#, fuzzy, c-format
+#, c-format
 msgid "duplicated name '%s' in data frame using '.'"
 msgstr "nombre duplicado '%s' en el data frame usando '.'"
 
@@ -519,24 +511,21 @@ msgid "argument is not a valid model"
 msgstr "el argumento no es un modelo válido"
 
 #: model.c:1790
-#, fuzzy
 msgid "'specials' must be NULL or a character vector"
 msgstr "'specials' debe ser NULL o un vector de caracteres"
 
 #: model.c:1801
-#, fuzzy
 msgid "'data' argument is of the wrong type"
 msgstr "el argumento \"data\" es del tipo incorrecto"
 
 #: model.c:1873
-#, fuzzy, c-format
+#, c-format
 msgid "'varlist' has changed (from nvar=%d) to new %d after EncodeVars() -- should no longer happen!"
 msgstr "'varlist' ha cambiado (de nvar=%d) a nuevo %d después de EncodeVars() -- ¡ya no debería suceder!"
 
 #: model.c:2157
-#, fuzzy
 msgid "'.' in formula and no 'data' argument"
-msgstr "'.' en la fórmula y sin argumento de 'datos'"
+msgstr "'.' en la fórmula y sin argumento 'data'"
 
 #: monoSpl.c:36
 msgid "n must be at least two"
@@ -573,7 +562,7 @@ msgid "singular gradient"
 msgstr "gradiente singular"
 
 #: nls.c:255
-#, fuzzy, c-format
+#, c-format
 msgid "step factor %g reduced below 'minFactor' of %g"
 msgstr "factor de paso %g reducido por debajo de 'minFactor' de %g"
 
@@ -583,9 +572,8 @@ msgid "number of iterations exceeded maximum of %d"
 msgstr "el número de iteraciones superó el máximo de %d"
 
 #: nls.c:267
-#, fuzzy
 msgid "converged"
-msgstr "convergido"
+msgstr "convergió"
 
 #: nls.c:284
 msgid "'theta' should be of type character"
@@ -612,7 +600,7 @@ msgid "Missing value or an infinity produced when evaluating the model"
 msgstr "Valor faltante o un infinito producido al evaluar el modelo"
 
 #: nls.c:328
-#, fuzzy, c-format
+#, c-format
 msgid "variable '%s' is integer, not numeric"
 msgstr "la variable '%s' es un número entero, no numérico"
 
@@ -626,7 +614,7 @@ msgid "non-finite value supplied by optim"
 msgstr "valor no finito provisto por 'optim'"
 
 #: optim.c:89
-#, fuzzy, c-format
+#, c-format
 msgid "objective function in optim evaluates to length %d not 1"
 msgstr "la función objetivo en optim evalúa a longitud %d no 1"
 
@@ -636,7 +624,7 @@ msgid "gradient in optim evaluated to length %d not %d"
 msgstr "gradiente en 'optim' de tamaño %d, no %d"
 
 #: optim.c:152 optim.c:191
-#, fuzzy, c-format
+#, c-format
 msgid "non-finite finite-difference value [%d]"
 msgstr "valor de diferencia finita no finita [%d]"
 
@@ -665,7 +653,6 @@ msgid "'ndeps' is of the wrong length"
 msgstr "'ndeps' tiene una longitud incorrecta"
 
 #: optim.c:400
-#, fuzzy
 msgid "unknown 'method'"
 msgstr "'method' desconocido"
 
