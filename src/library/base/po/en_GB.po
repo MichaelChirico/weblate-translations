@@ -358,9 +358,9 @@ msgstr ""
 #: src/gnuwin32/sys-win32.c:334 src/modules/internet/libcurl.c:340
 #: src/modules/internet/libcurl.c:343 src/modules/internet/libcurl.c:346
 #: src/modules/internet/libcurl.c:351 src/modules/internet/libcurl.c:377
-#, fuzzy, c-format
+#, c-format
 msgid "invalid %s argument"
-msgstr "invalid hcl colour"
+msgstr "invalid %s argument"
 
 #: src/gnuwin32/sys-win32.c:361 src/unix/sys-unix.c:1006
 #: src/unix/sys-unix.c:1064
@@ -1120,9 +1120,9 @@ msgid "argument is not a matrix"
 msgstr ""
 
 #: src/main/array.c:1717 src/main/attrib.c:1226
-#, fuzzy, c-format
+#, c-format
 msgid "invalid first argument, must be %s"
-msgstr "invalid hcl colour"
+msgstr "invalid first argument, must be %s"
 
 #: src/main/array.c:1732
 #, c-format
@@ -1268,9 +1268,9 @@ msgid "length of 'dimnames' [%d] not equal to array extent"
 msgstr ""
 
 #: src/main/attrib.c:1228
-#, fuzzy, c-format
+#, c-format
 msgid "invalid second argument, must be %s"
-msgstr "invalid hcl colour"
+msgstr "invalid second argument, must be %s"
 
 #: src/main/attrib.c:1235
 msgid "length-0 dimension vector is invalid"
@@ -3330,8 +3330,9 @@ msgstr "invalid hcl colour"
 
 #: src/main/envir.c:2089
 #, fuzzy
+#: src/main/envir.c:2066
 msgid "first argument has length > 1"
-msgstr "invalid hcl colour"
+msgstr "first argument has length > 1"
 
 #: src/main/envir.c:2147
 #, c-format
@@ -5025,9 +5026,9 @@ msgid "first argument must be atomic or environment"
 msgstr ""
 
 #: src/main/paste.c:479
-#, fuzzy, c-format
+#, c-format
 msgid "invalid value %d for '%s' argument"
-msgstr "invalid hcl colour"
+msgstr "invalid value %d for '%s' argument"
 
 #: src/main/paste.c:528
 msgid "'decimal.mark' must be a string of one character"
@@ -5665,7 +5666,7 @@ msgstr ""
 #: src/main/saveload.c:1805 src/main/serialize.c:2413 src/main/serialize.c:3040
 #: src/modules/internet/internet.c:390 src/modules/internet/internet.c:463
 msgid "write failed"
-msgstr ""
+msgstr "write failed"
 
 #: src/main/saveload.c:1964
 msgid "restore file may be empty -- no data loaded"
@@ -7195,7 +7196,7 @@ msgstr ""
 #: src/modules/X11/devX11.c:3374
 #, c-format
 msgid "cannot open file '%s'"
-msgstr ""
+msgstr "cannot open file '%s'"
 
 #: src/modules/X11/devX11.c:3391
 msgid "savePlot() is not supported on this build"
