@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-11-30 14:40\n"
-"PO-Revision-Date: 2023-08-30 15:43+0000\n"
+"PO-Revision-Date: 2023-08-30 16:55+0000\n"
 "Last-Translator: Caio Lente <lente@ime.usp.br>\n"
 "Language-Team: http://www.feferraz.net/br/P/Projeto_Traducao_R_Portugues\n"
 "Language: pt_BR\n"
@@ -27,10 +27,13 @@ msgid "document not found"
 msgstr "documento não encontrado"
 
 msgid "some options in argument 'restrict' were not recognized and hence ignored"
-msgstr "algumas op"
+msgstr ""
+"algumas opções do argumento 'restrict' não foram reconhecidas e portanto "
+"ignoradas"
 
 msgid "argument 'format' is deprecated and has no affect on search results"
 msgstr ""
+"o argumento 'format' está obsoleto e não tem efeito nos resultados da busca"
 
 msgid "A search query has been submitted to %s"
 msgstr "Uma busca foi submetida para %s"
@@ -220,9 +223,8 @@ msgstr "'FUN' deve ser uma função ou NULL"
 msgid "cannot handle S4 methods yet"
 msgstr "não é possível lidar com métodos S4 ainda"
 
-#, fuzzy
 msgid "'package' must be a character vector or NULL"
-msgstr "'package' deve ser uma string de caracteres ou NULL"
+msgstr "'package' deve ser um vetor de caracteres ou NULL"
 
 msgid "data index for package %s is invalid and will be ignored"
 msgstr "índice de dados para o pacote %s é inválido e será ignorado"
@@ -257,9 +259,8 @@ msgstr "argumento 'names' ignorado"
 msgid "could not restore variables properly"
 msgstr "não foi possível restaurar as variáveis corretamente"
 
-#, fuzzy
 msgid "did not assign() anything"
-msgstr "nada foi assign()"
+msgstr "nada foi atribuído (assign())"
 
 msgid "Cannot debug primitive functions unless they are implicit generics (requires loading the methods package)"
 msgstr "Não é possível depurar funções primitivas a menos que elas sejam genéricas implícitas (requer o carregamento do pacote methods)"
@@ -364,16 +365,16 @@ msgstr "'from' deve ser uma fórmula de dois lados"
 msgid "'form' must be a two-sided formula with one term on each side"
 msgstr "'from' deve ser uma fórmula de dois lados com um termo de cada lado"
 
-#, fuzzy
 msgid "invalid object for 'as.environment'"
-msgstr "argumento 'socket' inválido"
+msgstr "objeto inválido para 'as.environment'"
 
-#, fuzzy
 msgid "invalid 'n' - must contain at least one non-missing element, got none."
-msgstr "'n' inválido -  deve conter pelo menos um elemento não ausente, nenhum foi recebido."
+msgstr ""
+"'n' inválido - deve conter pelo menos um elemento não ausente, nenhum foi "
+"recebido."
 
 msgid "invalid 'n' - must be numeric, possibly NA."
-msgstr ""
+msgstr "'n' inválido - deve ser numérico, possivelmente NA."
 
 msgid "invalid 'n' - must have length one when dim(x) is NULL, got %d"
 msgstr "'n' inválido - deve ter comprimento 1 quando dim(x) é NULL, %d foi recebido"
@@ -458,9 +459,8 @@ msgstr "Cancelado pelo(a) usuário(a)"
 msgid "Unable to connect to CRAN to check R version."
 msgstr "Não é possível conectar ao CRAN para verificar a versão do R."
 
-#, fuzzy
 msgid "argument %s must be a character string"
-msgstr "argumento %s deve ser uma única string de caracteres"
+msgstr "argumento %s deve ser uma única string"
 
 msgid "incorrect field specification"
 msgstr "especificação de campo incorreta"
