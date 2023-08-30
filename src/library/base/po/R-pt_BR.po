@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: R 2.3.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-11-30 14:39\n"
-"PO-Revision-Date: 2023-08-30 15:43+0000\n"
-"Last-Translator: Renata Hirota <re.hirota@gmail.com>\n"
+"PO-Revision-Date: 2023-08-30 16:55+0000\n"
+"Last-Translator: Caio Lente <lente@ime.usp.br>\n"
 "Language-Team: http://www.feferraz.net/br/P/Projeto_Traducao_R_Portugues\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -356,9 +356,8 @@ msgstr "<0 linhas> (ou row.names de comprimento 0)"
 msgid "invalid 'max' / getOption(\"max.print\"):"
 msgstr "'max' / getOption(\"max.print\") inválido:"
 
-#, fuzzy
 msgid "non-numeric-alike variable(s) in data frame:"
-msgstr "variável não numérica no data frame:"
+msgstr "variável(is) não numérica(s) ou similar(es) no data frame:"
 
 msgid ","
 msgstr ","
@@ -369,9 +368,10 @@ msgstr "%s definido somente para data frames com tamanhos iguais"
 msgid "list of length %d not meaningful"
 msgstr "lista de comprimento %d sem sentido"
 
-#, fuzzy
 msgid "only defined on a data frame with all numeric-alike variables"
-msgstr "somente definido para um data frame com todas as variáveis numéricas ou complexas"
+msgstr ""
+"somente definido para um data frame com todas as variáveis numéricas ou "
+"similares"
 
 msgid "cannot xtfrm data frames"
 msgstr "não é possível aplicar xtfrm a um data frame"
@@ -1174,7 +1174,7 @@ msgid "S4 exports specified in 'NAMESPACE' but not defined in package %s"
 msgstr "exportações S4 especificadas em 'NAMESPACE' mas não definidas no pacote %s"
 
 msgid "-- processing S4 stuff for"
-msgstr ""
+msgstr "-- processamento de S4 para"
 
 msgid "--- caching metadata"
 msgstr "--- cacheando metadados"
@@ -1210,7 +1210,7 @@ msgid "in package %s methods %s were specified for export but not defined"
 msgstr "no pacote %s métodos %s foram especificados para exportação mas não foram definidos"
 
 msgid "-- done processing S4 stuff for"
-msgstr ""
+msgstr "-- processamento de S4 concluído para"
 
 msgid "--- processing exports for"
 msgstr "--- processando exportações para"
@@ -1318,7 +1318,7 @@ msgid "no arguments"
 msgstr "sem argumentos"
 
 msgid "an argument will be fractionally recycled"
-msgstr "um argumento vai ser reciclado parcialmente"
+msgstr "um argumento será reciclado parcialmente"
 
 msgid "invalid ncol(x)"
 msgstr "ncol(x) inválido"
@@ -1843,22 +1843,20 @@ msgid_plural "replacement element %d has %d rows to replace %d rows"
 msgstr[0] "elemento substituto %d tem %d linha para substituir %d linhas"
 msgstr[1] "elemento substituto %d tem %d linhas para substituir %d linhas"
 
-#, fuzzy
 msgid "%d row in value to replace %d rows"
 msgid_plural "%d rows in value to replace %d rows"
-msgstr[0] "%d linhas no valor para substituir %d linhas"
-msgstr[1] "%d linhas no valor para substituir %d linhas"
+msgstr[0] "%d linha no valor vai substituir %d linhas"
+msgstr[1] "%d linhas no valor vão substituir %d linhas"
 
 msgid "replacement data has %d row to replace %d rows"
 msgid_plural "replacement data has %d rows to replace %d rows"
 msgstr[0] "dados substitutos tem %d linha para substituir %d linhas"
 msgstr[1] "dados substitutos têm %d linhas para substituir %d linhas"
 
-#, fuzzy
 msgid "provided %d variable to replace %d variables"
 msgid_plural "provided %d variables to replace %d variables"
-msgstr[0] "especificadas %d variáveis para substituir %d variáveis"
-msgstr[1] "especificadas %d variáveis para substituir %d variáveis"
+msgstr[0] "%d variável especificada vai substituir %d variáveis"
+msgstr[1] "%d variáveis especificadas vão substituir %d variáveis"
 
 msgid "data frame with 0 columns and %d row"
 msgid_plural "data frame with 0 columns and %d rows"
