@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: R 2.1.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-11-30 14:39+0100\n"
-"PO-Revision-Date: 2023-08-30 14:09+0000\n"
+"PO-Revision-Date: 2023-08-30 16:55+0000\n"
 "Last-Translator: Renata Hirota <re.hirota@gmail.com>\n"
 "Language-Team: http://www.feferraz.net/br/P/Projeto_Traducao_R_Portugues\n"
 "Language: pt_BR\n"
@@ -18,14 +18,13 @@ msgstr ""
 "X-Generator: Weblate 4.16.4\n"
 
 #: src/appl/optim.c:60
-#, fuzzy
 msgid "non-finite value supplied by 'optim'"
-msgstr "valor não finito fornecido por optim"
+msgstr "valor não finito fornecido por 'optim'"
 
 #: src/appl/optim.c:67
-#, fuzzy, c-format
+#, c-format
 msgid "candidate point in 'optim' evaluated to length %d not %d"
-msgstr "ponto candidato em optim retorna um objeto de comprimento %d ao invés de %d, quando aplicado"
+msgstr "ponto candidato em optim retorna um objeto de comprimento %d, não %d"
 
 #: src/appl/optim.c:136
 msgid "REPORT must be > 0 (method = \"BFGS\")"
@@ -40,9 +39,8 @@ msgid "function cannot be evaluated at initial parameters"
 msgstr "função não pode ser calculada nos parâmetros iniciais"
 
 #: src/appl/optim.c:497
-#, fuzzy
 msgid "unknown 'type' in \"CG\" method of 'optim'"
-msgstr "'type' desconhecido no método CG de optim"
+msgstr "'type' desconhecido no método \"CG\" de 'optim'"
 
 #: src/appl/optim.c:510
 msgid "Function cannot be evaluated at initial parameters"
@@ -352,11 +350,11 @@ msgstr ""
 
 #: src/gnuwin32/sys-win32.c:263
 msgid "character string expected as first argument"
-msgstr "cadeia de caracteres esperada como primeiro argumento"
+msgstr "string esperado como primeiro argumento"
 
 #: src/gnuwin32/sys-win32.c:272
 msgid "character string expected as third argument"
-msgstr "cadeia de caracteres esperada como terceiro argumento"
+msgstr "string esperado como terceiro argumento"
 
 #: src/gnuwin32/sys-win32.c:334 src/modules/internet/libcurl.c:340
 #: src/modules/internet/libcurl.c:343 src/modules/internet/libcurl.c:346
@@ -484,67 +482,59 @@ msgstr "[[ ]] com subscrito ausente"
 #: src/main/CommandLineArgs.c:176
 #, fuzzy
 msgid "WARNING: no value given for --encoding"
-msgstr "ATENÇÃO: nenhum valor especificado para --encoding\n"
+msgstr "ATENÇÃO: nenhum valor especificado para --encoding"
 
 #: src/main/CommandLineArgs.c:201
-#, fuzzy, c-format
+#, c-format
 msgid "WARNING: option '%s' no longer supported"
-msgstr "ATENÇÃO: opção '%s' não mais suportada\n"
+msgstr "ATENÇÃO: opção '%s' não mais suportada"
 
 #: src/main/CommandLineArgs.c:212
-#, fuzzy, c-format
+#, c-format
 msgid "WARNING: no value given for '%s'"
-msgstr "ATENÇÃO: nenhum valor especificado para '%s'\n"
+msgstr "ATENÇÃO: nenhum valor especificado para '%s'"
 
 #: src/main/CommandLineArgs.c:222
-#, fuzzy, c-format
+#, c-format
 msgid "WARNING: '%s' value is invalid: ignored"
-msgstr "ATENÇÃO: valor '%s' é inválido: ignorado\n"
+msgstr "ATENÇÃO: valor '%s' é inválido: ignorado"
 
 #: src/main/CommandLineArgs.c:226
-#, fuzzy, c-format
+#, c-format
 msgid "WARNING: %s: too large and ignored"
-msgstr "ATENÇÃO: %s: muito grande e ignorado\n"
+msgstr "ATENÇÃO: %s: muito grande e ignorado"
 
 #: src/main/CommandLineArgs.c:240
-#, fuzzy
 msgid "WARNING: no value given for '--max-ppsize'"
-msgstr "ATENÇÃO: nenhum valor especificado para '--max-ppsize'\n"
+msgstr "ATENÇÃO: nenhum valor especificado para '--max-ppsize'"
 
 #: src/main/CommandLineArgs.c:245
-#, fuzzy
 msgid "WARNING: '--max-ppsize' value is negative: ignored"
-msgstr "ATENÇÃO: valor de '--max-ppsize' negativo: ignorado\n"
+msgstr "ATENÇÃO: valor de '--max-ppsize' negativo: ignorado"
 
 #: src/main/CommandLineArgs.c:247
-#, fuzzy
 msgid "WARNING: '--max-ppsize' value is too small: ignored"
-msgstr "ATENÇÃO: valor de '--max-ppsize' é muito pequeno: ignorado\n"
+msgstr "ATENÇÃO: valor de '--max-ppsize' é muito pequeno: ignorado"
 
 #: src/main/CommandLineArgs.c:249
-#, fuzzy
 msgid "WARNING: '--max-ppsize' value is too large: ignored"
-msgstr "ATENÇÃO: valor de '--max-ppsize' é muito grande: ignorado\n"
+msgstr "ATENÇÃO: valor de '--max-ppsize' é muito grande: ignorado"
 
 #: src/main/CommandLineArgs.c:257
-#, fuzzy
 msgid "WARNING: no value given for '--max-connections'"
-msgstr "ATENÇÃO: nenhum valor especificado para '--max-ppsize'\n"
+msgstr "ATENÇÃO: nenhum valor especificado para '--max-ppsize'"
 
 #: src/main/CommandLineArgs.c:262
-#, fuzzy
 msgid "WARNING: '--max-connections' value is negative: ignored"
-msgstr "ATENÇÃO: valor de '--max-ppsize' negativo: ignorado\n"
+msgstr "ATENÇÃO: valor de '--max-ppsize' negativo: ignorado"
 
 #: src/main/CommandLineArgs.c:264
-#, fuzzy
 msgid "WARNING: '--max-connections' value is too small: ignored"
-msgstr "ATENÇÃO: valor de '--max-ppsize' é muito pequeno: ignorado\n"
+msgstr "ATENÇÃO: valor de '--max-ppsize' é muito pequeno: ignorado"
 
 #: src/main/CommandLineArgs.c:266
-#, fuzzy
 msgid "WARNING: '--max-connections' value is too large: ignored"
-msgstr "ATENÇÃO: valor de '--max-ppsize' é muito grande: ignorado\n"
+msgstr "ATENÇÃO: valor de '--max-ppsize' é muito grande: ignorado"
 
 #: src/main/RNG.c:180
 #, c-format
@@ -1845,9 +1835,9 @@ msgid "%s() applied to non-(list or vector) of type '%s'"
 msgstr "%s() aplicado a um objeto diferente de lista ou vetor de tipo '%s'"
 
 #: src/main/coerce.c:2529 src/main/coerce.c:2590 src/main/coerce.c:2666
-#, fuzzy, c-format
+#, c-format
 msgid "default method not implemented for type '%s'"
-msgstr "tipo não implementado '%s' em '%s'\n"
+msgstr "tipo não implementado '%s' em '%s'"
 
 #: src/main/coerce.c:2686
 msgid "'name' is missing"
@@ -3612,14 +3602,13 @@ msgid "(converted from warning) %s"
 msgstr "(convertido do aviso) %s"
 
 #: src/main/errors.c:498
-#, fuzzy
 msgid "Warning:"
-msgstr "Aviso: %s\n"
+msgstr "Aviso:"
 
 #: src/main/errors.c:500
-#, fuzzy, c-format
+#, c-format
 msgid "Warning in %s :"
-msgstr "Aviso em %s : %s\n"
+msgstr "Aviso em %s :"
 
 #: src/main/errors.c:509 src/main/errors.c:524 src/main/errors.c:871
 msgid "Calls:"
@@ -3630,11 +3619,10 @@ msgid "Lost warning messages\n"
 msgstr "Mensagens de aviso perdidas\n"
 
 #: src/main/errors.c:602
-#, fuzzy
 msgid "Warning message:"
 msgid_plural "Warning messages:"
-msgstr[0] "Mensagens de aviso perdidas:\n"
-msgstr[1] "Mensagens de aviso perdidas:\n"
+msgstr[0] "Mensagen de aviso:"
+msgstr[1] "Mensagens de aviso:"
 
 #: src/main/errors.c:612 src/main/errors.c:640
 #, c-format
@@ -3642,16 +3630,16 @@ msgid "In %s :"
 msgstr ""
 
 #: src/main/errors.c:665
-#, fuzzy, c-format
+#, c-format
 msgid "There was %d warning (use warnings() to see it)"
 msgid_plural "There were %d warnings (use warnings() to see them)"
-msgstr[0] "Houve %d avisos (use warnings() para vê-los)\n"
-msgstr[1] "Houve %d avisos (use warnings() para vê-los)\n"
+msgstr[0] "Houve %d aviso (use warnings() para vê-lo)"
+msgstr[1] "Houve %d avisos (use warnings() para vê-los)"
 
 #: src/main/errors.c:670
-#, fuzzy, c-format
+#, c-format
 msgid "There were %d or more warnings (use warnings() to see the first %d)"
-msgstr "Houve 50 ou mais avisos (use warnings() para ver os primeiros 50)\n"
+msgstr "Houve %d ou mais avisos (use warnings() para ver os primeiros %d)"
 
 #: src/main/errors.c:758
 msgid "Error during wrapup: "
@@ -6791,7 +6779,7 @@ msgstr "tipo de entrada inválido"
 
 #: src/main/summary.c:1249
 msgid "an argument will be fractionally recycled"
-msgstr "um argumento vai ser reciclado parcialmente"
+msgstr "um argumento será reciclado parcialmente"
 
 #: src/main/sysutils.c:75 src/main/sysutils.c:89
 #, c-format
