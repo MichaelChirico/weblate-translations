@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: R 2.1.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-11-30 14:39+0100\n"
-"PO-Revision-Date: 2023-04-16 03:05+0000\n"
-"Last-Translator: Weblate Admin <gergely@rx.studio>\n"
+"PO-Revision-Date: 2023-08-30 14:09+0000\n"
+"Last-Translator: Renata Hirota <re.hirota@gmail.com>\n"
 "Language-Team: http://www.feferraz.net/br/P/Projeto_Traducao_R_Portugues\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -46,7 +46,7 @@ msgstr "'type' desconhecido no método CG de optim"
 
 #: src/appl/optim.c:510
 msgid "Function cannot be evaluated at initial parameters"
-msgstr "Função não pode ser calculada nos parâmetros iniciais"
+msgstr "função não pode ser calculada nos parâmetros iniciais"
 
 #: src/appl/optim.c:565
 #, fuzzy
@@ -59,7 +59,7 @@ msgstr "REPORT deve ser > 0 (method = \"L-BFGS-B\")"
 
 #: src/appl/optim.c:685
 msgid "L-BFGS-B needs finite values of 'fn'"
-msgstr "L-BFGS-B precisa de fn com valores finitos"
+msgstr "L-BFGS-B precisa de 'fn' com valores finitos"
 
 #: src/appl/optim.c:741
 msgid "trace, REPORT must be >= 0 (method = \"SANN\")"
@@ -318,7 +318,7 @@ msgstr "Memória insuficiente (rpipeOpen)"
 
 #: src/gnuwin32/run.c:989 src/main/dounzip.c:498
 msgid "seek not enabled for this connection"
-msgstr "procura não habilitada para essa conexão"
+msgstr "busca não habilitada para essa conexão"
 
 #: src/gnuwin32/run.c:995
 msgid "truncate not enabled for this connection"
@@ -405,7 +405,7 @@ msgstr "codificação '%s' não reconhecida"
 #: src/gnuwin32/system.c:439 src/unix/sys-std.c:1005
 #, c-format
 msgid "<ERROR: re-encoding failure from encoding '%s'>\n"
-msgstr "<ERRO: re-codificação falhou a partir da codificação '%s'> \n"
+msgstr "<ERRO: re-codificação falhou a partir da codificação '%s'>\n"
 
 #: src/gnuwin32/system.c:682 src/gnuwin32/system.c:1238
 #: src/gnuwin32/system.c:1250 src/main/connections.c:829
@@ -444,7 +444,7 @@ msgstr "operações binárias requerem dois argumentos"
 #: src/gnuwin32/system.c:1269 src/unix/system.c:445
 #, c-format
 msgid "WARNING: '-e %s' omitted as input is too long\n"
-msgstr "ATENÇÃO: '-e %s' omitido na entrada é muito grande\n"
+msgstr "ATENÇÃO: '-e %s' omitido na entrada por ser muito grande\n"
 
 #: src/gnuwin32/system.c:1273 src/unix/system.c:458
 #, c-format
@@ -897,9 +897,9 @@ msgid "input string y[%d] is invalid in this locale"
 msgstr "string de entrada %d é inválida nesse locale"
 
 #: src/main/agrep.c:837 src/main/grep.c:3399
-#, fuzzy, c-format
+#, c-format
 msgid "regcomp error: '%s'"
-msgstr "erro regcomp:  '%s'"
+msgstr "erro regcomp: '%s'"
 
 #: src/main/apply.c:111
 #, fuzzy
@@ -3009,7 +3009,7 @@ msgstr "modo '%s' não é suportado em call_R"
 #: src/main/dounzip.c:179
 #, c-format
 msgid " not overwriting file '%s"
-msgstr " não foi possível sobrescrever o arquivo  '%s"
+msgstr " não foi possível sobrescrever o arquivo '%s"
 
 #: src/main/dounzip.c:269
 #, c-format
@@ -3431,7 +3431,7 @@ msgstr "argumento de comprimento zero"
 #: src/main/envir.c:2147
 #, c-format
 msgid "object '%s' of mode '%s' was not found"
-msgstr "objeto '%s' de modo '%s'  não foi encontrado"
+msgstr "objeto '%s' de modo '%s' não foi encontrado"
 
 #: src/main/envir.c:2230
 #, c-format
