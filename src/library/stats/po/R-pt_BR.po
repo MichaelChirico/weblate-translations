@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: 2.13.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-11-30 14:40\n"
-"PO-Revision-Date: 2023-08-31 09:28+0000\n"
-"Last-Translator: Caio Lente <lente@ime.usp.br>\n"
+"PO-Revision-Date: 2023-08-31 09:43+0000\n"
+"Last-Translator: Renata Hirota <re.hirota@gmail.com>\n"
 "Language-Team: http://www.feferraz.net/br/P/Projeto_Traducao_R_Portugues\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -573,9 +573,8 @@ msgstr "graus de liberdade insuficientes para definir contrastes"
 msgid "baseline group number out of range"
 msgstr "número fora do intervalo de referência do grupo"
 
-#, fuzzy
 msgid "invalid 'use' argument"
-msgstr "argumento 'method' inválido"
+msgstr "argumento 'use' inválido"
 
 msgid "supply both 'x' and 'y' or a matrix-like 'x'"
 msgstr "forneça conjuntamente 'x' e 'y' ou algo semelhante a uma matriz 'x'"
@@ -638,17 +637,17 @@ msgstr "'tree' inválido (mesclar componente)"
 msgid "either 'k' or 'h' must be specified"
 msgstr "ou 'k' ou 'h' deve ser especificado"
 
-#, fuzzy
 msgid "the 'height' component of 'tree' is not sorted (increasingly)"
 msgstr ""
-"componente 'height' de 'tree ', não está classificada\n"
-" (em ordem crescente); considere usar as.hclust() primeiro"
+"componente 'height' de 'tree' não está classificada (em ordem crescente)"
 
 msgid "elements of 'k' must be between 1 and %d"
 msgstr "elementos de 'k' deve estar entre 1 e %d"
 
 msgid "dendrogram entries must be 1,2,..,%d (in any order), to be coercible to \"hclust\""
 msgstr ""
+"entradas do dendrogram devem ser 1,2,..,%d (em qualquer ordem), para serem "
+"coercíveis para \"hclust\""
 
 msgid "dendrogram node with non-positive #{branches}"
 msgstr "nó do dendrograma com #{ramos} não-positivos"
@@ -662,9 +661,8 @@ msgstr "subárvore de comprimento 0 não é uma folha"
 msgid "'order.dendrogram' requires a dendrogram"
 msgstr "'order.dendrogram' requer um dendrograma"
 
-#, fuzzy
 msgid "'reorder.dendrogram' requires a dendrogram"
-msgstr "'order.dendrogram' requer um dendrograma"
+msgstr "'reorder.dendrogram' requer um dendrograma"
 
 msgid "invalid (length 0) node in dendrogram"
 msgstr "nó (comprimento 0) inválido no dendrograma"
@@ -750,7 +748,6 @@ msgstr "'x' não é um vetor"
 msgid "bad value for 'lag' or 'differences'"
 msgstr "valor ruim para o 'lag'  ou 'differences'"
 
-#, fuzzy
 msgid "'xi' does not have the right length"
 msgstr "'xi' não tem o comprimento certo"
 
@@ -761,7 +758,7 @@ msgid "'x' is not a vector or matrix"
 msgstr "'x' não é um vetor ou matriz"
 
 msgid "x[1] != r[1]; using x[1] for diagonal"
-msgstr ""
+msgstr "x[1] != r[1]; usando x[1] para diagonal"
 
 msgid "invalid distance method"
 msgstr "método de distância inválido"
