@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: 2.13.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-11-30 14:40\n"
-"PO-Revision-Date: 2023-08-31 09:17+0000\n"
+"PO-Revision-Date: 2023-08-31 09:28+0000\n"
 "Last-Translator: Renata Hirota <re.hirota@gmail.com>\n"
 "Language-Team: http://www.feferraz.net/br/P/Projeto_Traducao_R_Portugues\n"
 "Language: pt_BR\n"
@@ -85,9 +85,8 @@ msgstr "'which' não especificou nenhum factor"
 msgid "'which' specified some non-factors which will be dropped"
 msgstr "'which' especifiou alguns não-fatores que serão descartados"
 
-#, fuzzy
 msgid "'sampleT' and 'nser' must be integer"
-msgstr "'k' e 'h' devem ser um escalar"
+msgstr "'sampleT' e 'nser' devem ser inteiros"
 
 msgid "'lag.max' must be at least 0"
 msgstr "'lag.max' deve ser pelo menos 0"
@@ -105,7 +104,7 @@ msgid "can use ci.type=\"ma\" only if first lag is 0"
 msgstr "ci.type=\"ma\" somente pode ser usado se o primeiro atraso for 0"
 
 msgid "Page [%d,%d]: i =%s; j =%s"
-msgstr ""
+msgstr "Página [%d,%d]: i =%s; j =%s"
 
 msgid "univariate time series only"
 msgstr "Somente séries temporais uinivariadas"
@@ -140,9 +139,8 @@ msgstr "O teste F assume a família quasi%s"
 msgid "AIC is not defined for this model, so 'step' cannot proceed"
 msgstr "AIC não é definido para este modelo, então o 'step' não pode continuar"
 
-#, fuzzy
 msgid "AIC is -infinity for this model, so 'step' cannot proceed"
-msgstr "AIC não é definido para este modelo, então o 'step' não pode continuar"
+msgstr "AIC é -infinito para este modelo, então o 'step' não pode continuar"
 
 msgid "'A' must be an array or table"
 msgstr "'A' deve ser um array ou tabela"
@@ -164,15 +162,13 @@ msgid "arguments must have same length"
 msgstr "argumentos devem ter o mesmo comprimento"
 
 msgid "argument 'x' is  missing -- it has been renamed from 'formula'"
-msgstr ""
+msgstr "argumento 'x' está ausente -- foi renomeado de 'formula'"
 
-#, fuzzy
 msgid "argument 'x' must be a formula"
-msgstr "argumento 'x ' deve ser numérico"
+msgstr "argumento 'x ' deve ser uma fórmula"
 
-#, fuzzy
 msgid "formula 'x' must have both left and right hand sides"
-msgstr "'formula' deve ter os lados tanto esquerdo quanto direito"
+msgstr "fórmula 'x' deve ter os lados tanto esquerdo quanto direito"
 
 msgid "cannot change frequency from %g to %g"
 msgstr "não é possível mudar a frequência de %g para %g"
@@ -282,19 +278,17 @@ msgstr "zero pontos não-NA"
 msgid "'approx' requires n >= 1"
 msgstr "'approx' necessita de n >= 1"
 
-#, fuzzy
 msgid "NAs in 'x' must be the same row-wise"
-msgstr "'x' e 'g' devem ter o mesmo comprimento"
+msgstr "NAs em 'x' devem ser iguais por linha"
 
 msgid "'order.max' must be >= 1"
 msgstr "'order.max' deve ser >= 1"
 
-#, fuzzy
 msgid "'order.max' must be < 'n.obs'"
-msgstr "'order.max' deve ser < 'n.used'"
+msgstr "'order.max' deve ser < 'n.obs'"
 
 msgid "zero-variance series"
-msgstr ""
+msgstr "série com variância zero"
 
 msgid "'n.ahead' must be at least 1"
 msgstr "'lag.max' deve ser ao menos 1"
@@ -344,9 +338,8 @@ msgstr "Parte AR não-estacionária"
 msgid "non-stationary seasonal AR part"
 msgstr "Parte AR sazonal não-estacionária"
 
-#, fuzzy
 msgid "possible convergence problem: optim gave code = %d"
-msgstr "possível problema na convergência: optim retornou código="
+msgstr "possível problema na convergência: optim retornou código = %d"
 
 msgid "non-stationary AR part from CSS"
 msgstr "Parte AR não-estacionária de CSS"
@@ -363,13 +356,11 @@ msgstr "Parte MA do modelo não é inversível"
 msgid "seasonal MA part of model is not invertible"
 msgstr "Parte MA sazonal do modelo não é inversível"
 
-#, fuzzy
 msgid "NAs in '%s'"
-msgstr "NAs em 'x'"
+msgstr "NAs em '%s'"
 
-#, fuzzy
 msgid "invalid 'SSinit'"
-msgstr "'x' inválido"
+msgstr "'SSinit' inválido"
 
 msgid "converting non-invertible initial MA values"
 msgstr "convertendo valores MA iniciais não-inversíveis"
@@ -392,9 +383,8 @@ msgstr "são necessários ao menos 2 pontos"
 msgid "invalid 'x'"
 msgstr "'x' inválido"
 
-#, fuzzy
 msgid "invalid 'nb'"
-msgstr "'x' inválido"
+msgstr "'nb' inválido"
 
 msgid "no solution in the specified range of bandwidths"
 msgstr "nenhuma solução no intervalo especificado de larguras de banda"
@@ -494,7 +484,7 @@ msgid "eig=TRUE is disregarded when list.=FALSE"
 msgstr ""
 
 msgid "x.ret=TRUE is disregarded when list.=FALSE"
-msgstr ""
+msgstr "x-ret=TRUE é desconsiderado quando list.=FALSE"
 
 msgid "distances must be result of 'dist' or a square matrix"
 msgstr "distâncias deve ser resultado de \"dist\", ou de uma matriz quadrada"
@@ -556,9 +546,8 @@ msgstr "deve fornecer um ou mais vetores"
 msgid "arguments must have the same length"
 msgstr "argumentos devem ter o mesmo comprimento"
 
-#, fuzzy
 msgid "wrong number of columns in new data:"
-msgstr "número errado de linhas na matriz de contraste"
+msgstr "número errado de colunas nos dados novos"
 
 msgid "contrasts apply only to factors"
 msgstr "contrastes aplicam-se apenas a fatores"
@@ -575,9 +564,8 @@ msgstr "matriz de contraste singular"
 msgid "numeric contrasts or contrast name expected"
 msgstr "contrastes numérico ou contraste de nome são esperados"
 
-#, fuzzy
 msgid "%s needs package 'Matrix' correctly installed"
-msgstr "xtabs(*, sparse=TRUE) necessita de que o pacote \"Matrix\" esteja corretamente instalado"
+msgstr "%s precisa do pacote \"Matrix\" instalado corretamente"
 
 msgid "not enough degrees of freedom to define contrasts"
 msgstr "graus de liberdade insuficientes para definir contrastes"
