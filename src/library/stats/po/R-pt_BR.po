@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: 2.13.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-11-30 14:40\n"
-"PO-Revision-Date: 2023-08-31 09:43+0000\n"
+"PO-Revision-Date: 2023-08-31 11:06+0000\n"
 "Last-Translator: Renata Hirota <re.hirota@gmail.com>\n"
 "Language-Team: http://www.feferraz.net/br/P/Projeto_Traducao_R_Portugues\n"
 "Language: pt_BR\n"
@@ -770,7 +770,7 @@ msgid "non-square matrix"
 msgstr "matriz não é quadrada"
 
 msgid "specify 'rate' or 'scale' but not both"
-msgstr ""
+msgstr "'rate' ou 'scale' devem ser especificados, mas não ambos"
 
 msgid "x[] and prob[] must be equal length vectors."
 msgstr "x[] e prob[] devem ser vetores de comprimento igual."
@@ -792,7 +792,7 @@ msgid "some terms will have NAs due to the limits of the method"
 msgstr "alguns termos terão NAs devido aos limites do método"
 
 msgid "multivariate case with missing coefficients is not yet implemented"
-msgstr ""
+msgstr "caso multivariado com coeficientes ausentes ainda não foi implementado"
 
 msgid "'x' must have 1 or more non-missing values"
 msgstr "'x' deve ter um ou mais valores  ausentes"
@@ -828,24 +828,22 @@ msgid "invalid argument 'lambda'"
 msgstr "'lambda' é um argumento inválido"
 
 # Use "vínculo" ou "elo" para "link"?
-#, fuzzy
 msgid "%s link not recognised"
-msgstr "link não reconhecido"
+msgstr "%s link não reconhecido"
 
-#, fuzzy
 msgid "link \"%s\" not available for %s family; available links are %s"
-msgstr "link \"%s\" não está disponível para a família Poisson; links disponíveis são %s"
+msgstr ""
+"link \"%s\" não está disponível para a família %s; links disponíveis são %s"
 
-#, fuzzy
 msgid "negative values not allowed for the 'Poisson' family"
-msgstr "valores negativos não são permitidos para a família Poisson"
+msgstr "valores negativos não são permitidos para a família 'Poisson'"
 
 msgid "ignoring prior weights"
 msgstr "ignorando pesos anteriores"
 
 #, fuzzy
 msgid "negative values not allowed for the 'quasiPoisson' family"
-msgstr "valores negativos não são permitidos para a família quasipoisson"
+msgstr "valores negativos não permitidos para a família 'quasiPoisson'"
 
 msgid "cannot find valid starting values: please specify some"
 msgstr "não é possível encontrar valores iniciais válidos: especifique alguns"
@@ -857,9 +855,8 @@ msgstr "valores y devem ser 0 <= y <= 1"
 msgid "non-integer #successes in a %s glm!"
 msgstr "#sucessos não-inteiro em um glm binomial!"
 
-#, fuzzy
 msgid "non-integer counts in a %s glm!"
-msgstr "contagens não-inteiras em um glm binomial!"
+msgstr "contagens não-inteiras em um glm %s!"
 
 #, fuzzy
 msgid ""
@@ -870,20 +867,19 @@ msgstr "ou uma matriz de 2 colunas onde col 1 é o no. dos sucessos e col 2 é o
 msgid "cannot simulate from non-integer prior.weights"
 msgstr "não é possível simular a partir de prior.weights não-inteiros"
 
-#, fuzzy
 msgid "non-positive values not allowed for the 'Gamma' family"
-msgstr "valores não-positivos não são permitidos para a famíla gamma"
+msgstr "valores não positivos não permitidos para a família 'Gamma'"
 
 msgid "using weights as shape parameters"
 msgstr "usando pesos como parâmetros shape"
 
-#, fuzzy
 msgid "positive values only are allowed for the 'inverse.gaussian' family"
-msgstr "somente valores positivos permitidos para a família inverse.gaussian"
+msgstr "valores positivos permitidos somente para a família 'inverse.gaussian'"
 
-#, fuzzy
 msgid "need CRAN package 'SuppDists' for simulation from the 'inverse.gaussian' family"
-msgstr "É preciso o pacote CRAN 'SuppDists' para a família 'inverse.gaussian'"
+msgstr ""
+"necessário pacote CRAN 'SuppDists' para simulação da família 'inverse."
+"gaussian'"
 
 msgid "using weights as inverse variances"
 msgstr "usando pesos como variâncias inversas"
