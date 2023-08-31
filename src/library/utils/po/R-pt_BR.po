@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-11-30 14:40\n"
 "PO-Revision-Date: 2023-08-31 11:06+0000\n"
-"Last-Translator: Caio Lente <lente@ime.usp.br>\n"
+"Last-Translator: Beatriz Milz <milz.bea@gmail.com>\n"
 "Language-Team: http://www.feferraz.net/br/P/Projeto_Traducao_R_Portugues\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -1232,21 +1232,23 @@ msgid "unable to move temporary installation %s to %s"
 msgstr "não foi possível mover a instalação temporária %s para %s"
 
 msgid "cannot remove prior installation of package %s"
-msgstr ""
+msgstr "não foi possível remover a instalação prévia do pacote %s"
 
 msgid ""
 "The downloaded binary packages are in\n"
 "\t%s"
 msgstr ""
+"Os pacotes binários baixados estão em\n"
+"\t%s"
 
 msgid "'memory.size()' is Windows-specific"
-msgstr ""
+msgstr "'memory.size()' é específico do Windows"
 
 msgid "'memory.limit()' is Windows-specific"
-msgstr ""
+msgstr "'memory.limit()' é específico do Windows"
 
 msgid "method 'mailx' is Unix-only"
-msgstr ""
+msgstr "método 'mailx' é apenas para Unix"
 
 msgid "zip file %s not found"
 msgstr "arquivo zip %s não encontrado"
@@ -1255,7 +1257,7 @@ msgid "failed to create %s"
 msgstr "falha ao criar %s"
 
 msgid "there is no 'libs' directory in package %s"
-msgstr ""
+msgstr "não há diretório 'libs' no pacote %s"
 
 msgid "unable to move temporary installation %s to %s, copying instead"
 msgstr ""
@@ -1263,16 +1265,16 @@ msgstr ""
 "disso"
 
 msgid "unable to copy temporary installation %s to %s"
-msgstr ""
+msgstr "não foi possível copiar instalação temporária %s para %s"
 
 msgid "Only '*.zip' and '*.tar.gz' files can be installed."
-msgstr ""
+msgstr "Apenas arquivos '*.zip' e '*.tar.gz' podem ser instalados."
 
 msgid "'memory.size()' is no longer supported"
-msgstr ""
+msgstr "'memory.size()' não é mais suportado"
 
 msgid "'memory.limit()' is no longer supported"
-msgstr ""
+msgstr "'memory.limit()' não é mais suportado"
 
 msgid "winDialog() cannot be used non-interactively"
 msgstr "winDialog() não pode ser usada de forma não interativa"
