@@ -1155,7 +1155,7 @@ msgid "'col.names = NA' makes no sense when 'row.names = FALSE'"
 msgstr "'col.names = NA' não faz sentido quando 'row.names = FALSE'"
 
 msgid "invalid 'col.names' specification"
-msgstr "especificação inválida de 'col.names'"
+msgstr "especificação inválida para 'col.names'"
 
 msgid "appending column names to file"
 msgstr "adicionando nomes de colunas ao arquivo"
@@ -1178,19 +1178,19 @@ msgid "must specify 'address'"
 msgstr "deve especificar 'address'"
 
 msgid "'subject' is missing"
-msgstr ""
+msgstr "'subject' está faltando"
 
 msgid "'ccaddress' must be of length 1"
 msgstr "'ccaddress' deve ter comprimento 1"
 
 msgid "'url' must be a length-one character vector"
-msgstr ""
+msgstr "'url' deve ser um vetor de caracteres de comprimento 1"
 
 msgid "'headers' must have names and must not be NA"
 msgstr "'headers' deve ter nomes e não deve ser NA"
 
 msgid "'destfile' must be a length-one character vector"
-msgstr ""
+msgstr "'destfile' deve ser um vetor de caracteres de comprimento 1"
 
 msgid "'wget' call had nonzero exit status"
 msgstr ""
@@ -1209,7 +1209,7 @@ msgid "'tar' returned non-zero exit code %d"
 msgstr ""
 
 msgid "file %s is not a macOS binary package"
-msgstr ""
+msgstr "arquivo %s não é um pacote binário macOS"
 
 msgid "package %s successfully unpacked and MD5 sums checked"
 msgstr "pacote %s desempacotado com sucesso e somas MD5 verificadas"
