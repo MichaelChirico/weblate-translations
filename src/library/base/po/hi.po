@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-11-30 14:39+0100\n"
 "PO-Revision-Date: 2023-08-31 20:16+0000\n"
-"Last-Translator: Weblate Admin <gergely@rx.studio>\n"
+"Last-Translator: Ayush Bipin Patel <ayush.ap58@gmail.com>\n"
 "Language-Team: none\n"
 "Language: hi\n"
 "MIME-Version: 1.0\n"
@@ -266,16 +266,14 @@ msgid "unsupported version of Windows"
 msgstr ""
 
 #: src/gnuwin32/extra.c:679 src/gnuwin32/extra.c:796 src/main/util.c:1054
-#, fuzzy
 msgid "'path' must be a character vector"
-msgstr "'नाम 'सिर्फ एक करैक्टर की string होनी चाहिए"
+msgstr "'path' का एक केरेक्टर (character) वेक्टर (vector) होना अनिवार्य है"
 
 #: src/gnuwin32/extra.c:862 src/gnuwin32/extra.c:864 src/gnuwin32/extra.c:887
 #: src/gnuwin32/extra.c:889 src/gnuwin32/extra.c:924 src/main/gevents.c:63
 #: src/main/gevents.c:105
-#, fuzzy
 msgid "invalid device"
-msgstr "'dims ' अमान्य है"
+msgstr "अमान्य यंत्र या उपकरण"
 
 #: src/gnuwin32/extra.c:865
 msgid "requires SDI mode"
@@ -317,9 +315,8 @@ msgid "seek not enabled for this connection"
 msgstr ""
 
 #: src/gnuwin32/run.c:995
-#, fuzzy
 msgid "truncate not enabled for this connection"
-msgstr "सिर्फ खुले हुए कनेक्शन को ही छोटा किया जा सकता है"
+msgstr "इस कनेक्शन (connection) के लिये ट्रंकेट (truncate) को सक्रीय नही है"
 
 #: src/gnuwin32/run.c:1055 src/main/connections.c:476
 #: src/main/connections.c:495 src/main/connections.c:3305
@@ -335,9 +332,8 @@ msgid "allocation of pipe connection failed"
 msgstr ""
 
 #: src/gnuwin32/run.c:1130
-#, fuzzy
 msgid "'names' is not a character vector"
-msgstr "'नाम 'सिर्फ एक करैक्टर की string होनी चाहिए"
+msgstr "'names' एक केरेक्टेर(character) वेक्टर (vector) नही है"
 
 #: src/gnuwin32/sys-win32.c:116 src/gnuwin32/sys-win32.c:138
 #: src/gnuwin32/sys-win32.c:149
@@ -619,9 +615,8 @@ msgid "invalid sample type in 'RNGkind'"
 msgstr ""
 
 #: src/main/RNG.c:580
-#, fuzzy
 msgid "supplied seed is not a valid integer"
-msgstr "'%s' मान्य विकल्प नहीं है"
+msgstr "उपलब्ध करवाया हुआ सीड (seed) मान्य इंतेजेर (integer) नही है"
 
 #: src/main/Rdynload.c:188
 #, c-format
@@ -679,9 +674,8 @@ msgid "Symbol at %d does not have registration information."
 msgstr ""
 
 #: src/main/Rdynload.c:495
-#, fuzzy
 msgid "Invalid symbol name."
-msgstr "'make .names 'मान्य नहीं है"
+msgstr "सिम्बल (symbol) का नाम अमान्य है|"
 
 #: src/main/Rdynload.c:498
 #, c-format
@@ -789,9 +783,11 @@ msgid "problem in setting variable '%s' in Renviron"
 msgstr ""
 
 #: src/main/Renviron.c:515 src/main/objects.c:1366 src/main/raw.c:207
-#, fuzzy, c-format
+#, c-format
 msgid "argument '%s' must be a character string"
-msgstr "'नाम 'सिर्फ एक करैक्टर की string होनी चाहिए"
+msgstr ""
+"अर्गुमेंत (argument) %1$s एक केरेक्टेर (character) स्ट्रिंग (string) होनी "
+"चाहिये"
 
 #: src/main/Renviron.c:519
 #, c-format
@@ -827,9 +823,8 @@ msgid "argument '%s' has length > 1 and only the first element will be used"
 msgstr ""
 
 #: src/main/agrep.c:191 src/main/agrep.c:822
-#, fuzzy
 msgid "'pattern' must be a non-empty character string"
-msgstr "'नाम 'सिर्फ एक करैक्टर की string होनी चाहिए"
+msgstr "'पैटर्न' एक गैर-खाली केरेक्टेर (character) स्ट्रिंग (string) होना चाहिए"
 
 #: src/main/agrep.c:202 src/main/agrep.c:831 src/main/grep.c:1356
 #: src/main/grep.c:3054 src/main/grep.c:3393
@@ -896,23 +891,23 @@ msgstr ""
 #: src/modules/X11/devX11.c:3295 src/modules/X11/devX11.c:3300
 #: src/modules/X11/devX11.c:3304 src/modules/X11/devX11.c:3308
 #: src/modules/X11/devX11.c:3313
-#, fuzzy, c-format
+#: src/modules/X11/devX11.c:3309
+#, c-format
 msgid "invalid '%s' value"
-msgstr "'dims ' अमान्य है"
+msgstr "अमान्य %s संख्या"
 
 #: src/main/apply.c:117 src/main/complex.c:760
-#, fuzzy
 msgid "invalid length"
-msgstr "'row .names 'की संख्या मान्य नहीं है"
+msgstr "अमान्य लंबायी"
 
 #: src/main/apply.c:122
 msgid "long vectors are not supported for matrix/array results"
 msgstr ""
 
 #: src/main/apply.c:129
-#, fuzzy, c-format
+#, c-format
 msgid "type '%s' is not supported"
-msgstr "इसके बजाय '%s' का उपयोग करें |"
+msgstr "प्रकार '%s' समर्थित नहीं है"
 
 #: src/main/apply.c:177
 #, c-format
@@ -934,9 +929,9 @@ msgid "dimnames(<value>) is neither NULL nor list of length %d"
 msgstr ""
 
 #: src/main/apply.c:343 src/main/coerce.c:2729
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' must be a list or expression"
-msgstr "'वैल्यू ' एक लिस्ट होनी चाहिए"
+msgstr "'%s' एक लिस्ट (list) या एक्ष्प्रेशन (expression) होना चाहिए"
 
 #: src/main/arithmetic.c:50 src/main/eval.c:5086
 msgid "NaNs produced"
@@ -988,9 +983,8 @@ msgstr ""
 
 #: src/main/arithmetic.c:752 src/main/arithmetic.c:778
 #: src/main/arithmetic.c:799
-#, fuzzy
 msgid "invalid unary operator"
-msgstr "संख्याओ का अंतर अमान्य है"
+msgstr "अमान्य यूनरी (unary) ऑपरेटर (operator)"
 
 #: src/main/arithmetic.c:1296
 msgid "unimplemented real function of 1 argument"
@@ -1014,14 +1008,12 @@ msgid "argument \"%s\" is missing, with no default"
 msgstr ""
 
 #: src/main/arithmetic.c:1691
-#, fuzzy
 msgid "invalid second argument of length 0"
-msgstr "'endian' आर्गुमेंट मान्य नहीं है"
+msgstr "शून्य लंबायी कि अमान्य दुसरी अर्गुमेंत (argument)"
 
 #: src/main/arithmetic.c:1811
-#, fuzzy
 msgid "invalid argument 'base' of length 0"
-msgstr "आर्गुमेंट 'where 'की लम्बाई शून्य है"
+msgstr "अमान्य आर्गुमेंट (argument) 'base ' की लम्बाई शून्य है"
 
 #: src/main/array.c:101 src/main/array.c:2093
 #, c-format
@@ -1037,18 +1029,16 @@ msgid "invalid 'nrow' value (too large or NA)"
 msgstr ""
 
 #: src/main/array.c:126 src/main/array.c:2201
-#, fuzzy
 msgid "invalid 'nrow' value (< 0)"
-msgstr "'row .names 'की संख्या मान्य नहीं है"
+msgstr "'nrow' की संख्या (<0) अमान्य है"
 
 #: src/main/array.c:132 src/main/array.c:2204
 msgid "invalid 'ncol' value (too large or NA)"
 msgstr ""
 
 #: src/main/array.c:134 src/main/array.c:2206
-#, fuzzy
 msgid "invalid 'ncol' value (< 0)"
-msgstr "अमान्य 'name' आर्गुमेंट"
+msgstr "अमान्य 'ncol' संख्या (< 0)"
 
 #: src/main/array.c:158
 #, c-format
@@ -1094,9 +1084,9 @@ msgid "'allocArray': too many elements specified by 'dims'"
 msgstr ""
 
 #: src/main/array.c:565
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' must be a list or atomic vector"
-msgstr "'%s' लॉजिकल होना चाहिए"
+msgstr "'%s' एक लिस्ट (list) या अटोमिक वेक्टर (atomic vector) होना चाहिये"
 
 #: src/main/array.c:609
 #, c-format
@@ -1128,9 +1118,9 @@ msgid "argument is not a matrix"
 msgstr ""
 
 #: src/main/array.c:1717 src/main/attrib.c:1226
-#, fuzzy, c-format
+#, c-format
 msgid "invalid first argument, must be %s"
-msgstr "दूसरा आर्गुमेंट एक सूची होना चाहिए"
+msgstr "अमान्य पहला अर्गुमेंट (argument), %1$s होना चाहिए"
 
 #: src/main/array.c:1732
 #, c-format
@@ -1138,9 +1128,8 @@ msgid "'perm' is of wrong length %d (!= %d)"
 msgstr ""
 
 #: src/main/array.c:1737 src/main/array.c:1740
-#, fuzzy
 msgid "'a' does not have named dimnames"
-msgstr "'X' ने dimnames का नाम दिया होगा"
+msgstr "'a' के dimnames के नाम नही है"
 
 #: src/main/array.c:1748
 #, c-format
@@ -1164,14 +1153,12 @@ msgid "'x' is too short"
 msgstr ""
 
 #: src/main/array.c:2101
-#, fuzzy
 msgid "'dims' cannot be of length 0"
-msgstr "'dim' लंबाई 0 का नहीं हो सकता"
+msgstr "'dims' की लंबाई 0 नहीं हो सकती"
 
 #: src/main/array.c:2209
-#, fuzzy
 msgid "'x' must have positive length"
-msgstr "dim(X) की लंबाई की संख्या घनात्मक होनी चाहिए"
+msgstr "'x' पोझीतीव (positive) लंबाइ का होना चाहिये"
 
 #: src/main/array.c:2310
 #, c-format
@@ -1217,9 +1204,8 @@ msgid "invalid time series parameters specified"
 msgstr ""
 
 #: src/main/attrib.c:438
-#, fuzzy
 msgid "'tsp' attribute must be numeric"
-msgstr "'x 'सिर्फ संख्या होनी चाहिए"
+msgstr "'tsp' अटरीब्यूट (attribute) न्यूमेरिक (numeric) होना चाहिये"
 
 #: src/main/attrib.c:444
 msgid "'tsp' attribute must be numeric of length three"
@@ -1247,9 +1233,8 @@ msgid "invalid to use names()<- on an S4 object of class '%s'"
 msgstr ""
 
 #: src/main/attrib.c:969
-#, fuzzy
 msgid "incompatible 'names' argument"
-msgstr "अमान्य 'name' आर्गुमेंट"
+msgstr "असंगत या बेमेल 'name' आर्गुमेंट (argument)"
 
 #: src/main/attrib.c:1019
 #, c-format
@@ -1261,9 +1246,9 @@ msgid "'dimnames' applied to non-array"
 msgstr ""
 
 #: src/main/attrib.c:1098 src/main/coerce.c:2732
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' must be a list"
-msgstr "'वैल्यू ' एक लिस्ट होनी चाहिए"
+msgstr "'%s ' एक लिस्ट (list) होनी चाहिए"
 
 #: src/main/attrib.c:1102 src/main/attrib.c:1131
 #, c-format
@@ -1281,23 +1266,21 @@ msgid "length of 'dimnames' [%d] not equal to array extent"
 msgstr ""
 
 #: src/main/attrib.c:1228
-#, fuzzy, c-format
+#, c-format
 msgid "invalid second argument, must be %s"
-msgstr "दूसरा आर्गुमेंट एक सूची होना चाहिए"
+msgstr "अमान्य दुसरा अर्गुमेंट (argument), %1$s होना चाहिए"
 
 #: src/main/attrib.c:1235
 msgid "length-0 dimension vector is invalid"
 msgstr ""
 
 #: src/main/attrib.c:1240
-#, fuzzy
 msgid "the dims contain missing values"
-msgstr "पंक्तियों में अनुपस्थित संख्याएं हैं"
+msgstr "dims में अनुपलब्ध संख्याए हैं"
 
 #: src/main/attrib.c:1242
-#, fuzzy
 msgid "the dims contain negative values"
-msgstr "पंक्तियों में अनुपस्थित संख्याएं हैं"
+msgstr "dims में नेगेटिव (negative) संख्याए हैं"
 
 #: src/main/attrib.c:1246
 #, c-format
@@ -1310,23 +1293,21 @@ msgid "factor level [%lld] is duplicated"
 msgstr ""
 
 #: src/main/attrib.c:1356
-#, fuzzy
 msgid "attributes must be a list or NULL"
-msgstr "'वैल्यू ' एक लिस्ट होनी चाहिए"
+msgstr "अटरीबयुत (attributes) एक लिस्ट (list) या NULL होना चाहिए"
 
 #: src/main/attrib.c:1361
 msgid "attributes must be named"
 msgstr ""
 
 #: src/main/attrib.c:1365
-#, fuzzy, c-format
+#, c-format
 msgid "all attributes must have names [%d does not]"
-msgstr "'headers ' मैं नाम ही होना चाहिए ,'NA ' नहीं"
+msgstr "सभी attributes के नाम होने चाहिए [%1$d के नहीं है]"
 
 #: src/main/attrib.c:1470
-#, fuzzy
 msgid "'which' must be of mode character"
-msgstr "'from 'अनिर्मित या तोह अक्षर होना चाहिए"
+msgstr "'which'का मोड (mode) केरेक्टर (character) हिना चाहिये"
 
 #: src/main/attrib.c:1472
 msgid "exactly one attribute 'which' must be given"
@@ -1339,19 +1320,17 @@ msgid "partial match of '%s' to '%s'"
 msgstr ""
 
 #: src/main/attrib.c:1601
-#, fuzzy
 msgid "invalid slot name length"
-msgstr "'row .names 'की संख्या मान्य नहीं है"
+msgstr "अमान्य स्लॉट नाम (slot name) लंबाई"
 
 #: src/main/attrib.c:1605
-#, fuzzy, c-format
+#, c-format
 msgid "invalid type '%s' for slot name"
-msgstr "'dinnames 'dataframe में दिए गया मान्य नहीं है"
+msgstr "स्लॉट (slot) नाम (name) के लिए अमान्य प्रकार '%1$s'"
 
 #: src/main/attrib.c:1652
-#, fuzzy
 msgid "'name' must be non-null character string"
-msgstr "'नाम 'सिर्फ एक करैक्टर की string होनी चाहिए"
+msgstr "'name' non-NULL केरेक्टर (character) स्ट्रिंग (string) होना चाहिए"
 
 #: src/main/attrib.c:1778 src/main/attrib.c:1849 src/main/attrib.c:1901
 msgid "invalid type or length for slot name"
@@ -1400,9 +1379,8 @@ msgid "repeated formal argument 'use.names'"
 msgstr ""
 
 #: src/main/bind.c:953
-#, fuzzy
 msgid "argument not a list"
-msgstr "दूसरा आर्गुमेंट एक सूची होना चाहिए"
+msgstr "आर्गुमेंट (argument) एक लीस्ट (list) होनी चाहिए"
 
 #: src/main/bind.c:1103 src/main/names.c:1332 src/main/names.c:1337
 #: src/main/names.c:1342 src/main/names.c:1347
@@ -1452,9 +1430,8 @@ msgstr "'dim' बहुत बड़ा ऐरे निर्दिष्ट �
 #: src/main/envir.c:1988 src/main/envir.c:2093 src/main/envir.c:2227
 #: src/main/paste.c:103 src/main/paste.c:345 src/main/random.c:481
 #: src/main/random.c:510 src/main/unique.c:2257
-#, fuzzy
 msgid "invalid first argument"
-msgstr "'endian' आर्गुमेंट मान्य नहीं है"
+msgstr "पेहली आर्गुमेंट (argument) अमान्य है"
 
 #: src/main/builtin.c:84 src/main/builtin.c:93 src/main/builtin.c:317
 #: src/main/builtin.c:351 src/main/builtin.c:404 src/main/builtin.c:418
@@ -1480,9 +1457,8 @@ msgid "replacement object is not an environment"
 msgstr ""
 
 #: src/main/builtin.c:355
-#, fuzzy
 msgid "'enclos' must be an environment"
-msgstr "'वैल्यू ' एक लिस्ट होनी चाहिए"
+msgstr "'enclos' एक एनवायरनमेंट (environment) होना चाहिये"
 
 #: src/main/builtin.c:373 src/main/builtin.c:409
 msgid "argument is not an environment"
@@ -1519,9 +1495,9 @@ msgid "cannot write to this connection"
 msgstr "सिर्फ खुले हुए कनेक्शन को ही छोटा किया जा सकता है"
 
 #: src/main/builtin.c:575 src/main/builtin.c:607
-#, fuzzy, c-format
+#, c-format
 msgid "invalid '%s' specification"
-msgstr "यह एक वैलिड रीस्टार्ट स्पेस्फिकेशन नहीं है"
+msgstr "अमान्य '%s' विनिर्देश या विवरण"
 
 #: src/main/builtin.c:592
 msgid "non-positive 'fill' argument will be ignored"
@@ -1542,9 +1518,8 @@ msgid "cannot set length of non-(vector or list)"
 msgstr ""
 
 #: src/main/builtin.c:838 src/main/character.c:663 src/main/coerce.c:3099
-#, fuzzy
 msgid "invalid value"
-msgstr "अमान्य 'name' आर्गुमेंट"
+msgstr "अमान्य संख्या"
 
 #: src/main/builtin.c:840
 msgid "length of NULL cannot be changed"
@@ -1595,9 +1570,9 @@ msgstr[1] ""
 
 #: src/main/character.c:124 src/main/character.c:127 src/main/character.c:314
 #: src/main/character.c:317
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' requires a character vector"
-msgstr "%s करैक्टर स्ट्रिंग मैं बदल चूका है"
+msgstr "'%s' के लिये एक करैक्टर (character) वेक्टर (vector) अपेक्षित है"
 
 #: src/main/character.c:176 src/main/character.c:202 src/main/character.c:216
 #: src/main/character.c:281 src/main/character.c:388 src/main/character.c:593
@@ -1636,9 +1611,8 @@ msgid "extracting substrings from a non-character object"
 msgstr ""
 
 #: src/main/character.c:440 src/main/character.c:660
-#, fuzzy
 msgid "invalid substring arguments"
-msgstr "'endian' आर्गुमेंट मान्य नहीं है"
+msgstr "अमान्य सबस्ट्रिंग (substring) आर्ग्युमेंट (arguments)"
 
 #: src/main/character.c:485
 #, fuzzy
@@ -1650,9 +1624,8 @@ msgid "replacing substrings in a non-character object"
 msgstr ""
 
 #: src/main/character.c:925
-#, fuzzy
 msgid "the first argument must be a character vector"
-msgstr "'नाम 'सिर्फ एक करैक्टर की string होनी चाहिए"
+msgstr "पहला आर्ग्युमेंट एक केरेक्टर (character) वेक्टर (vector) होना चाहिए"
 
 #: src/main/character.c:962
 msgid "abbreviate used with non-ASCII chars"
@@ -1711,9 +1684,8 @@ msgid "strtrim() requires a character vector"
 msgstr ""
 
 #: src/main/coerce.c:34
-#, fuzzy
 msgid "invalid 'mode' argument"
-msgstr "अमान्य 'name' आर्गुमेंट"
+msgstr "अमान्य 'mode' आर्ग्युमेंट (argument)"
 
 #: src/main/coerce.c:35
 #, fuzzy
@@ -7711,14 +7683,12 @@ msgid "'x' must be a square complex matrix"
 msgstr "'x 'सिर्फ संख्या होनी चाहिए"
 
 #: src/modules/lapack/Lapack.c:1087 src/modules/lapack/Lapack.c:1413
-#, fuzzy
 msgid "'a' must be a square matrix"
-msgstr "'नाम 'सिर्फ एक करैक्टर की string होनी चाहिए"
+msgstr "'a' एक स्क्व्येर (square) मैट्रिक्स (matrix) होनी चाहिये"
 
 #: src/modules/lapack/Lapack.c:1088
-#, fuzzy
 msgid "'a' must have dims > 0"
-msgstr "'X' ने dimnames का नाम दिया होगा"
+msgstr "'a' के dims>0"
 
 #: src/modules/lapack/Lapack.c:1100
 #, c-format
@@ -7730,9 +7700,10 @@ msgid "the matrix is either rank-deficient or not positive definite"
 msgstr ""
 
 #: src/modules/lapack/Lapack.c:1143
-#, fuzzy
 msgid "'size' argument must be a positive integer"
-msgstr "दूसरा आर्गुमेंट एक सूची होना चाहिए"
+msgstr ""
+"'size' अर्गुमेंत (argument) एक पोझीतीव (positive) इंतीजर (integer) होना "
+"चाहिये"
 
 #: src/modules/lapack/Lapack.c:1158
 #, c-format
@@ -7750,9 +7721,8 @@ msgid "element (%d, %d) is zero, so the inverse cannot be computed"
 msgstr ""
 
 #: src/modules/lapack/Lapack.c:1409
-#, fuzzy
 msgid "argument 'logarithm' must be logical"
-msgstr "'%s' लॉजिकल होना चाहिए"
+msgstr "अर्ग्युमेंट (argument) 'logarithm' का लोजिकल (logical) होना अनिवार्य है"
 
 #: src/nmath/bessel_i.c:69
 msgid "bessel_i allocation error"
@@ -7983,9 +7953,8 @@ msgid "no history available to save"
 msgstr ""
 
 #: src/unix/sys-std.c:1417
-#, fuzzy
 msgid "invalid timestamp"
-msgstr "'dims ' अमान्य है"
+msgstr "अमान्य timestamp"
 
 #: src/unix/sys-unix.c:849
 #, c-format
@@ -7997,9 +7966,8 @@ msgid "non-empty character argument expected"
 msgstr ""
 
 #: src/unix/sys-unix.c:890
-#, fuzzy
 msgid "'intern' must be logical and not NA"
-msgstr "'%s' लॉजिकल होना चाहिए"
+msgstr "'intern' का लोजिकल (logical) या NA होना अनिवार्य है"
 
 #: src/unix/sys-unix.c:896
 msgid "'receive.console.signals' must be logical and not NA"
@@ -8021,9 +7989,8 @@ msgid "error in running command: '%s'"
 msgstr ""
 
 #: src/unix/sys-unix.c:1140
-#, fuzzy
 msgid "Sys.info() is not implemented on this system"
-msgstr "इस सिस्टम पर 'iconvlist' उपलब्ध नहीं है"
+msgstr "Sys.info() का इस प्रणाली मे अमल नही है"
 
 #: src/unix/system.c:360
 #, c-format
