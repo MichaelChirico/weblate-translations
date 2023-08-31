@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: 2.13.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-11-30 14:39+0100\n"
-"PO-Revision-Date: 2023-01-20 19:04+0000\n"
+"PO-Revision-Date: 2023-08-31 20:16+0000\n"
 "Last-Translator: Caio Lente <lente@ime.usp.br>\n"
 "Language-Team: http://www.feferraz.net/br/P/Projeto_Traducao_R_Portugues\n"
 "Language: pt_BR\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.13.1\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: axis_scales.c:37 axis_scales.c:38 axis_scales.c:50
 #, c-format
@@ -917,7 +917,7 @@ msgstr ""
 
 #: devices.c:89 devices.c:97 devices.c:105
 msgid "NA argument is invalid"
-msgstr ""
+msgstr "o argumento NA é inválido"
 
 #: group.c:38
 msgid "Group definition ignored (device is appending path)"
