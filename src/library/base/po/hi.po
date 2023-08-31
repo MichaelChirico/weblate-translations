@@ -3,9 +3,8 @@ msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-11-30 14:39+0100\n"
-"POT-Creation-Date: 2022-01-14 11:27\n"
-"PO-Revision-Date: 2023-06-10 03:05+0000\n"
-"Last-Translator: Shrish Shete <sheteshrish1203@gmail.com>\n"
+"PO-Revision-Date: 2023-08-31 12:38+0000\n"
+"Last-Translator: Weblate Admin <gergely@rx.studio>\n"
 "Language-Team: none\n"
 "Language: hi\n"
 "MIME-Version: 1.0\n"
@@ -108,9 +107,9 @@ msgid "problem in displaying '%s'"
 msgstr ""
 
 #: src/gnuwin32/extra.c:98
-#, fuzzy, c-format
+#, c-format
 msgid "'%ls' not found"
-msgstr "फ़ाइल '%s' नहीं मिली"
+msgstr "फ़ाइल '%ls' नहीं मिली"
 
 #: src/gnuwin32/extra.c:100
 #, c-format
@@ -257,9 +256,10 @@ msgstr ""
 #: src/modules/lapack/Lapack.c:862 src/modules/lapack/Lapack.c:970
 #: src/modules/lapack/Lapack.c:1032 src/modules/lapack/Lapack.c:1377
 #: src/unix/sys-std.c:1363 src/unix/sys-std.c:1386 src/unix/sys-unix.c:893
-#, fuzzy, c-format
+#: src/unix/sys-std.c:1360 src/unix/sys-std.c:1383 src/unix/sys-unix.c:893
+#, c-format
 msgid "invalid '%s' argument"
-msgstr "अमान्य 'name' आर्गुमेंट"
+msgstr "अमान्य '%s' आर्गुमेंट"
 
 #: src/gnuwin32/extra.c:188
 msgid "unsupported version of Windows"
@@ -358,9 +358,9 @@ msgstr ""
 #: src/gnuwin32/sys-win32.c:334 src/modules/internet/libcurl.c:340
 #: src/modules/internet/libcurl.c:343 src/modules/internet/libcurl.c:346
 #: src/modules/internet/libcurl.c:351 src/modules/internet/libcurl.c:377
-#, fuzzy, c-format
+#, c-format
 msgid "invalid %s argument"
-msgstr "अमान्य 'name' आर्गुमेंट"
+msgstr "अमान्य '%s' आर्गुमेंट"
 
 #: src/gnuwin32/sys-win32.c:361 src/unix/sys-unix.c:1006
 #: src/unix/sys-unix.c:1064
