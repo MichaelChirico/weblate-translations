@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-11-30 14:39+0100\n"
-"PO-Revision-Date: 2023-08-31 12:38+0000\n"
+"PO-Revision-Date: 2023-08-31 20:16+0000\n"
 "Last-Translator: Weblate Admin <gergely@rx.studio>\n"
 "Language-Team: none\n"
 "Language: hi\n"
@@ -87,9 +87,9 @@ msgid "R_HOME not set"
 msgstr ""
 
 #: src/gnuwin32/extra.c:67
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' not found"
-msgstr "फ़ाइल '%s' नहीं मिली"
+msgstr ""
 
 #: src/gnuwin32/extra.c:69
 #, c-format
@@ -109,7 +109,7 @@ msgstr ""
 #: src/gnuwin32/extra.c:98
 #, c-format
 msgid "'%ls' not found"
-msgstr "फ़ाइल '%ls' नहीं मिली"
+msgstr ""
 
 #: src/gnuwin32/extra.c:100
 #, c-format
