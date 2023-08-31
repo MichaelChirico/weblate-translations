@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-11-30 14:39+0100\n"
-"PO-Revision-Date: 2023-05-07 03:05+0000\n"
+"PO-Revision-Date: 2023-08-31 20:16+0000\n"
 "Last-Translator: Binod Jung Bogati <m1s1ng@outlook.com>\n"
 "Language-Team: none\n"
 "Language: ne\n"
@@ -15,12 +15,12 @@ msgstr ""
 
 #: src/appl/optim.c:60
 msgid "non-finite value supplied by 'optim'"
-msgstr ""
+msgstr "'optim' द्वारा आपूर्ति गरिएको गैर-परिमित मान"
 
 #: src/appl/optim.c:67
 #, c-format
 msgid "candidate point in 'optim' evaluated to length %d not %d"
-msgstr ""
+msgstr "'optim' मा उम्मेद्वार बिन्दु मा मूल्याङ्कन गरिएको लम्बाइ %d होइन %d"
 
 #: src/appl/optim.c:136
 msgid "REPORT must be > 0 (method = \"BFGS\")"
