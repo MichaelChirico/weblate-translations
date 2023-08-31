@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: R 2.1.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-11-30 14:39+0100\n"
-"PO-Revision-Date: 2023-08-31 11:06+0000\n"
+"PO-Revision-Date: 2023-08-31 11:16+0000\n"
 "Last-Translator: Caio Lente <lente@ime.usp.br>\n"
 "Language-Team: http://www.feferraz.net/br/P/Projeto_Traducao_R_Portugues\n"
 "Language: pt_BR\n"
@@ -435,9 +435,9 @@ msgid "option '%s' requires an argument"
 msgstr "operações binárias requerem dois argumentos"
 
 #: src/gnuwin32/system.c:1261
-#, fuzzy, c-format
+#, c-format
 msgid "option '%s' requires a non-empty argument"
-msgstr "operações binárias requerem dois argumentos"
+msgstr "opção '%s' requer um argumento não vazio"
 
 #: src/gnuwin32/system.c:1269 src/unix/system.c:445
 #, c-format
@@ -475,14 +475,12 @@ msgid "object of type '%s' is not subsettable"
 msgstr "objeto de tipo '%s' não possível dividir em subconjuntos"
 
 #: src/include/Errormsg.h:29
-#, fuzzy
 msgid "missing subscript"
-msgstr "[[ ]] com subscrito ausente"
+msgstr "índice ausente"
 
 #: src/main/CommandLineArgs.c:176
-#, fuzzy
 msgid "WARNING: no value given for --encoding"
-msgstr "ATENÇÃO: nenhum valor especificado para --encoding"
+msgstr "ALERTA: nenhum valor fornecido para --encoding"
 
 #: src/main/CommandLineArgs.c:201
 #, c-format
@@ -564,43 +562,40 @@ msgid "RNG_Init: unimplemented RNG kind %d"
 msgstr "RNG_Init: tipo RNG não implementado %d"
 
 #: src/main/RNG.c:355
-#, fuzzy
 msgid "'.Random.seed' is a missing argument with no default"
-msgstr "argumento .Random.seed ausente, sem padrão"
+msgstr "'. Random.seed' é um argumento ausente sem valor padrão"
 
 #: src/main/RNG.c:356
-#, fuzzy, c-format
+#, c-format
 msgid "'.Random.seed' is not an integer vector but of type '%s', so ignored"
-msgstr ".Random.seed não é um vetor inteiro mas sim do tipo '%s'"
+msgstr ""
+"'. Random.seed' não é um vetor de inteiros, mas do tipo '%s', portanto "
+"ignorado"
 
 #: src/main/RNG.c:364
-#, fuzzy
 msgid "'.Random.seed[1]' is not a valid integer, so ignored"
-msgstr ".Random.seed[1] não é um inteiro válido"
+msgstr "'. Random.seed[1]' não é um inteiro válido, portanto ignorado"
 
 #: src/main/RNG.c:371
-#, fuzzy
 msgid "'.Random.seed[1]' is not a valid Normal type, so ignored"
-msgstr ".Random.seed[0] não é um tipo Normal válido"
+msgstr "'. Random.seed[1]' não é um tipo Normal válido, portanto ignorado"
 
 #: src/main/RNG.c:385
-#, fuzzy
 msgid "'.Random.seed[1] = 5' but no user-supplied generator, so ignored"
-msgstr ".Random.seed[1] = 5 mas não foi especificado um gerador do usuário"
+msgstr ""
+"'. Random.seed[1] = 5', mas nenhum gerador foi fornecido, então ignorado"
 
 #: src/main/RNG.c:390
-#, fuzzy
 msgid "'.Random.seed[1]' is not a valid RNG kind so ignored"
-msgstr ".Random.seed[1] não é um tipo RNG válido (código)"
+msgstr "'. Random.seed[1]' não é um tipo de RNG válido, então ignorado"
 
 #: src/main/RNG.c:424
-#, fuzzy
 msgid "'.Random.seed' has wrong length"
-msgstr ".Random.seed com comprimento inválido"
+msgstr "'. Random.seed' tem comprimento errado"
 
 #: src/main/RNG.c:480
 msgid "RNGkind: Marsaglia-Multicarry has poor statistical properties"
-msgstr ""
+msgstr "RNGkind: Marsaglia-Multicarry tem propriedades estatísticas ruins"
 
 #: src/main/RNG.c:490
 #, c-format
@@ -610,24 +605,25 @@ msgstr "RNGkind: tipo RNG não implementado %d"
 #: src/main/RNG.c:509
 msgid "RNGkind: severe deviations from normality for Kinderman-Ramage + Marsaglia-Multicarry"
 msgstr ""
+"RNGkind: desvios graves da normalidade para Kinderman-Ramage + Marsaglia-"
+"Multicarry"
 
 #: src/main/RNG.c:512
 msgid "RNGkind: deviations from normality for Ahrens-Dieter + Marsaglia-Multicarry"
 msgstr ""
+"RNGkind: desvios da normalidade para Ahrens-Dieter + Marsaglia-Multicarry"
 
 #: src/main/RNG.c:516
-#, fuzzy
 msgid "invalid Normal type in 'RNGkind'"
-msgstr "tipo Normal inválido em RNGkind"
+msgstr "tipo Normal inválido em 'RNGkind'"
 
 #: src/main/RNG.c:519
 msgid "'user_norm_rand' not in load table"
 msgstr "'user_norm_rand' não está na tabela de carregamento"
 
 #: src/main/RNG.c:534
-#, fuzzy
 msgid "invalid sample type in 'RNGkind'"
-msgstr "tipo Normal inválido em RNGkind"
+msgstr "tipo de amostra inválido em 'RNGkind'"
 
 #: src/main/RNG.c:580
 msgid "supplied seed is not a valid integer"
@@ -636,12 +632,12 @@ msgstr "semente especificada não é um inteiro válido"
 #: src/main/Rdynload.c:188
 #, c-format
 msgid "R_MAX_NUM_DLLS must be at least %d"
-msgstr ""
+msgstr "R_MAX_NUM_DLLS deve ser pelo menos %d"
 
 #: src/main/Rdynload.c:194
 #, c-format
 msgid "R_MAX_NUM_DLLS cannot be bigger than %d"
-msgstr ""
+msgstr "R_MAX_NUM_DLLS não pode ser maior que %d"
 
 #: src/main/Rdynload.c:203
 #, c-format
