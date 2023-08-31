@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: R 2.1.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-11-30 14:39+0100\n"
-"PO-Revision-Date: 2023-08-30 16:55+0000\n"
+"PO-Revision-Date: 2023-08-31 09:28+0000\n"
 "Last-Translator: Caio Lente <lente@ime.usp.br>\n"
 "Language-Team: http://www.feferraz.net/br/P/Projeto_Traducao_R_Portugues\n"
 "Language: pt_BR\n"
@@ -3683,9 +3683,9 @@ msgstr "opção inválida \"error\"\n"
 #: src/modules/lapack/Lapack.c:538 src/modules/lapack/Lapack.c:593
 #: src/modules/lapack/Lapack.c:630 src/modules/lapack/Lapack.c:631
 #: src/modules/lapack/Lapack.c:895
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' must be a character string"
-msgstr "'sep' deve ser uma string de caracteres"
+msgstr "'%s' deve ser uma string de caracteres"
 
 #: src/main/errors.c:1368
 msgid " [invalid string in stop(.)]"
