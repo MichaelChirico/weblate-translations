@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-11-30 14:40\n"
-"PO-Revision-Date: 2023-08-31 09:17+0000\n"
+"PO-Revision-Date: 2023-08-31 09:28+0000\n"
 "Last-Translator: Caio Lente <lente@ime.usp.br>\n"
 "Language-Team: http://www.feferraz.net/br/P/Projeto_Traducao_R_Portugues\n"
 "Language: pt_BR\n"
@@ -585,7 +585,7 @@ msgid "changing locked binding for %s in %s whilst loading %s"
 msgstr "alterando vinculação bloqueada para %s em %s enquato %s carrega"
 
 msgid "changing locked binding for %s in %s"
-msgstr "alterando vinculação travada para %s em %s"
+msgstr "alterando vinculação bloqueada para %s em %s"
 
 msgid "'fixInNamespace' requires a name"
 msgstr "'fixInNamespace' requer um nome"
@@ -690,10 +690,10 @@ msgid "invalid options(\"pkgType\"); must be a character string"
 msgstr "options(\"pkgType\") inválida; deve ser uma string de caracteres"
 
 msgid "No matching repositories found for"
-msgstr ""
+msgstr "Nenhum repositório correspondente encontrado para"
 
 msgid ","
-msgstr ""
+msgstr ","
 
 msgid "--- Please select repositories for use in this session ---"
 msgstr "--- Por favor selecione repositórios para esta sessão ---"
@@ -714,9 +714,8 @@ msgstr ""
 "Não é sabido em qual elemento de 'lib' instalar as dependências\n"
 "pulando dependências"
 
-#, fuzzy
 msgid "'%s' must be a character string"
-msgstr "'unzip' deve ser uma única string de caracteres"
+msgstr "'%s' deve ser uma string de caracteres"
 
 msgid "type 'binary' is not supported on this platform"
 msgstr "tipo 'binary' não é suportado nesta plataforma"
@@ -753,6 +752,8 @@ msgstr "não é possível criar diretório temporário %s"
 
 msgid "type == \"both\" can only be used on Windows or a CRAN build for macOS"
 msgstr ""
+"type == \"both\" só pode ser usado no Windows ou em um build do CRAN para "
+"macOS"
 
 msgid "type == \"both\" cannot be used with 'repos = NULL'"
 msgstr "type == \"both\" não pode ser usado com 'repos = NULL'"
@@ -790,27 +791,24 @@ msgstr "arquivos: %s"
 
 msgid "Windows default 'timeout' command is not usable for parallel installs"
 msgstr ""
+"O comando 'timeout' padrão do Windows não é utilizável para instalações "
+"paralelas"
 
 msgid "timeouts for parallel installs require the 'timeout' command"
 msgstr "limites de tempo para instalações paralelas requerem o comando 'timeout'"
 
-#, fuzzy
 msgid "installation of package %s failed"
-msgstr "download do pacote %s falhou"
+msgstr "instalação do pacote %s falhou"
 
-#, fuzzy
 msgid "installation of %d packages failed:  %s"
-msgstr ""
-"a instalação de um ou mais pacotes falhou,\n"
-"  provavelmente %s"
+msgstr "instalação de %d pacotes falhou:  %s"
 
-#, fuzzy
 msgid ""
 "installation of %d packages failed:\n"
 "  %s"
 msgstr ""
-"a instalação de um ou mais pacotes falhou,\n"
-"  provavelmente %s"
+"instalação de %d pacotes falhou:\n"
+"  %s"
 
 msgid ""
 "The downloaded source packages are in\n"
@@ -1028,7 +1026,7 @@ msgid "no lines found in %s"
 msgstr "nenhuma linha encontrada em %s"
 
 msgid "profile does not contain memory information"
-msgstr ""
+msgstr "perfil não contém informação sobre a memória"
 
 msgid "profile does not contain line information"
 msgstr ""
