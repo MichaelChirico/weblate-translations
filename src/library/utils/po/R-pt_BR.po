@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-11-30 14:40\n"
-"PO-Revision-Date: 2023-08-31 09:28+0000\n"
-"Last-Translator: Beatriz Milz <milz.bea@gmail.com>\n"
+"PO-Revision-Date: 2023-08-31 09:43+0000\n"
+"Last-Translator: Caio Lente <lente@ime.usp.br>\n"
 "Language-Team: http://www.feferraz.net/br/P/Projeto_Traducao_R_Portugues\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -1035,7 +1035,7 @@ msgid "no events were recorded"
 msgstr "nenhum evento foi registrado"
 
 msgid "argument 'compressed' is ignored for the internal method"
-msgstr "argumento 'compressed' é ignorado para o método  internal"
+msgstr "argumento 'compressed' é ignorado para o método interno"
 
 msgid "invalid 'tarfile' argument"
 msgstr "argumento 'tarfile' inválido"
@@ -1043,7 +1043,6 @@ msgstr "argumento 'tarfile' inválido"
 msgid "'compressed' must be logical or character"
 msgstr ""
 
-#, fuzzy
 msgid "No %s command found"
 msgstr "Nenhum comando %s encontrado"
 
@@ -1060,13 +1059,13 @@ msgid "failed to create directory %s"
 msgstr "falha em criar o diretório %s"
 
 msgid "invalid octal digit"
-msgstr ""
+msgstr "dígito octal inválido"
 
 msgid "removing drive '%s'"
-msgstr ""
+msgstr "removendo drive '%s'"
 
 msgid "removing leading '/'"
-msgstr ""
+msgstr "removendo '/' à esquerda"
 
 msgid "path starts with '~'"
 msgstr "caminho começa com '~'"
@@ -1081,19 +1080,19 @@ msgid "'tarfile' must be a character string or a connection"
 msgstr "'tarfile' deve ser uma string de caracteres ou uma conexão"
 
 msgid "incomplete block on file"
-msgstr ""
+msgstr "bloco inválido no arquivo"
 
 msgid "incomplete block: rather use gzfile(.) created connection?"
 msgstr ""
 
 msgid "invalid name field in tarball"
-msgstr ""
+msgstr "campo name inválido no tarball"
 
 msgid "checksum error for entry '%s'"
-msgstr ""
+msgstr "erro de checksum para campo '%s'"
 
 msgid "failed to copy %s to %s"
-msgstr ""
+msgstr "falha ao copiar %s para %s"
 
 msgid "unsupported entry type"
 msgstr ""
@@ -1108,10 +1107,10 @@ msgid "file size is limited to 8GB"
 msgstr "o tamanho do arquivo é limitado a 8GB"
 
 msgid "invalid uid value replaced by that for user 'nobody'"
-msgstr ""
+msgstr "valor uid inválido substituído pelo valor do usuário 'nobody'"
 
 msgid "invalid gid value replaced by that for user 'nobody'"
-msgstr ""
+msgstr "valor gid inválido substituído pelo valor do usuário 'nobody'"
 
 msgid ""
 "vignette %s found more than once,\n"
@@ -1133,13 +1132,15 @@ msgid "select.list() cannot be used non-interactively"
 msgstr "select.list() não pode ser usado de forma não interativa"
 
 msgid "'title' must be NULL or a length-1 character vector"
-msgstr ""
+msgstr "'title' deve ser NULL ou um vetor de caracteres de comprimento 1"
 
 msgid "Enter one or more numbers separated by spaces and then ENTER, or 0 to cancel"
 msgstr ""
+"Digite um ou mais números separados por espaços e, em seguida, ENTER ou 0 "
+"para cancelar"
 
 msgid "Invalid input, please try again"
-msgstr ""
+msgstr "Entrada inválida, tente novamente"
 
 msgid "'quote' must be 'TRUE', 'FALSE' or numeric"
 msgstr "'quote' deve ser 'TRUE', 'FALSE' ou numérico"
@@ -1148,16 +1149,16 @@ msgid "invalid numbers in 'quote'"
 msgstr "números inválidos em 'quote'"
 
 msgid "invalid 'quote' specification"
-msgstr ""
+msgstr "especificação inválida para 'quote'"
 
 msgid "'col.names = NA' makes no sense when 'row.names = FALSE'"
-msgstr ""
+msgstr "'col.names = NA' não faz sentido quando 'row.names = FALSE'"
 
 msgid "invalid 'col.names' specification"
-msgstr ""
+msgstr "especificação inválida de 'col.names'"
 
 msgid "appending column names to file"
-msgstr ""
+msgstr "adicionando nomes de colunas ao arquivo"
 
 msgid "attempt to set '%s' ignored"
 msgstr "tentativa de definir '%s' ignorada"
