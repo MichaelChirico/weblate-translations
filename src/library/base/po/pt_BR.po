@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: R 2.1.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-11-30 14:39+0100\n"
-"PO-Revision-Date: 2023-08-31 09:28+0000\n"
+"PO-Revision-Date: 2023-08-31 11:06+0000\n"
 "Last-Translator: Caio Lente <lente@ime.usp.br>\n"
 "Language-Team: http://www.feferraz.net/br/P/Projeto_Traducao_R_Portugues\n"
 "Language: pt_BR\n"
@@ -47,9 +47,8 @@ msgid "Function cannot be evaluated at initial parameters"
 msgstr "função não pode ser calculada nos parâmetros iniciais"
 
 #: src/appl/optim.c:565
-#, fuzzy
 msgid "unknown type in \"CG\" method of 'optim'"
-msgstr "tipo desconhecido no método CG de optim"
+msgstr "tipo desconhecido no método \"CG\" de 'optim'"
 
 #: src/appl/optim.c:662
 msgid "REPORT must be > 0 (method = \"L-BFGS-B\")"
@@ -66,17 +65,17 @@ msgstr "trace, REPORT deve ser >= 0 (method = \"SANN\")"
 #: src/appl/pretty.c:127
 #, c-format
 msgid "R_pretty(): infinite range; *ndiv=%d, should have ndiv >= 2"
-msgstr ""
+msgstr "R_pretty(): intervalo infinito; *ndiv=%d, deve ter ndiv >= 2"
 
 #: src/appl/pretty.c:142
-#, fuzzy, c-format
+#, c-format
 msgid "R_pretty(): very small range 'cell'=%g, corrected to %g"
-msgstr "Internal(pretty()): intervalo muito pequeno.. corrigido"
+msgstr "R_pretty(): intervalo 'cell'=%g muito pequeno, corrigido para %g"
 
 #: src/appl/pretty.c:146
-#, fuzzy, c-format
+#, c-format
 msgid "R_pretty(): very large range 'cell'=%g, corrected to %g"
-msgstr "Internal(pretty()): intervalo muito grande.. corrigido"
+msgstr "R_pretty(): intervalo 'cell'=%g muito grande, corrigido para %g"
 
 #: src/gnuwin32/dynload.c:118
 #, c-format
@@ -297,9 +296,9 @@ msgid "file choice cancelled"
 msgstr "escolha de arquivo cancelada"
 
 #: src/gnuwin32/run.c:446
-#, fuzzy, c-format
+#, c-format
 msgid "'CreateProcess' failed to run '%s'"
-msgstr "CreateProcess falhou em executar '%s'"
+msgstr "'CreateProcess' falhou ao executar '%s'"
 
 #: src/gnuwin32/run.c:603
 msgid "Child process not responding.  R will terminate it."
@@ -336,17 +335,18 @@ msgid "allocation of pipe connection failed"
 msgstr "alocação de conexão pipe falhou"
 
 #: src/gnuwin32/run.c:1130
-#, fuzzy
 msgid "'names' is not a character vector"
-msgstr "'fmt' não é um vetor de caracteres"
+msgstr "'names' não é um vetor de caracteres"
 
 #: src/gnuwin32/sys-win32.c:116 src/gnuwin32/sys-win32.c:138
 #: src/gnuwin32/sys-win32.c:149
 #, c-format
 msgid ""
-"expanded path length %llu would be too long for\n"
+"expanded path length %d would be too long for\n"
 "%s\n"
 msgstr ""
+"o comprimento do caminho expandido %d seria longo demais para\n"
+"%s\n"
 
 #: src/gnuwin32/sys-win32.c:263
 msgid "character string expected as first argument"
