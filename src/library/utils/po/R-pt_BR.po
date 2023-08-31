@@ -585,7 +585,7 @@ msgid "changing locked binding for %s in %s whilst loading %s"
 msgstr "alterando vinculação travada para %s em %s enquanto carrega %s"
 
 msgid "changing locked binding for %s in %s"
-msgstr ""
+msgstr "alterando vinculação travada para %s em %s"
 
 msgid "'fixInNamespace' requires a name"
 msgstr "'fixInNamespace' requer um nome"
