@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-11-30 14:39+0100\n"
-"PO-Revision-Date: 2023-07-12 03:05+0000\n"
+"PO-Revision-Date: 2023-09-01 03:05+0000\n"
 "Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
 "Language-Team: Chinese\n"
 "Language: zh_CN\n"
@@ -660,9 +660,8 @@ msgid "R_RegisterRoutines called with invalid DllInfo object."
 msgstr "在调用R_RegisterRoutines时DllInfo对象出了错."
 
 #: src/main/Rdynload.c:420
-#, fuzzy
 msgid "Invalid object."
-msgstr "链结无效"
+msgstr "无效对象。"
 
 #: src/main/Rdynload.c:427
 #, c-format
@@ -675,9 +674,8 @@ msgid "Component '%s' missing in symbol object."
 msgstr ""
 
 #: src/main/Rdynload.c:445
-#, fuzzy
 msgid "Invalid symbol list."
-msgstr "符号无效"
+msgstr "符号列表无效。"
 
 #: src/main/Rdynload.c:459
 #, c-format
@@ -685,19 +683,18 @@ msgid "Symbol at %d does not have registration information."
 msgstr ""
 
 #: src/main/Rdynload.c:495
-#, fuzzy
 msgid "Invalid symbol name."
-msgstr "符号无效"
+msgstr "符号名称无效。"
 
 #: src/main/Rdynload.c:498
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot register already registered native symbol '%s'."
-msgstr "无法为注册的本机符号（%d 字节）分配内存"
+msgstr "无法注册已注册的本机符号“%s”。"
 
 #: src/main/Rdynload.c:500
-#, fuzzy, c-format
+#, c-format
 msgid "Symbol '%s' does not have a valid native address."
-msgstr "文件串流的gzip表头有错误"
+msgstr "符号'%s' 没有有效的本地地址。"
 
 #: src/main/Rdynload.c:502
 #, c-format
@@ -971,22 +968,20 @@ msgid "non-numeric argument to binary operator"
 msgstr "二进列运算符中有非数值参数"
 
 #: src/main/arithmetic.c:572
-#, fuzzy
 msgid ""
 "Recycling array of length 1 in array-vector arithmetic is deprecated.\n"
 "  Use c() or as.vector() instead."
 msgstr ""
-"不推荐使用数组向量算术中长度为 1 的回收数组。\n"
-"  请改用 c()或  as.vector()。\n"
+"数组向量算术中长度为 1 的回收数组已弃用。\n"
+"  请改用  c()  或 as.vector() ."
 
 #: src/main/arithmetic.c:580
-#, fuzzy
 msgid ""
 "Recycling array of length 1 in vector-array arithmetic is deprecated.\n"
 "  Use c() or as.vector() instead."
 msgstr ""
 "不推荐使用向量数组算术中长度为 1 的回收数组。\n"
-"  请改用  c()  或 as.vector()\n"
+"  请改用  c()  或 as.vector()"
 
 #: src/main/arithmetic.c:594 src/main/logic.c:94 src/main/relop.c:182
 msgid "non-conformable arrays"
@@ -1358,12 +1353,12 @@ msgstr "名字类型的类别或长度无效"
 #: src/main/attrib.c:1812
 #, c-format
 msgid "cannot get a slot (\"%s\") from an object of type \"%s\""
-msgstr "类别\"%2$s\"的对象中没有\"%1$s\"这样一个类型"
+msgstr "无法获取插槽 \"%s\" 从一个类型为\"%s\"的对象中"
 
 #: src/main/attrib.c:1823
 #, c-format
 msgid "no slot of name \"%s\" for this object of class \"%s\""
-msgstr "\"%1$s\"类型名不存在于\"%2$s\"类别对象中"
+msgstr "没有名称为\"%s\"的插槽对于此对象类 \"%s\""
 
 #: src/main/attrib.c:1840
 msgid "attempt to set slot on NULL object"
@@ -1374,9 +1369,9 @@ msgid "formal classes cannot be used without the 'methods' package"
 msgstr "一定要有'methods'程序包才能用正式类别"
 
 #: src/main/attrib.c:1906
-#, fuzzy, c-format
+#, c-format
 msgid "no applicable method for `@` applied to an object of class \"%s\""
-msgstr "\"%s\"没有适用于\"%s\"目标对象的方法"
+msgstr "没有适用于类“%s”对象的 `@` 方法。"
 
 #: src/main/bind.c:165
 #, c-format
@@ -1387,15 +1382,15 @@ msgstr "'%s'产生了长度超过限制的向量"
 #: src/main/bind.c:461 src/main/bind.c:489
 #, c-format
 msgid "type '%s' is unimplemented in '%s'"
-msgstr "'%2$s'里目前还没有实现'%1$s'这一类型"
+msgstr "类型“%s”在“%s”中未实现"
 
 #: src/main/bind.c:739
 msgid "repeated formal argument 'recursive'"
-msgstr "不能有重复的正式参数'recursive' "
+msgstr "重复的参数'recursive'"
 
 #: src/main/bind.c:750
 msgid "repeated formal argument 'use.names'"
-msgstr "不能有重复的正式参数'use.names' "
+msgstr "重复的形参 'use.names'"
 
 #: src/main/bind.c:953
 msgid "argument not a list"
@@ -1792,8 +1787,9 @@ msgid "invalid argument list"
 msgstr "参数列表无效"
 
 #: src/main/coerce.c:1800
-#, fuzzy, c-format
+#, c-format, fuzzy
 msgid "'length = %lld' in coercion to '%s'"
+msgstr ""
 
 #: src/main/coerce.c:2142
 msgid "type \"single\" unimplemented in R"
@@ -1894,9 +1890,9 @@ msgid "root finding code failed"
 msgstr "寻根码运行失败"
 
 #: src/main/connections.c:180
-#, fuzzy, c-format
+#, c-format
 msgid "all %d connections are in use"
-msgstr "所有链结都已在运行"
+msgstr "所有 %d 连接都在使用"
 
 #: src/main/connections.c:191
 msgid "connection not found"
@@ -1981,7 +1977,7 @@ msgstr "文件链结分配失败"
 #: src/main/connections.c:1139 src/main/connections.c:1314
 #, c-format
 msgid "cannot create fifo '%s', reason '%s'"
-msgstr "由于'%2$s'的原因，无法建立先进先出'%1$s'"
+msgstr "无法创建 fifo “%s”，原因为“%s”"
 
 #: src/main/connections.c:1145
 #, c-format
@@ -2126,7 +2122,7 @@ msgstr "无法为lzma译码器进行初始化，错误是%d"
 #: src/main/connections.c:2156
 #, c-format
 msgid "cannot initialize lzma encoder, error %d"
-msgstr "无法为lzma编码器进行初始化，错误是%d "
+msgstr "无法初始化 lzma 编码器，错误 %d"
 
 #: src/main/connections.c:2285 src/main/connections.c:2289
 #: src/main/connections.c:2296 src/main/connections.c:2315
@@ -2203,14 +2199,14 @@ msgid "allocation of raw connection failed"
 msgstr "原始链结分配失败"
 
 #: src/main/connections.c:3069
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' is not a %s"
-msgstr "先进先出'%s'还没有准备好"
+msgstr "“%s”不是一个 %s"
 
 #: src/main/connections.c:3073
-#, fuzzy, c-format
+#, c-format
 msgid "internal connection is not a %s"
-msgstr "链结没有打开"
+msgstr "内部连接不是 %s"
 
 #: src/main/connections.c:3086
 msgid "'con' is not an output rawConnection"
@@ -2269,9 +2265,9 @@ msgid "unknown 'rw' value"
 msgstr "没有这样的'rw'值"
 
 #: src/main/connections.c:3744
-#, fuzzy, c-format
+#, c-format
 msgid "Problem closing connection:  %s"
-msgstr "写入链结有问题"
+msgstr "关闭连接时出现问题：%s"
 
 #: src/main/connections.c:3746
 #, fuzzy
@@ -2297,14 +2293,14 @@ msgid "connection is not open"
 msgstr "链结没有打开"
 
 #: src/main/connections.c:3943 src/main/connections.c:3956
-#, fuzzy, c-format
+#, c-format
 msgid "line longer than buffer size %lu"
-msgstr "行要比缓冲区要大"
+msgstr "行长于缓冲区大小 %lu"
 
 #: src/main/connections.c:3974
-#, fuzzy, c-format
+#, c-format
 msgid "Error writing to connection:  %s"
-msgstr "链结书写发生了错误"
+msgstr "写入连接时出错：%s"
 
 #: src/main/connections.c:3976
 #, fuzzy
@@ -2694,14 +2690,14 @@ msgid "attr(x, \"tzone\") should have length 1 or 3"
 msgstr ""
 
 #: src/main/datetime.c:1130
-#, fuzzy, c-format
+#, c-format
 msgid "zero-length component [[%d]] in non-empty \"POSIXlt\" structure"
-msgstr "非空的\"POSIXlt\"结构里含长度为零的部件"
+msgstr "非空“POSIXlt”结构中的零长度组件 [%d]]"
 
 #: src/main/datetime.c:1765
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' is not a \"%s\""
-msgstr "先进先出'%s'还没有准备好"
+msgstr "“%s”不是一个 “%s”"
 
 #: src/main/dcf.c:112 src/main/dcf.c:188 src/main/dcf.c:269
 msgid "could not allocate memory for 'read.dcf'"
@@ -2710,7 +2706,7 @@ msgstr "无法为'read.dcf'分配内存"
 #: src/main/dcf.c:159
 #, c-format
 msgid "Found continuation line starting '%s ...' at begin of record."
-msgstr "在记录开始的地方'%s ...'不能有连续行"
+msgstr "找到以'%s ...' 开头的延续行在记录开始时。"
 
 #: src/main/dcf.c:298
 #, c-format
@@ -2722,9 +2718,9 @@ msgid "argument must be a function"
 msgstr "参数必需为函数"
 
 #: src/main/debug.c:111
-#, fuzzy, c-format
+#, c-format
 msgid "Value for '%s' must be TRUE or FALSE"
-msgstr "'all.x'必需是TRUE或FALSE"
+msgstr "'%s'的值必须为 TRUE 或 FALSE"
 
 #: src/main/debug.c:139 src/main/debug.c:167 src/main/debug.c:242
 msgid "argument must not be a function"
@@ -2845,12 +2841,12 @@ msgstr "PACKAGE = \"\"无效"
 #: src/main/dotcode.c:307
 #, c-format
 msgid "\"%s\" not available for %s() for package \"%s\""
-msgstr "程序包\"%3$s\"里\"%1$s\"不适用于%2$s()"
+msgstr "“%s” 不适用于%s() 对于包 “%s”"
 
 #: src/main/dotcode.c:312
 #, c-format
 msgid "%s symbol name \"%s\" not in DLL for package \"%s\""
-msgstr "程序包'%3$s'的DLL没有\"%1$s\"字符名\"%2$s\" "
+msgstr "程序包'%3$s'的DLL没有\"%1$s\"字符名\"%2$s\""
 
 #: src/main/dotcode.c:317
 #, c-format
