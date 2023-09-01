@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: R 2.1.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-11-30 14:39+0100\n"
-"PO-Revision-Date: 2023-09-01 10:01+0000\n"
+"PO-Revision-Date: 2023-09-01 11:37+0000\n"
 "Last-Translator: Caio Lente <lente@ime.usp.br>\n"
 "Language-Team: http://www.feferraz.net/br/P/Projeto_Traducao_R_Portugues\n"
 "Language: pt_BR\n"
@@ -2776,7 +2776,7 @@ msgstr "análise não pode ser carregada com source() no R < 2.7.0"
 
 #: src/main/deparse.c:396 src/main/deparse.c:441 src/main/source.c:203
 msgid "'file' must be a character string or connection"
-msgstr "'file' deve ser uma string de caracteres ou conexão"
+msgstr "'file' deve ser uma string ou conexão"
 
 #: src/main/deparse.c:420 src/main/deparse.c:516 src/main/deparse.c:522
 msgid "wrote too few characters"
