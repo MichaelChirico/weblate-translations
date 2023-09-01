@@ -7,15 +7,15 @@ msgstr ""
 "Project-Id-Version: R 2.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-07-31 14:59\n"
-"PO-Revision-Date: 2022-10-23 00:04+0000\n"
-"Last-Translator: Beatriz Milz <milz.bea@gmail.com>\n"
+"PO-Revision-Date: 2023-09-01 10:22+0000\n"
+"Last-Translator: Renata Hirota <re.hirota@gmail.com>\n"
 "Language-Team: http://www.feferraz.net/br/P/Projeto_Traducao_R_Portugues\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.13.1\n"
+"X-Generator: Weblate 4.16.4\n"
 
 msgid "OOPS: something wrong with '.OldClassesPrototypes[[%d]]'"
 msgstr "OOPS: algo errado com '.OldClassesPrototypes[[%d]]'"
@@ -56,33 +56,38 @@ msgstr "S3Part() só é definida para classes criadas por setOldCLass(), classes
 msgid "the 'S3Class' argument must be a superclass of %s:  not true of class %s"
 msgstr "o argumento 'S3Class' deve ser uma subclasse de %s:  não é o caso para a classe \"%s\""
 
-#, fuzzy
 msgid "replacement value must extend class %s, got %s"
-msgstr "Valor de reposição deve estender a classe \"%s\", sem a classe\"%s\""
+msgstr "valor de reposição deve estender a classe \"%s\", classe\"%s\" obtida"
 
 #, fuzzy
 msgid "replacement value must be of class %s, got one of class %s"
 msgstr "Valor de reposição deve estender a classe \"%s\", sem a classe\"%s\""
 
-#, fuzzy
 msgid "no 'replace' method was defined for 'as(x, \"%s\") <- value' for class %s"
-msgstr "nenhum método 'replace' foi definido para as(x,\"%s\") <- valor para a classe \"%s\""
+msgstr ""
+"nenhum método 'replace' foi definido para 'as(x,\"%s\") <- value' para a "
+"classe \"%s"
 
-#, fuzzy
 msgid "the 'coerce' argument to 'setIs' should be a function of one argument, got an object of class %s"
-msgstr "o argumento 'coerce' para 'setId' deve ser uma função de um argumento, mas foi especificado um objeto de classe \"%s\""
+msgstr ""
+"o argumento 'coerce' para 'setIs' deve ser uma função de um argumento, mas "
+"foi especificado um objeto de classe %s"
 
-#, fuzzy
 msgid "the computation: 'as(object,\"%s\") <- value' is valid when object has class %s only if 'is(value, \"%s\")' is TRUE ('class(value)' was %s)"
-msgstr "a instrução: as(object,\"%s\") <- valor é válido quando o objeto for da classe  \"%s\" somente se is(value, \"%s\") for TRUE (class(value) for \"%s\")"
+msgstr ""
+"a instrução: 'as(object,\"%s\") <- valor' é válida quando o objeto for da "
+"classe %s somente se 'is(value, \"%s\")' for TRUE ('class(valor)' é %s)"
 
-#, fuzzy
 msgid "there is no automatic definition for 'as(object, \"%s\") <- value' when object has class %s and no 'replace' argument was supplied; replacement will be an error"
-msgstr "não há definição automática para as(object, \"%s\") <- valor quando o objeto for da classe \"%s\" e nenhum argumento 'replace' foi especificado; substituição retornará um erro"
+msgstr ""
+"não há definição automática para 'as(object, \"%s\") <- valor' quando o "
+"objeto for da classe %s e nenhum argumento 'replace' foi especificado; "
+"substituição retornará um erro"
 
-#, fuzzy
 msgid "the 'replace' argument to setIs() should be a function of 2 or 3 arguments, got an object of class %s"
-msgstr "o argumento 'replace' para setIs() deve ser uma função de 2 ou 3 argumentos, obtido de um objeto da classe \"%s\""
+msgstr ""
+"o argumento 'replace' para setIs() deve ser uma função de 2 ou 3 argumentos, "
+"objeto da classe %s obtido"
 
 msgid "the member classes must be defined: not true of %s"
 msgstr "as classes membro devem ser definidas: não é o caso para %s"
