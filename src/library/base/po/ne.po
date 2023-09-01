@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-11-30 14:39+0100\n"
-"PO-Revision-Date: 2023-08-31 20:16+0000\n"
+"PO-Revision-Date: 2023-09-01 09:15+0000\n"
 "Last-Translator: Binod Jung Bogati <m1s1ng@outlook.com>\n"
 "Language-Team: none\n"
 "Language: ne\n"
@@ -24,19 +24,19 @@ msgstr "'optim' मा उम्मेद्वार बिन्दु मा 
 
 #: src/appl/optim.c:136
 msgid "REPORT must be > 0 (method = \"BFGS\")"
-msgstr ""
+msgstr "REPORT > 0 हुनुपर्दछ (method = \"BFGS\")"
 
 #: src/appl/optim.c:147
 msgid "initial value in 'vmmin' is not finite"
-msgstr ""
+msgstr "'vmmin' मा प्रारम्भिक मान परिमित छैन"
 
 #: src/appl/optim.c:297
 msgid "function cannot be evaluated at initial parameters"
-msgstr ""
+msgstr "प्रारम्भिक प्यारामिटरहरूमा फङसन मूल्याङ्कन गर्न सकिँदैन"
 
 #: src/appl/optim.c:497
 msgid "unknown 'type' in \"CG\" method of 'optim'"
-msgstr ""
+msgstr "\"CG\" को 'optim' विधिमा अज्ञात 'type'"
 
 #: src/appl/optim.c:510
 msgid "Function cannot be evaluated at initial parameters"
