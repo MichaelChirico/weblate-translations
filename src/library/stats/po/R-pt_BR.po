@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: 2.13.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-11-30 14:40\n"
-"PO-Revision-Date: 2023-09-01 11:37+0000\n"
-"Last-Translator: Caio Lente <lente@ime.usp.br>\n"
+"PO-Revision-Date: 2023-09-01 18:31+0000\n"
+"Last-Translator: Renata Hirota <re.hirota@gmail.com>\n"
 "Language-Team: http://www.feferraz.net/br/P/Projeto_Traducao_R_Portugues\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -261,7 +261,7 @@ msgid "columns of 'contrast.obj' must define a contrast(sum to zero)"
 msgstr "colunas de 'contrast.obj' devem definir um contraste (somatório zero)"
 
 msgid "'ties' is not \"ordered\", a function, or list(<string>, <function>)"
-msgstr "'ties'não é \"ordered\", uma função ou list(<string>, <function>)"
+msgstr "'ties' não é \"ordered\", uma função ou lista(<string>, <function>)"
 
 msgid "collapsing to unique 'x' values"
 msgstr "colapsando para valores de 'x' únicos"
@@ -408,7 +408,7 @@ msgid "there must be at least 2 observations in each group"
 msgstr "deve haver ao menos duas observações em cada grupo"
 
 msgid "'formula' should be of the form response ~ group"
-msgstr "'formula' deve ser no formato resposta ~ grupo"
+msgstr "'formula' deve ser do formato resposta ~ grupo"
 
 msgid "'x' must be nonnegative and integer"
 msgstr "'x' deve ser inteiro e não negativo"
@@ -480,7 +480,7 @@ msgid "NA values not allowed in 'd'"
 msgstr "valores NA não permitidos em 'd'"
 
 msgid "eig=TRUE is disregarded when list.=FALSE"
-msgstr "eig=TRUE é desconsiderado quando list.=FALSE"
+msgstr "eig=TRUE é ignorado quando list.=FALSE"
 
 msgid "x.ret=TRUE is disregarded when list.=FALSE"
 msgstr "x-ret=TRUE é desconsiderado quando list.=FALSE"
@@ -2434,60 +2434,63 @@ msgstr ""
 
 msgid "cannot fit an asymptotic regression model to these data"
 msgstr ""
+"não é possível ajustar um modelo de regressão assintótico com esses dados"
 
 msgid "too few observations to fit an asymptotic regression model"
-msgstr ""
+msgstr "poucas observações para ajustar um modelo de regressão assintótico"
 
 msgid "too few distinct input values to fit the 'asympOff' model"
-msgstr ""
+msgstr "muito poucos valores distintos para ajustar ao modelo 'asympOff'"
 
 msgid "too few distinct input values to fit the 'asympOrig' model"
-msgstr ""
+msgstr "muito poucos valores distintos para ajustar o modelo 'asympOrig'"
 
 msgid "too few distinct input values to fit a biexponential"
-msgstr ""
+msgstr "muito poucos valores distintos para ajustar um biexponencial"
 
 msgid "must have length of response = length of second argument to 'SSfol'"
 msgstr ""
+"comprimento de resposta deve ser = comprimento do segundo argumento para "
+"'SSfol'"
 
 msgid "must have at least 4 observations to fit an 'SSfol' model"
-msgstr ""
+msgstr "ao menos 4 observações são necessárias para ajustar modelo «SSfol»"
 
 msgid "too few distinct input values to fit a four-parameter logistic"
 msgstr ""
+"muito poucos valores distintos para ajustar um modelo logístico com quatro "
+"parâmetros"
 
 msgid "too few distinct input values to fit a logistic model"
-msgstr ""
+msgstr "muito poucos valores distintos para ajustar um modelo logístico"
 
 msgid "too few distinct input values to fit a Michaelis-Menten model"
-msgstr ""
+msgstr "muito poucos valores distintos para ajustar um modelo Michaelis-Menten"
 
 msgid "too few distinct input values to fit the Gompertz model"
-msgstr ""
+msgstr "muito poucos valores distintos para ajustar o modelo Gompertz"
 
 msgid "too few distinct input values to fit the Weibull growth model"
-msgstr ""
+msgstr "muito poucos valores distintos para ajustar o modelo Weibull"
 
 msgid "all 'x' values must be non-negative to fit the Weibull growth model"
 msgstr ""
+"todos os valores 'x' devem ser não negativos para ajuste do modelo Weibull"
 
-#, fuzzy
 msgid "using the %d/%d row from a combined fit"
 msgid_plural "using the %d/%d rows from a combined fit"
-msgstr[0] "usando a %d/%d linhas de um ajuste combinado"
-msgstr[1] "usando a %d/%d linhas de um ajuste combinado"
+msgstr[0] "usando a linha %d/%d de um ajuste combinado"
+msgstr[1] "usando as linhas %d/%d de um ajuste combinado"
 
-#, fuzzy
 msgid "lower scope has term %s not included in model"
 msgid_plural "lower scope has terms %s not included in model"
-msgstr[0] "A fórmula inferior tem termo(s) %s não incluídos no modelo"
-msgstr[1] "A fórmula inferior tem termo(s) %s não incluídos no modelo"
+msgstr[0] "A fórmula inferior tem termo %s não incluídos no modelo"
+msgstr[1] "A fórmula inferior tem termos %s não incluídos no modelo"
 
-#, fuzzy
 msgid "upper scope has term %s not included in model"
 msgid_plural "upper scope has terms %s not included in model"
-msgstr[0] "A fórmula inferior tem termo(s) %s não incluídos no modelo"
-msgstr[1] "A fórmula inferior tem termo(s) %s não incluídos no modelo"
+msgstr[0] "A fórmula superior tem termo %s não incluídos no modelo"
+msgstr[1] "A fórmula superior tem termos %s não incluídos no modelo"
 
 msgid "there are %d Error terms: only 1 is allowed"
 msgid_plural "there are %d Error terms: only 1 is allowed"
