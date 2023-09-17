@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 2.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-11-30 14:40\n"
-"PO-Revision-Date: 2023-07-12 03:05+0000\n"
+"PO-Revision-Date: 2023-09-18 03:05+0000\n"
 "Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
 "Language-Team: Chinese\n"
 "Language: zh_CN\n"
@@ -149,7 +149,7 @@ msgid ""
 " does not match the length of the margins, %d"
 msgstr ""
 "FUN的长度, %d,\n"
-"与边缘的长度, %d不相符"
+"与边MARGIN的长度, %d不相符"
 
 msgid "no rows to aggregate"
 msgstr "没有可用来聚合的行"
@@ -569,7 +569,7 @@ msgid "singular contrast matrix"
 msgstr "奇异对比矩阵"
 
 msgid "numeric contrasts or contrast name expected"
-msgstr "需要数值对比或对比的名字"
+msgstr "需要数值对比或对比的名称"
 
 msgid "%s needs package 'Matrix' correctly installed"
 msgstr "%s需要正确安装的'Matrix'程序包"
@@ -983,10 +983,10 @@ msgid "'formula' has '.' in both left and right hand sides"
 msgstr "'formula'的公式左右两边都有'.'"
 
 msgid "incorrect variable names in rhs of formula"
-msgstr "公式右边变量名字不正确"
+msgstr "公式右边变量名称不正确"
 
 msgid "incorrect variable names in lhs of formula"
-msgstr "公式左边变量名字不正确"
+msgstr "公式左边变量名称不正确"
 
 msgid "cannot use dots in formula with given data"
 msgstr "按照所提供的数据无法在公式里用点符号"
@@ -1315,7 +1315,7 @@ msgid "0 (non-NA) cases"
 msgstr "没有(非NA)案例可用"
 
 msgid "incompatible dimensions"
-msgstr "维度不相配"
+msgstr "维度不匹配"
 
 msgid "missing or negative weights not allowed"
 msgstr "权数不允许是缺失值或负值"
@@ -1547,7 +1547,7 @@ msgid "this fit does not inherit from \"lm\""
 msgstr "这拟和值不是由\"lm\"继承来的"
 
 msgid "'cterms' argument must match terms in model object"
-msgstr "'cterms'参数必需同模型对象里的项相配"
+msgstr "'cterms'参数必需同模型对象里的项匹配"
 
 msgid "Design is unbalanced - use se.contrast() for se's"
 msgstr "设计不平衡 - 用se.contrast()算标准误"
@@ -1613,7 +1613,7 @@ msgid "'termobj' must be a object of class %s"
 msgstr "'termobj'必需是类别为%s的对象"
 
 msgid "variable '%s' was fitted with type \"%s\" but type \"%s\" was supplied"
-msgstr "变量'%s'是由\"%s\"类别拟合而成，与提供的类别\"%s\"不相配"
+msgstr "变量'%s'是由\"%s\"类别拟合而成，与提供的类别\"%s\"不匹配"
 
 msgid "variables %s were specified with different types from the fit"
 msgstr "设定的变量%s的类别同拟合的类别不相符"
@@ -1640,7 +1640,7 @@ msgid "'offset' must be numeric"
 msgstr "'offset'必需为数值"
 
 msgid "model frame and formula mismatch in model.matrix()"
-msgstr "model.matrix()里的模型框和公式不相配"
+msgstr "model.matrix()里的模型框和公式不匹配"
 
 #, fuzzy
 msgid "non-list contrasts argument ignored"
@@ -1786,7 +1786,7 @@ msgid "bounds can only be used with method L-BFGS-B (or Brent)"
 msgstr "只有在用L-BFGS-B(或Brent)方法时才能定优化界限"
 
 msgid "unknown names in control:"
-msgstr "控制里没有这样的名字"
+msgstr "控制里没有这样的名称"
 
 msgid "read the documentation for 'trace' more carefully"
 msgstr "请小心阅读'trace'文档"
@@ -1901,7 +1901,7 @@ msgid "'ppr' applies only to numerical variables"
 msgstr "'ppr'只适用于数值变量"
 
 msgid "mismatched 'x' and 'y'"
-msgstr "'x'和'y'不相配"
+msgstr "'x'和'y'不匹配"
 
 msgid "wrong number of columns in 'x'"
 msgstr "'x'里的列数有误"
@@ -2012,7 +2012,7 @@ msgid "ref = %d must be in 1L:%d"
 msgstr "ref = %d必需在1L:%d里"
 
 msgid "failed to guess time-varying variables from their names"
-msgstr "没有能够从它们的名字中来猜测时变参数"
+msgstr "没有能够从它们的名称中来猜测时变参数"
 
 msgid "'varying' arguments must be the same length"
 msgstr "'varying'参数的长度必需相同"
@@ -2497,7 +2497,7 @@ msgstr[0] "有%d个错误项，但最多只允许有一个"
 
 msgid "unknown name %s in the 'split' list"
 msgid_plural "unknown names %s in the 'split' list"
-msgstr[0] "'split'列表里的名字%s不正确"
+msgstr[0] "'split'列表里的名称%s不正确"
 
 msgid "extra argument %s is not of class \"%s\""
 msgid_plural "extra arguments %s are not of class \"%s\"s"
@@ -2578,7 +2578,7 @@ msgstr[0] "%d迭代*没有*聚合"
 
 msgid "unrecognized control element named %s ignored"
 msgid_plural "unrecognized control elements named %s ignored"
-msgstr[0] "没有这个叫%s名字的控制元素"
+msgstr[0] "没有这个叫%s名称的控制元素"
 
 msgid "fitting parameter %s without any variables"
 msgid_plural "fitting parameters %s without any variables"
