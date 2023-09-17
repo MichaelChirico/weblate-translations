@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 2.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-07-31 14:59+0200\n"
-"PO-Revision-Date: 2023-07-12 03:05+0000\n"
+"PO-Revision-Date: 2023-09-18 03:05+0000\n"
 "Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
 "Language-Team: Chinese\n"
 "Language: zh_CN\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: class_support.c:29
 msgid "calling the C routine used as an initializer for 'externalptr' objects"
-msgstr "调用C子程式给'externalptr'对象进行初始化"
+msgstr "调用C子程序给'externalptr'对象进行初始化"
 
 #: do_substitute_direct.c:41
 msgid "invalid list for substitution"
@@ -85,7 +85,8 @@ msgstr "调用框里找不到'%s'这个符号"
 #: methods_list_dispatch.c:613
 #, c-format
 msgid "invalid symbol in checking for missing argument in method dispatch: expected a name, got an object of class \"%s\""
-msgstr "方法调度在检查短少参数时符号出了错：需要的是个名字，得到的却是类别为\"%s\"的对象"
+msgstr "方法调度在检查短少参数时符号出了错：需要的是个名称，得到的却是类别为\"%"
+"s\"的对象"
 
 #: methods_list_dispatch.c:616
 msgid "use of NULL environment is defunct"
@@ -119,7 +120,7 @@ msgstr "(在为'%s'函数选择方法时) 调度时的'environment'参数必需�
 #: methods_list_dispatch.c:705
 #, c-format
 msgid "no matching method for function '%s' (argument '%s', with class \"%s\")"
-msgstr "找不到与'%s'函数相配的方法(参数是'%s'，类别为\"%s\")"
+msgstr "找不到与'%s'函数匹配的方法(参数是'%s'，类别为\"%s\")"
 
 #: methods_list_dispatch.c:712
 #, c-format
@@ -148,7 +149,7 @@ msgstr "'%s'必需是单一字符串(现在它是类别为\"%s\"的对象)"
 
 #: methods_list_dispatch.c:986
 msgid "class should be either a character-string name or a class definition"
-msgstr "类别必需是字符串名字或类别定义"
+msgstr "类别必需是字符串名称或类别定义"
 
 #: methods_list_dispatch.c:1072
 #, c-format
