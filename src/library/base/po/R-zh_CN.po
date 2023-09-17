@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-11-30 14:39\n"
-"PO-Revision-Date: 2023-09-01 03:05+0000\n"
+"PO-Revision-Date: 2023-09-18 03:05+0000\n"
 "Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
 "Language-Team: Chinese\n"
 "Language: zh_CN\n"
@@ -82,51 +82,44 @@ msgstr "版本字串格式有错误"
 msgid "target is %s, current is %s"
 msgstr "目标应该是%s ，现在却是%s"
 
-#, fuzzy
 msgid "'tolerance' should be numeric"
-msgstr "'x' 必需是数值"
+msgstr "'tolerance' 必需是数值"
 
-#, fuzzy
 msgid "'scale' should be numeric or NULL"
-msgstr "'arg'应当是%s其中的一个"
+msgstr "'scale' 应当是数值或 NULL"
 
-#, fuzzy
 msgid "'%s' must be logical"
-msgstr "'subset'必需是逻辑值"
+msgstr "'%s' 必需是逻辑值"
 
 msgid "dim(X) must have a positive length"
 msgstr "dim(X)的值必需是正数"
 
 msgid "'X' must have named dimnames"
-msgstr "'X'必需有带名字的维名"
+msgstr "'X'必需有带名称的维名"
 
 msgid "not all elements of 'MARGIN' are names of dimensions"
-msgstr "所有'MARGIN'的元素都必需是维的名字不是'缘'的所有元素都是尺寸名称"
+msgstr "所有'MARGIN'的元素都必需是维的名称不是'MARGIN'的所有元素都是尺寸名称"
 
 msgid "'MARGIN' does not match dim(X)"
 msgstr "'MARGIN' 与 dim(X) 不匹配"
 
-#, fuzzy
 msgid "'dim' cannot be of length 0"
-msgstr "'dims'的长度不能为零"
+msgstr "'dim' 的长度不能为零"
 
 msgid "'dim' specifies too large an array"
 msgstr "'dim'的值太大"
 
-#, fuzzy
 msgid "'x' must have named dimnames"
-msgstr "'X'必需有带名字的维名"
+msgstr "'X'必需含有维度名称"
 
 msgid "incorrect value for 'MARGIN'"
 msgstr "'MARGIN'的值有错误"
 
-#, fuzzy
 msgid "dim(x) must have a positive length"
-msgstr "dim(X)的值必需是正数"
+msgstr "dim(X) 必须有一个正数长度"
 
-#, fuzzy
 msgid "'pos=1' is not possible and has been warned about for years"
-msgstr "*** 'pos=1'不可能对；以'pos=2'代而用之。"
+msgstr "“pos=1”是不可能的，并且一直被警告"
 
 msgid "file '%s' not found"
 msgstr "没有'%s'文件"
@@ -150,7 +143,7 @@ msgstr ""
 "  错误: %5$s"
 
 msgid "%s namespace cannot be unloaded:"
-msgstr "无法卸下%s这个名字空间："
+msgstr "无法卸下%s这个命名空间："
 
 msgid "%s converted to character string"
 msgstr "%s被转换成字符串"
@@ -165,7 +158,7 @@ msgid "'value' must be a list"
 msgstr "'value'必需是列表"
 
 msgid "an object with that name already exists"
-msgstr "对象的名字已经存在"
+msgstr "对象的名称已经存在"
 
 msgid "autoloader did not find '%s' in '%s'"
 msgstr "自动载入器在'%2$s'找不到'%1$s' "
@@ -173,9 +166,8 @@ msgstr "自动载入器在'%2$s'找不到'%1$s' "
 msgid "can only splice inside a call"
 msgstr "只能在调用内拼接"
 
-#, fuzzy
 msgid "can only splice vectors"
-msgstr "只能写向量对象"
+msgstr "只能拼接向量"
 
 msgid "the LINPACK argument has been defunct since R 3.1.0"
 msgstr "LINPACK 参数自 R 3.1.0 以来已失效"
@@ -201,9 +193,8 @@ msgstr "非交互运行式"
 msgid "not a valid restart specification"
 msgstr "重新开始的规格不正确"
 
-#, fuzzy
 msgid "condition handlers must be functions"
-msgstr "處置程式必需是函数"
+msgstr "条件处理程序必须是函数"
 
 msgid "pushing duplicate `%s` handler on top of the stack"
 msgstr "将重复的 `%s` 处理程序推送到堆栈顶部"
@@ -216,7 +207,7 @@ msgstr "只能写字符对象"
 
 #, fuzzy
 msgid "'headers' must have names and must not be NA"
-msgstr "'X'必需有带名字的维名"
+msgstr "'X'必需有带名称的维名"
 
 #, fuzzy
 msgid "'name' must be a single character string"
@@ -259,10 +250,10 @@ msgstr "'row.names'的长度无效"
 
 #, fuzzy
 msgid "invalid 'make.names'"
-msgstr "程序包名字无效"
+msgstr "程序包名称无效"
 
 msgid "duplicate 'row.names' are not allowed"
-msgstr "不允许有重复的'row.names'"
+msgstr "'row.names'里不能有重复的名称"
 
 msgid "missing values in 'row.names' are not allowed"
 msgstr "'row.names'里不能有缺失值"
@@ -303,7 +294,7 @@ msgid "row names were found from a short variable and have been discarded"
 msgstr "短变量里找到了行名，因此不用"
 
 msgid "named arguments other than 'drop' are discouraged"
-msgstr "除了'drop'之外最好不用带名字的参数"
+msgstr "除了'drop'之外最好不用带名称的参数"
 
 msgid "'drop' argument will be ignored"
 msgstr "忽略'drop'参数"
@@ -312,10 +303,10 @@ msgid "undefined columns selected"
 msgstr "选择了未定义的列"
 
 msgid "named arguments other than 'exact' are discouraged"
-msgstr "除了'exact'之外最好不用带名字的参数"
+msgstr "除了'exact'之外最好不用带名称的参数"
 
 msgid "named arguments are discouraged"
-msgstr "最好不用带名字的参数"
+msgstr "最好不用带名称的参数"
 
 msgid "number of items to replace is not a multiple of replacement length"
 msgstr "更换的项数应该是更换长度的整数倍"
@@ -354,7 +345,7 @@ msgid "only a single element should be replaced"
 msgstr "只能替换一个单元"
 
 msgid "names do not match previous names"
-msgstr "名字同原来已有的名字不相对"
+msgstr "名称同原来已有的名称不相对"
 
 msgid "numbers of columns of arguments do not match"
 msgstr "变量的列数不正确"
@@ -598,19 +589,19 @@ msgid "must pass a package name, %s or %s object"
 msgstr "必需提供程序名，%s或%s对象"
 
 msgid "No DLL currently loaded with name or path %s"
-msgstr "目前并没有载入带%s这个名字或路径的DLL"
+msgstr "目前并没有载入带%s这个名称或路径的DLL"
 
 msgid "multiple DLLs match '%s'. Using '%s'"
-msgstr "多个DLL有相同的'%s'名字。用%s"
+msgstr "多个DLL有相同的'%s'名称。用%s"
 
 msgid "must specify DLL via a %s object. See getLoadedDLLs()"
-msgstr "必需通过%s对象来指定DLL的名字。见getLoadedDLLs()"
+msgstr "必需通过%s对象来指定DLL的名称。见getLoadedDLLs()"
 
 msgid "function is not in a namespace, so cannot locate associated DLL"
-msgstr "函数在名字空间里并不存在，因此无法找到与其对应的DLL"
+msgstr "函数在命名空间里并不存在，因此无法找到与其对应的DLL"
 
 msgid "looking for DLL for native routine call, but no DLLs in namespace of call"
-msgstr "寻找含本机協力子程式的DLL，但调用的名字空间里没有DLL"
+msgstr "寻找含本机例程子程序的DLL，但调用的命名空间里没有DLL"
 
 msgid "non-square matrix in 'eigen'"
 msgstr "eigen里的矩阵不是正方形的"
@@ -694,7 +685,7 @@ msgstr "'vec'的顺序一定得从小到大"
 
 #, fuzzy
 msgid "'fun' is not a function"
-msgstr "處置程式必需是函数"
+msgstr "处理程序必需是函数"
 
 msgid "using the first element of 'value' of type \"expression\""
 msgstr "用类型为\"expression\"的'value'的第一个元素"
@@ -751,7 +742,7 @@ msgid "value for %s not found"
 msgstr "%s的值没有"
 
 msgid "all arguments must be named"
-msgstr "所有参数都必需有名字"
+msgstr "所有参数都必需有名称"
 
 msgid "argument '%s' will be ignored"
 msgstr "忽略'%s'参数值"
@@ -851,10 +842,10 @@ msgid "'verbose' and 'quietly' are both true; being verbose then .."
 msgstr "'verbose'和'quietly'两个值都是TRUE；因此先详细再…"
 
 msgid "invalid package name"
-msgstr "程序包名字无效"
+msgstr "程序包名称无效"
 
 msgid "there is no package called %s"
-msgstr "不存在叫%s这个名字的程序包"
+msgstr "不存在叫%s这个名称的程序包"
 
 msgid "no library trees found in 'lib.loc'"
 msgstr "在'lib.loc'里找不到常式庫树"
@@ -875,7 +866,7 @@ msgstr "没有载入程序包%s"
 msgid ""
 "package or namespace load failed for %s%s:\n"
 " %s"
-msgstr "%s程序包或名字空间载入失败，"
+msgstr "%s程序包或命名空间载入失败，"
 
 msgid "package %s already present in search()"
 msgstr "search()里已经存在程序包%s"
@@ -1074,7 +1065,7 @@ msgid "'by' must match number of columns"
 msgstr "'by'的长度一定得和列的长度相同"
 
 msgid "'by' must specify one or more columns as numbers, names or logical"
-msgstr "'by'一定得用数字，名字或逻辑值来指定一个或多个列"
+msgstr "'by'一定得用数字，名称或逻辑值来指定一个或多个列"
 
 msgid "long vectors are not supported"
 msgstr ""
@@ -1089,7 +1080,7 @@ msgid "additional arguments ignored in message()"
 msgstr "message()里附加参数忽略不用"
 
 msgid "tracing functions requires the 'methods' package, but unable to load the 'methods' namespace"
-msgstr "追蹤函数需要'methods'程序包，但在载入'methods'名字空间的时候出了错"
+msgstr "追蹤函数需要'methods'程序包，但在载入'methods'命名空间的时候出了错"
 
 msgid "invalid to change the storage mode of a factor"
 msgstr "不能改变因子的存储状态"
@@ -1100,45 +1091,45 @@ msgid ""
 msgstr ""
 
 msgid "namespace is already attached"
-msgstr "已经连接上名字空间了"
+msgstr "已经连接上命名空间了"
 
 #, fuzzy
 msgid ""
 "not found in namespace %s: \n"
 "\n"
 "%s"
-msgstr "不载入名字空间"
+msgstr "不载入命名空间"
 
 msgid "%s not found"
 msgstr "%s不存在"
 
 msgid "namespace %s %s is already loaded, but %s %s is required"
-msgstr "载入了名字空间%1$s %2$s，但需要的是%3$s %4$s"
+msgstr "载入了命名空间%1$s %2$s，但需要的是%3$s %4$s"
 
 msgid "- loading"
 msgstr ""
 
 msgid "namespace %s is already sealed in 'loadNamespace'"
-msgstr "名字空间%s已经在'loadNamespace'封條了"
+msgstr "命名空间%s已经在'loadNamespace'封條了"
 
 msgid "failed to assign RegisteredNativeSymbol for %s to %s since %s is already defined in the %s namespace"
-msgstr "不能为%1$s分配RegisteredNativeSymbol给%2$s因为%4$s已经在%3$s名字空间有定义了"
+msgstr "不能为%1$s分配RegisteredNativeSymbol给%2$s因为%4$s已经在%3$s命名空间有定义了"
 
 msgid "failed to assign NativeSymbolInfo for %s to %s since %s is already defined in the %s namespace"
-msgstr "不能为%1$s分配NativeSymbolInfo给%2$s因为%4$s已经在%3$s名字空间有定义了"
+msgstr "不能为%1$s分配NativeSymbolInfo给%2$s因为%4$s已经在%3$s命名空间有定义了"
 
 msgid "failed to assign NativeSymbolInfo for %s since %s is already defined in the %s namespace"
-msgstr "不能为%1$s分配NativeSymbolInfo因为%2$s已经在%3$s名字空间有定义了"
+msgstr "不能为%1$s分配NativeSymbolInfo因为%2$s已经在%3$s命名空间有定义了"
 
 msgid "package %s does not have a namespace"
-msgstr "程序包%s没有名字空间"
+msgstr "程序包%s没有命名空间"
 
 #, fuzzy
 msgid "package %s was installed before R 4.0.0: please re-install it"
 msgstr "程序包%s是在R版本3.0.0之前建的：你得重新安装"
 
 msgid "namespace %s %s is being loaded, but %s %s is required"
-msgstr "载入了名字空间%1$s %2$s，但需要的是%3$s %4$s"
+msgstr "载入了命名空间%1$s %2$s，但需要的是%3$s %4$s"
 
 #, fuzzy
 msgid "package %s has no 'package.rds' in Meta/"
@@ -1220,13 +1211,13 @@ msgid "'exportClassPattern' specified in 'NAMESPACE' but no matching classes in 
 msgstr "虽然'exportClassPattern'在'NAMESPACE'有设定但它在%s程序包中没有相对应的类别"
 
 msgid "in package %s classes %s were specified for export but not defined"
-msgstr "在%s程序包中%s类别指定被用于出口，但它的定义并不存在"
+msgstr "在%s程序包中%s类别指定被用于导出，但它的定义并不存在"
 
 msgid "no function found corresponding to methods exports from %s for: %s"
 msgstr "从%s导出功能里找不到适用于%s的相应方法"
 
 msgid "in %s methods for export not found: %s"
-msgstr "用于出口的%s方法不存在：%s "
+msgstr "用于导出的%s方法不存在：%s"
 
 msgid "---- export method"
 msgstr ""
@@ -1238,7 +1229,7 @@ msgid "failed to find metadata object for %s"
 msgstr "找不到关于%s的隐喻数据对象"
 
 msgid "in package %s methods %s were specified for export but not defined"
-msgstr "在%s程序包中%s方法指定被用于出口，但它的定义并不存在"
+msgstr "在%s程序包中%s方法指定被用于导出，但它的定义并不存在"
 
 msgid "-- done processing S4 stuff for"
 msgstr ""
@@ -1253,28 +1244,28 @@ msgid "- done loading"
 msgstr ""
 
 msgid "Loading required namespace: %s"
-msgstr "载入需要的名字空间：%s"
+msgstr "载入需要的命名空间：%s"
 
 msgid "not loading a namespace"
-msgstr "不载入名字空间"
+msgstr "不载入命名空间"
 
 msgid "namespace %s is imported by %s so cannot be unloaded"
-msgstr "名字空间%s是由%s引进的，因此无法将之卸下"
+msgstr "命名空间%s是由%s引进的，因此无法将之卸下"
 
 msgid "not a namespace"
-msgstr "不是名字空间"
+msgstr "不是命名空间"
 
 msgid "operation not allowed on base namespace"
-msgstr "命令不能在基本名字空间上使用"
+msgstr "命令不能在基本命名空间上使用"
 
 msgid "duplicate import names %s"
-msgstr "重复进口名字%s"
+msgstr "重复进口名称%s"
 
 msgid "replacing local value with import %s when loading %s"
 msgstr "在输入%2$s时局部值将被引进值%1$s代替"
 
 msgid "cannot import into a sealed namespace"
-msgstr "不能进口到已经封闭了的名字空间"
+msgstr "不能进口到已经封闭了的命名空间"
 
 #, fuzzy
 msgid "replacing previous import by %s when loading %s"
@@ -1292,33 +1283,34 @@ msgstr "输入%2$s将代替前次引进%1$s"
 
 #, fuzzy
 msgid "No generic function %s found corresponding to requested imported methods from package %s when loading %s (malformed exports?)"
-msgstr "程序包\"%2$s\"里没有相应于为\"%1$s\"所要求的进口方法的泛型函数（是不是出口的格式不对？）"
+msgstr "程序包\"%2$s\"里没有相应于为\"%1$s\"所要求的进口方法的泛型函数"
+"（是不是导出的格式不对？）"
 
 msgid "cannot add to exports of a sealed namespace"
-msgstr "不能在封闭名字空间里进行出口加入"
+msgstr "不能在封闭名称空间里进行导出"
 
 msgid "undefined exports: %s"
-msgstr "出口不存在：%s"
+msgstr "导出不存在：%s"
 
 #, fuzzy
 msgid "unable to re-encode some lines in NAMESPACE file"
-msgstr "'NAMESPACE'文件里'%s'指示中有空的名字"
+msgstr "'NAMESPACE'文件里'%s'指示中有空的名称"
 
 msgid "package %s has no 'NAMESPACE' file"
 msgstr "程序包%s 没有'NAMESPACE'这一文件"
 
 msgid "empty name in directive '%s' in 'NAMESPACE' file"
-msgstr "'NAMESPACE'文件里'%s'指示中有空的名字"
+msgstr "'NAMESPACE'文件里'%s'指示中有空的名称"
 
 #, fuzzy
 msgid "duplicate symbol names %s in useDynLib(\"%s\")"
-msgstr "useDynlib(\"%s\")里有重复字符名字%s"
+msgstr "useDynlib(\"%s\")里有重复字符名称%s"
 
 msgid "bad 'S3method' directive: %s"
 msgstr "不是'S3method'指令：%s"
 
 msgid "unknown namespace directive: %s"
-msgstr "未知名字空间指令：%s"
+msgstr "未知命名空间指令：%s"
 
 msgid "S3 method %s was declared but not found"
 msgstr "S3方法%s有声明但并不存在"
@@ -1327,7 +1319,7 @@ msgid "bad method"
 msgstr "方法有错误"
 
 msgid "object '%s' not found whilst loading namespace '%s'"
-msgstr "在载入名字空间'%2$s'的时候没有找到'%1$s'对象"
+msgstr "在载入命名空间'%2$s'的时候没有找到'%1$s'对象"
 
 msgid "While loading namespace \"%s\": \"%s\" differ in ncol(.), env=%d, newNS=%d."
 msgstr ""
@@ -1412,7 +1404,7 @@ msgid "invalid 'rle' structure"
 msgstr "'rle'结构有错误"
 
 msgid "... must contain names or character strings"
-msgstr "...要么含名字，要么是字符串"
+msgstr "...要么含名称，要么是字符串"
 
 #, fuzzy
 msgid "invalid 'x'"
@@ -1633,7 +1625,7 @@ msgid "STATS does not recycle exactly across MARGIN"
 msgstr "STATS 没有確切地再利用于界限"
 
 msgid "length(STATS) or dim(STATS) do not match dim(x)[MARGIN]"
-msgstr "length(STATS)或dim(STATS)于dim(x)[MARGIN]不相配"
+msgstr "length(STATS)或dim(STATS)于dim(x)[MARGIN]不匹配"
 
 msgid "'exclude' containing NA and 'useNA' != \"no\"' are a bit contradicting"
 msgstr ""
@@ -1680,7 +1672,7 @@ msgid "total number of levels >= 2^31"
 msgstr "水平数目不同"
 
 msgid "handler must be a function"
-msgstr "處置程式必需是函数"
+msgstr "处理程序必需是函数"
 
 #, fuzzy
 msgid "'which' must be of length 1"
@@ -1854,11 +1846,11 @@ msgstr[0] "下列对象被屏蔽了%s %s:"
 
 msgid "invalid 'row.names', length %d for a data frame with %d row"
 msgid_plural "invalid 'row.names', length %d for a data frame with %d rows"
-msgstr[0] "'row.names'无效，长度%d与数据框的%d行不相配"
+msgstr[0] "'row.names'无效，长度%d与数据框的%d行不匹配"
 
 msgid "supplied %d row name for %d rows"
 msgid_plural "supplied %d row names for %d rows"
-msgstr[0] "%d行名与%d行不相配"
+msgstr[0] "%d行名与%d行不匹配"
 
 msgid "replacement has %d row, data has %d"
 msgid_plural "replacement has %d rows, data has %d"
@@ -1924,7 +1916,7 @@ msgstr[0] "'by'必需指定唯一有效的列"
 
 msgid "Function found when exporting methods from the namespace %s which is not S4 generic: %s"
 msgid_plural "Functions found when exporting methods from the namespace %s which are not S4 generic: %s"
-msgstr[0] "在从名字空间%s中出口方法时发现了不是S4通用的函数%s"
+msgstr[0] "在从命名空间%s中导出方法时发现了不是S4通用的函数%s"
 
 #, fuzzy
 msgid "No methods found in package %s for request: %s when loading %s"
@@ -1938,15 +1930,15 @@ msgstr[0] "环境/程序包%s里找不到所要求的方法：%s"
 
 msgid "class %s is not exported by 'namespace:%s'"
 msgid_plural "classes %s are not exported by 'namespace:%s'"
-msgstr[0] "'namespace:%2$s'没有出口%1$s这个类别"
+msgstr[0] "'namespace:%2$s'没有导出%1$s这个类别"
 
 msgid "object %s is not exported by 'namespace:%s'"
 msgid_plural "objects %s are not exported by 'namespace:%s'"
-msgstr[0] "'namespace:%2$s'没有出口%1$s这个对象"
+msgstr[0] "'namespace:%2$s'没有导出%1$s这个对象"
 
 msgid "previous export '%s' is being replaced"
 msgid_plural "previous exports '%s' are being replaced"
-msgstr[0] "现在正在替换原出口对象'%s'"
+msgstr[0] "现在正在替换原导出对象'%s'"
 
 msgid "S3 method %s was declared in NAMESPACE but not found"
 msgid_plural "S3 methods %s were declared in NAMESPACE but not found"
