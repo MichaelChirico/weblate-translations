@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 2.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-11-30 14:40+0100\n"
-"PO-Revision-Date: 2023-07-12 03:05+0000\n"
+"PO-Revision-Date: 2023-09-18 03:05+0000\n"
 "Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
 "Language-Team: Chinese\n"
 "Language: zh_CN\n"
@@ -96,7 +96,7 @@ msgstr "'x'为NULL"
 
 #: cov.c:682 cov.c:688
 msgid "incompatible dimensions"
-msgstr "不兼容的量度"
+msgstr "维度不匹配"
 
 #: cov.c:707 cov.c:748 cov.c:781
 msgid "no complete element pairs"
@@ -148,7 +148,7 @@ msgstr "非因子"
 
 #: deriv.c:1087 model.c:99
 msgid "invalid variable names"
-msgstr "变量名字无效"
+msgstr "变量名称无效"
 
 #: deriv.c:1095 deriv.c:1097
 msgid "invalid tag"
@@ -376,7 +376,7 @@ msgstr "变量无效"
 
 #: model.c:101 model.c:106
 msgid "number of variables != number of variable names"
-msgstr "变量数目不等于变量名字数目"
+msgstr "变量数目不等于变量名称数目"
 
 #: model.c:104
 msgid "invalid extra variables"
@@ -384,12 +384,12 @@ msgstr "額外变量无效"
 
 #: model.c:108
 msgid "invalid extra variable names"
-msgstr "额外变量名字无效"
+msgstr "额外变量名称无效"
 
 #: model.c:129
 #, c-format
 msgid "overlong names in '%s'"
-msgstr "'%s'里的名字太长"
+msgstr "'%s'里的名称太长"
 
 #: model.c:156
 #, c-format
@@ -449,7 +449,7 @@ msgstr "模型矩阵的%d项有问题: 没有指定的列"
 
 #: model.c:631 model.c:636 model.c:642 model.c:653 model.c:659 model.c:665
 msgid "term names will be truncated"
-msgstr "项名字太长，被缩短了"
+msgstr "项名称太长，被缩短了"
 
 #: model.c:645
 msgid "complex variables are not currently allowed in model matrices"
@@ -487,7 +487,7 @@ msgstr "ExtractVars里的模型公式无效"
 #: model.c:1636
 #, c-format
 msgid "duplicated name '%s' in data frame using '.'"
-msgstr "在数据框里用'.'时不能有重复的名字’%s'"
+msgstr "在数据框里用'.'时不能有重复的名称’%s'"
 
 #: model.c:1703
 msgid "invalid model formula in EncodeVars"
