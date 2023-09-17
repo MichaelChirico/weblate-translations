@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 2.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-11-30 14:39+0100\n"
-"PO-Revision-Date: 2023-07-12 03:05+0000\n"
+"PO-Revision-Date: 2023-09-18 03:05+0000\n"
 "Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
 "Language-Team: Chinese\n"
 "Language: zh_CN\n"
@@ -112,7 +112,7 @@ msgstr "RGB设置出错"
 #: colors.c:1408
 #, c-format
 msgid "invalid color name '%s'"
-msgstr "'%s'颜色名字无效"
+msgstr "'%s'颜色名称无效"
 
 #: colors.c:1458 colors.c:1467
 #, c-format
@@ -229,7 +229,7 @@ msgstr "无法载入编码文本'%s'"
 
 #: devPS.c:1549 devPS.c:1582
 msgid "invalid font name or more than one font name"
-msgstr "字体名字无效或太多"
+msgstr "字体名称无效或太多"
 
 #: devPS.c:1703 devPS.c:1738
 #, c-format
@@ -284,7 +284,7 @@ msgstr "不能用%d这个字体，代用一字体"
 #: devPS.c:3233 devPS.c:5029 devPS.c:7717
 #, c-format
 msgid "filename too long in %s()"
-msgstr "%s()里的文本名字太长"
+msgstr "%s()里的文本名称太长"
 
 #: devPS.c:3239 devPS.c:5035 devPS.c:7723
 #, c-format
@@ -426,7 +426,7 @@ msgstr "xfig(%s, onefile=FALSE)只会返回最后的一张图"
 
 #: devPS.c:5286
 msgid "empty file name"
-msgstr "空文本名字"
+msgstr "空文本名称"
 
 #: devPS.c:5353 devPS.c:5405 devPS.c:7541 devPS.c:7585 devPS.c:9108
 msgid "write failed"
@@ -708,7 +708,7 @@ msgstr "字体家族\"%s\"里没有\"%s\"这一字体"
 
 #: devQuartz.c:1673
 msgid "font family name is too long"
-msgstr "字体家族名字太长"
+msgstr "字体家族名称太长"
 
 #: devQuartz.c:1712
 #, c-format
@@ -767,7 +767,7 @@ msgstr "没有装置来拷贝图形窗"
 #: devWindows.c:407 devWindows.c:478
 #, c-format
 msgid "'%%' is not allowed in file name"
-msgstr "文件名字中不能有'%%'"
+msgstr "文件名称中不能有'%%'"
 
 #: devWindows.c:615
 msgid "invalid font specification"
@@ -788,7 +788,7 @@ msgstr "没有绘图历史!"
 #: devWindows.c:1810
 #, c-format
 msgid "filename too long in %s() call"
-msgstr "%s()調用里的文本名字太长"
+msgstr "%s()調用里的文本名称太长"
 
 #: devWindows.c:1815 devWindows.c:1850 devWindows.c:1880
 #, c-format
@@ -807,15 +807,15 @@ msgstr "无法打开'%s'文本写入"
 
 #: devWindows.c:1847
 msgid "filename too long in jpeg() call"
-msgstr "jpeg()調用中的文本名字太长"
+msgstr "jpeg()调用时文件名称太长"
 
 #: devWindows.c:1877
 msgid "filename too long in tiff() call"
-msgstr "tiff()調用里的文本名字太长"
+msgstr "tiff()调用时文件名称太长"
 
 #: devWindows.c:1909
 msgid "filename too long in win.metafile() call"
-msgstr "win.metafile()調用里的文本名字太长"
+msgstr "win.metafile()調用里的文本名称太长"
 
 #: devWindows.c:1920
 #, c-format
@@ -869,7 +869,7 @@ msgstr "'savePlot'装置出错"
 
 #: devWindows.c:3535
 msgid "invalid filename argument in 'savePlot'"
-msgstr "'savePlot'文本名字参数无效"
+msgstr "'savePlot'文本名称参数无效"
 
 #: devWindows.c:3540
 msgid "invalid type argument in 'savePlot'"
@@ -903,7 +903,7 @@ msgstr "参数无效"
 #: devices.c:89 devices.c:97 devices.c:105
 #, fuzzy
 msgid "NA argument is invalid"
-msgstr "列表参数的名字无效"
+msgstr "列表参数的名称无效"
 
 #: group.c:38
 msgid "Group definition ignored (device is appending path)"
