@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 2.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-11-30 14:39\n"
-"PO-Revision-Date: 2023-07-12 03:05+0000\n"
+"PO-Revision-Date: 2023-09-18 03:05+0000\n"
 "Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
 "Language-Team: Chinese\n"
 "Language: zh_CN\n"
@@ -151,13 +151,13 @@ msgid "device '%s' not found"
 msgstr "没有'%s'这个装置"
 
 msgid "no suitable unused file name for pdf()"
-msgstr "没有合适的文件名字给pdf()来用"
+msgstr "没有合适的文件名称给pdf()来用"
 
 msgid "dev.new(): using pdf(file=\"%s\")"
 msgstr "dev.new():用pdf(file=\"%s\")"
 
 msgid "no suitable unused file name for postscript()"
-msgstr "没有合适的文件名字给postscript()来用"
+msgstr "没有合适的文件名称给postscript()来用"
 
 msgid "dev.new(): using postscript(file=\"%s\")"
 msgstr "dev.new():用postscript(file=\"%s\")"
@@ -255,7 +255,7 @@ msgid "invalid arguments in '%s' (need named args)"
 msgstr "'%s'里的参数无效(需要有带名参数)"
 
 msgid "'name.opt' must be character, name of an existing list"
-msgstr "'name.opt'的值必需是字符串，当前存在的列表的名字"
+msgstr "'name.opt'的值必需是字符串，当前存在的列表的名称"
 
 msgid "cannot reset non-existent '%s'"
 msgstr "还不存在的'%s'是不能被重新设定的"
@@ -301,7 +301,7 @@ msgid "Not a CID font"
 msgstr "非CID字体"
 
 msgid "invalid CMap name in font specification"
-msgstr "字体设置里的CMap名字无效"
+msgstr "字体设置里的CMap名称无效"
 
 msgid "invalid 'cmapEncoding' in font specification"
 msgstr "字体设置里的'cmapEncoding'值无效"
@@ -541,7 +541,7 @@ msgstr "'windows fonts'里的参数无效(需要带名参数)"
 
 msgid "invalid argument name %s in '%s'"
 msgid_plural "invalid argument names %s in '%s'"
-msgstr[0] "'%2$s'里的%1$s参数名字无效"
+msgstr[0] "'%2$s'里的%1$s参数名称无效"
 
 msgid "differs between new and previous"
 msgid_plural "differ between new and previous"
