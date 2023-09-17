@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 2.3.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-11-30 14:40\n"
-"PO-Revision-Date: 2023-07-12 03:05+0000\n"
+"PO-Revision-Date: 2023-09-18 03:05+0000\n"
 "Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
 "Language-Team: Chinese\n"
 "Language: zh_CN\n"
@@ -45,7 +45,7 @@ msgid "reference to unknown chunk %s"
 msgstr "对未知区块 %s 的引用"
 
 msgid "no Sweave file with name %s found"
-msgstr "没有名字为'%s'的Sweave文件"
+msgstr "没有名称为'%s'的Sweave文件"
 
 msgid "more than one syntax specification found, using the first one"
 msgstr "在多套語法規則里选用第一个套"
@@ -189,7 +189,7 @@ msgid "all arguments must be of class %s"
 msgstr "所有的参数都必需是%s类别"
 
 msgid "all fields have to be named"
-msgstr "所有的项都必需有名字"
+msgstr "所有的项都必需有名称"
 
 msgid "%s has to be one of %s"
 msgstr "%s必需是%s这些中的一个"
@@ -324,7 +324,7 @@ msgid "added factor levels in '%s'"
 msgstr "在'%s'里加上了因子水准"
 
 msgid "edited row names contain duplicates and will be ignored"
-msgstr "改过的行名中含有重复的名字，因此忽略不用"
+msgstr "改过的行名中含有重复的名称，因此忽略不用"
 
 msgid "invalid input matrix"
 msgstr "输入矩阵无效"
@@ -345,7 +345,7 @@ msgid "Line number missing"
 msgstr "缺少行数"
 
 msgid "'fix' requires a name"
-msgstr "'fix'需要名字值"
+msgstr "'fix'需要名称值"
 
 msgid "too many list items (at most up to %d)"
 msgstr "列表项太多(最多只能有%d项)"
@@ -408,7 +408,7 @@ msgid "tail(., keepnums=.) instead."
 msgstr ""
 
 msgid "'topic' should be a name, length-one character vector or reserved word"
-msgstr "'topic'的值必需是名字，长度为一的字符串或保留文字"
+msgstr "'topic'的值必需是名称，长度为一的字符串或保留文字"
 
 msgid "No documentation for %s in specified packages and libraries:"
 msgstr "在指定的程序包和图书馆里没有与%s有关的文档:"
@@ -432,7 +432,7 @@ msgid "Choose one"
 msgstr "选一个"
 
 msgid "Using the first match ..."
-msgstr "用第一个相配…"
+msgstr "用第一个匹配…"
 
 msgid "HTML help is unavailable"
 msgstr "没有HTML帮助"
@@ -487,7 +487,7 @@ msgid "removing all entries with invalid multi-byte character data"
 msgstr "删除所有多字節字符数据出错的分錄"
 
 msgid "invalid browser name, check options(\"browser\")."
-msgstr "浏览器的名字无效，请检查options(\"browser\")的设置。"
+msgstr "浏览器的名称无效，请检查options(\"browser\")的设置。"
 
 msgid "help.start() requires the HTTP server to be running"
 msgstr "help.start()需要用HTTP服务器"
@@ -588,7 +588,7 @@ msgid "changing locked binding for %s in %s"
 msgstr "为%2$s里的%1$s改变锁定约束"
 
 msgid "'fixInNamespace' requires a name"
-msgstr "'fixInNamespace'需要名字值"
+msgstr "'fixInNamespace'需要名称值"
 
 msgid "only numeric indices can be used"
 msgstr "只能用数值的指标"
@@ -757,7 +757,7 @@ msgstr "无法建立%s"
 
 #, fuzzy
 msgid "inferring 'repos = NULL' from 'pkgs'"
-msgstr "从文件名字推断'repos = NULL'"
+msgstr "从文件名称推断'repos = NULL'"
 
 msgid "unable to create temporary directory %s"
 msgstr "无法建立临时目录%s"
@@ -834,13 +834,13 @@ msgstr ""
 "\t%s里"
 
 msgid "The namespace for package \"%s\" is locked; no changes in the global variables list may be made."
-msgstr "程序包\"%s\"的名字空间被锁定了；全局变量列表没有改变。"
+msgstr "程序包\"%s\"的命名空间被锁定了；全局变量列表没有改变。"
 
 msgid "'env' must be an environment"
 msgstr "'env'必需是环境"
 
 msgid "no object named '%s' to show"
-msgstr "找不到名字为'%s'的对象"
+msgstr "找不到名称为'%s'的对象"
 
 msgid "'file' must be \"\" or an open connection object"
 msgstr "'file'必需是\"\"或打开的联结"
@@ -855,17 +855,17 @@ msgid "'pb' is not from class %s"
 msgstr "'pb'不属于%s这一类别"
 
 msgid "cannot determine a usable name"
-msgstr "无法指定一个可以用的名字"
+msgstr "无法指定一个可以用的名称"
 
 msgid "Created file named %s."
-msgstr "建立一名字叫%s的文件。"
+msgstr "建立一名称叫%s的文件。"
 
 msgid "Edit the file and move it to the appropriate directory."
 msgstr "修改文件再把它放到合适的目录中去。"
 
 #, fuzzy
 msgid "cannot determine import name"
-msgstr "无法指定一个可以用的名字"
+msgstr "无法指定一个可以用的名称"
 
 msgid "no documentation of type %s and topic %s (or error in processing help)"
 msgstr "没有类型为%s和題目为%s的文件(或是在处理帮助文件时发生了错误)"
@@ -910,7 +910,7 @@ msgid "header and 'col.names' are of different lengths"
 msgstr "表头名称和'col.names'的长度不一样"
 
 msgid "more columns than column names"
-msgstr "列的数目比列的名字要多"
+msgstr "列的数目比列的名称要多"
 
 msgid "more column names than columns"
 msgstr "行名比行的数目要多"
@@ -937,7 +937,7 @@ msgid "invalid 'row.names' length"
 msgstr "'row.names'的长度无效"
 
 msgid "duplicate 'row.names' are not allowed"
-msgstr "'row.names'里不能有重复的名字"
+msgstr "'row.names'里不能有重复的名称"
 
 msgid "missing values in 'row.names' are not allowed"
 msgstr "'row.names'里不能有缺失值"
@@ -1106,7 +1106,7 @@ msgid "incomplete block: rather use gzfile(.) created connection?"
 msgstr ""
 
 msgid "invalid name field in tarball"
-msgstr "tarball里的名字域无效"
+msgstr "tarball里的名称域无效"
 
 msgid "checksum error for entry '%s'"
 msgstr "项目'%s'检查和错误"
@@ -1207,8 +1207,9 @@ msgstr "'ccaddress'的长度必需为一"
 msgid "'url' must be a length-one character vector"
 msgstr "'title'值要么是NULL，要么是长度为一的字符向量"
 
+#, fuzzy
 msgid "'headers' must have names and must not be NA"
-msgstr ""
+msgstr "'X'必需有带名称的维名"
 
 #, fuzzy
 msgid "'destfile' must be a length-one character vector"
