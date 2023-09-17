@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 2.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-07-31 14:59\n"
-"PO-Revision-Date: 2023-07-12 03:05+0000\n"
+"PO-Revision-Date: 2023-09-18 03:05+0000\n"
 "Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
 "Language-Team: Chinese\n"
 "Language: zh_CN\n"
@@ -36,7 +36,7 @@ msgstr "'order'的值无效"
 
 #, fuzzy
 msgid "Invalid grob coordinates"
-msgstr "'grob'名字无效"
+msgstr "'grob'名称无效"
 
 #, fuzzy
 msgid "Invalid gTree coordinates"
@@ -134,7 +134,7 @@ msgid "argument must be a 'gpar' object"
 msgstr "参数必需是'gpar'对象"
 
 msgid "must specify only valid 'gpar' names"
-msgstr "只能用正确的'gpar'名字"
+msgstr "只能用正确的'gpar'名称"
 
 msgid "invalid display list element"
 msgstr "显示列成分无效"
@@ -198,7 +198,7 @@ msgid "invalid 'grob' class"
 msgstr "'grob'的类别无效"
 
 msgid "a 'grob' path must contain at least one 'grob' name"
-msgstr "'grob'的路径至少要包含一个'grob'名字"
+msgstr "'grob'的路径至少要包含一个'grob'名称"
 
 msgid "unable to coerce to \"gList\""
 msgstr "无法转换成\"gList\""
@@ -243,7 +243,7 @@ msgid "it is only valid to set a 'grob' as child of a \"gTree\""
 msgstr "\"gTree\"的子值只能设成'grob'"
 
 msgid "New 'grob' name (%s) does not match 'gPath' (%s)"
-msgstr "新的'grob'名(%s) 与原来的'gPath'(%s) 名不相配"
+msgstr "新的'grob'名(%s) 与原来的'gPath'(%s) 名不匹配"
 
 msgid "it is only valid to add a 'grob' to a \"gTree\""
 msgstr "对\"gTree\"只能加'grob'这样的值数"
@@ -604,7 +604,7 @@ msgid "'parent' must be a viewport and 'children' must be a 'vpList' in 'vpTree'
 msgstr "'parent'的值必需为视口，'children'的值必需是'vpTree'里的'vpList'"
 
 msgid "a viewport path must contain at least one viewport name"
-msgstr "视口路径至少要有一个视口的名字"
+msgstr "视口路径至少要有一个视口的名称"
 
 msgid "must specify at least one of 'x' or 'xscale'"
 msgstr "至少要指定'x'或'xscale'两个中的一个"
@@ -613,15 +613,15 @@ msgid "must specify at least one of 'y' or 'yscale'"
 msgstr "至少要指定'y'或'yscale'两个中的一个"
 
 msgid "shutting down all devices when unloading 'grid' namespace"
-msgstr "卸载'grid'名字空间时关闭所有的设备"
+msgstr "卸载'grid'命名空间时关闭所有的设备"
 
 msgid "invalid grob name"
 msgid_plural "invalid grob names"
-msgstr[0] "'grob'名字无效"
+msgstr[0] "'grob'名称无效"
 
 msgid "invalid viewport name"
 msgid_plural "invalid viewport names"
-msgstr[0] "视口名字无效"
+msgstr[0] "视口名称无效"
 
 #~ msgid "'x' argument must be a unit object"
 #~ msgstr "'x'参数必需是单元对象"
