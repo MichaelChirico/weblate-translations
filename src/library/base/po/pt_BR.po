@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: R 2.1.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-11-30 14:39+0100\n"
-"PO-Revision-Date: 2023-09-01 11:37+0000\n"
-"Last-Translator: Caio Lente <lente@ime.usp.br>\n"
+"PO-Revision-Date: 2023-10-19 19:25+0000\n"
+"Last-Translator: Renata Hirota <re.hirota@gmail.com>\n"
 "Language-Team: http://www.feferraz.net/br/P/Projeto_Traducao_R_Portugues\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -32,7 +32,7 @@ msgstr "REPORT deve ser > 0 (method = \"BFGS\")"
 
 #: src/appl/optim.c:147
 msgid "initial value in 'vmmin' is not finite"
-msgstr "valor inicial em vmmin não é finito"
+msgstr "valor inicial em 'vmmin' não é finito"
 
 #: src/appl/optim.c:297
 msgid "function cannot be evaluated at initial parameters"
@@ -93,7 +93,7 @@ msgstr "variável de ambiente R_HOME não definida"
 #: src/gnuwin32/extra.c:67
 #, c-format
 msgid "'%s' not found"
-msgstr "'%s' não encontrado"
+msgstr "'%s' não encontrada"
 
 #: src/gnuwin32/extra.c:69
 #, c-format
@@ -442,7 +442,7 @@ msgstr "opção '%s' requer um argumento não vazio"
 #: src/gnuwin32/system.c:1269 src/unix/system.c:445
 #, c-format
 msgid "WARNING: '-e %s' omitted as input is too long\n"
-msgstr "ATENÇÃO: '-e %s' omitido na entrada por ser muito grande\n"
+msgstr "ATENÇÃO: '-e %s' omitido por entrada ser muito grande\n"
 
 #: src/gnuwin32/system.c:1273 src/unix/system.c:458
 #, c-format
@@ -463,7 +463,8 @@ msgstr "você deve especificar '--save', '--no-save' ou '--vanilla'"
 
 #: src/gnuwin32/system.c:1367
 msgid "impossible to create 'reader thread'; you must free some system resources"
-msgstr "impossível criar 'reader thread'; você deve liberar algum recurso do sistema"
+msgstr ""
+"impossível criar 'reader thread'; você deve liberar algum recurso do sistema"
 
 #: src/include/Errormsg.h:27
 msgid "subscript out of bounds"
@@ -485,7 +486,7 @@ msgstr "ALERTA: nenhum valor fornecido para --encoding"
 #: src/main/CommandLineArgs.c:201
 #, c-format
 msgid "WARNING: option '%s' no longer supported"
-msgstr "ATENÇÃO: opção '%s' não mais suportada"
+msgstr "ATENÇÃO: opção '%s' não é mais suportada"
 
 #: src/main/CommandLineArgs.c:212
 #, c-format
