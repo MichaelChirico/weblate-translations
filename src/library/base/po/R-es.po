@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-11-30 14:39\n"
-"PO-Revision-Date: 2023-10-20 14:35+0000\n"
+"PO-Revision-Date: 2023-10-21 02:10+0000\n"
 "Last-Translator: Jesica Formoso <jesica.formoso@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -498,7 +498,6 @@ msgstr "unidades especificadas inválidas"
 msgid "unary '%s' not defined for \"difftime\" objects"
 msgstr "el unario '%s' no está definido para objetos \"difftime\""
 
-#, fuzzy
 msgid "'%s' not defined for \"difftime\" objects"
 msgstr "'%s' no está definido para objetos \"difftime\""
 
@@ -1716,7 +1715,7 @@ msgid "'INDEX' is of length zero"
 msgstr ""
 
 msgid "arguments must have same length"
-msgstr ""
+msgstr "los argumentos deben tener la misma longitud"
 
 msgid "total number of levels >= 2^31"
 msgstr ""
