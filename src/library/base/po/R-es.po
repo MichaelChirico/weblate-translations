@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-11-30 14:39\n"
-"PO-Revision-Date: 2023-08-31 20:16+0000\n"
-"Last-Translator: Geraldine Gomez Millan <geralidine.gomez@javeriana.edu.co>\n"
+"PO-Revision-Date: 2023-10-20 14:35+0000\n"
+"Last-Translator: Jesica Formoso <jesica.formoso@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -232,9 +232,8 @@ msgstr "número inválido de intervalos"
 msgid "'breaks' are not unique"
 msgstr "los 'breaks' no son únicos"
 
-#, fuzzy
 msgid "number of intervals and length of 'labels' differ"
-msgstr "las longitudes de 'breaks' y 'labels' difieren"
+msgstr "El número de intervalos y la longitud de las 'etiquetas' difieren"
 
 msgid "invalid 'row.names' length"
 msgstr "longitud de 'row.names' inválida"
@@ -254,9 +253,8 @@ msgstr "'dimnames' inválidos dados para data frame"
 msgid "cannot coerce class %s to a data.frame"
 msgstr "no se puede forzar la clase %s a un data.frame"
 
-#, fuzzy
 msgid "'row.names' is not a character or integer vector of length %d"
-msgstr "'row.names' no es un vector de caracteres de longitud %d -- omitiéndolo. ¡Será un error!"
+msgstr "'row.names' no es un vector de caracteres o enteros de longitud %d"
 
 msgid "mismatch of row names in arguments of 'data.frame', item %d"
 msgstr "no coinciden los nombres de fila en los argumentos de 'data.frame', item %d"
@@ -342,9 +340,10 @@ msgstr "el número de columnas de los argumentos no coincide"
 msgid "invalid list argument: all variables should have the same length"
 msgstr "argumento de lista inválido: todas las variables deben tener la misma longitud"
 
-#, fuzzy
 msgid "number of columns of result, %d, is not a multiple of vector length %d of arg %d"
-msgstr "el número de elementos a sustituir no es un múltiplo de la longitud del reemplazo"
+msgstr ""
+"El número de columnas del resultado, %d, no es un múltiplo de la longitud "
+"del vector %d del argumento %d"
 
 msgid "<0 rows> (or 0-length row.names)"
 msgstr "<0 rows> (o 0- extensión row.names)"
@@ -454,15 +453,12 @@ msgstr "clase incorrecta"
 msgid "binary '+' is not defined for \"POSIXt\" objects"
 msgstr "el operador binario '+' no esta definido para objetos \"POSIXt\""
 
-#, fuzzy
 msgid "can only subtract from \"POSIXt\" objects"
 msgstr "solo se puede sustraer de objetos \"POSIXt\""
 
-#, fuzzy
 msgid "unary '-' is not defined for \"POSIXt\" objects"
-msgstr "el unario \"-\" no está definido para objetos \"POSIXt\""
+msgstr "el operador unitario - no está definido para objetos \"POSIXt”"
 
-#, fuzzy
 msgid "can only subtract numbers from \"POSIXt\" objects"
 msgstr "solo se puede sustraer números de objetos \"POSIXt\""
 
@@ -480,6 +476,8 @@ msgstr "los atributos 'tzone' son inconsistentes"
 
 msgid "as.character(td, ..) no longer obeys a 'format' argument; use format(td, ..) ?"
 msgstr ""
+"as.character(td, ..) ya no obedece a un argumento de 'formato'; use format("
+"td, ..) ?"
 
 #, fuzzy
 msgid "'digits' must be numeric, integer valued"
@@ -550,7 +548,7 @@ msgid ""
 msgstr ""
 
 msgid "failed to load the methods package for debugging by signature"
-msgstr ""
+msgstr "no se pudo cargar el paquete de métodos para la depuración firmada"
 
 msgid "failed to load methods package for undebugging by signature"
 msgstr ""
