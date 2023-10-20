@@ -8,9 +8,8 @@ msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-11-30 14:40+0100\n"
-"POT-Creation-Date: 2021-11-06 17:18+0100\n"
-"PO-Revision-Date: 2023-08-08 03:05+0000\n"
-"Last-Translator: Paola Corrales <paobcorrales@gmail.com>\n"
+"PO-Revision-Date: 2023-10-20 14:35+0000\n"
+"Last-Translator: Jan Strappa <jansf@disroot.org>\n"
 "Language-Team: none\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -421,7 +420,7 @@ msgstr "Resultado no válido en na.action"
 #: model.c:379 model.c:387 optim.c:227
 #, c-format
 msgid "invalid '%s' argument"
-msgstr "argumento '%s' inválido"
+msgstr "argumento '%s' no válido"
 
 #: model.c:398
 msgid "invalid model frame"
