@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-11-30 14:39\n"
 "PO-Revision-Date: 2023-10-21 02:10+0000\n"
-"Last-Translator: Natalia Labadie <nlabadie.fbioyf@gmail.com>\n"
+"Last-Translator: Silvana Pereyra <pereyra.s@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -561,9 +561,8 @@ msgstr "'nrow' o 'ncol' no pueden ser especificados cuando 'x' es una matriz"
 msgid "'x' is an array, but not one-dimensional."
 msgstr "'x' es un array, pero no uno unidimensional"
 
-#, fuzzy
 msgid "only matrix diagonals can be replaced"
-msgstr "solo se puede reemplazar matrices diagonales"
+msgstr "solo se pueden reemplazar las diagonales de las matrices"
 
 #, fuzzy
 msgid "replacement diagonal has wrong length"
@@ -592,6 +591,8 @@ msgstr ""
 
 msgid "function is not in a namespace, so cannot locate associated DLL"
 msgstr ""
+"función no es un espacio de nombres, por lo que no se puede ubicar DLL "
+"asociada"
 
 msgid "looking for DLL for native routine call, but no DLLs in namespace of call"
 msgstr ""
