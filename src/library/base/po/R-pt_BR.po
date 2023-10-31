@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: R 2.3.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-11-30 14:39\n"
-"PO-Revision-Date: 2023-10-19 19:25+0000\n"
-"Last-Translator: Renata Hirota <re.hirota@gmail.com>\n"
+"PO-Revision-Date: 2023-11-01 03:05+0000\n"
+"Last-Translator: Rafael Fontenelle <rffontenelle+r@gmail.com>\n"
 "Language-Team: http://www.feferraz.net/br/P/Projeto_Traducao_R_Portugues\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -236,9 +236,8 @@ msgstr "número de intervalos inválido"
 msgid "'breaks' are not unique"
 msgstr "'breaks' não são únicos"
 
-#, fuzzy
 msgid "number of intervals and length of 'labels' differ"
-msgstr "comprimentos de 'breaks' e 'labels' são diferentes"
+msgstr "número de intervalos e comprimentos de 'labels' são diferentes"
 
 msgid "invalid 'row.names' length"
 msgstr "comprimento inválido de 'row.names'"
@@ -258,9 +257,8 @@ msgstr "'dimnames' inválidos para um data frame"
 msgid "cannot coerce class %s to a data.frame"
 msgstr "não é possível fazer coerção de classe %s para um data.frame"
 
-#, fuzzy
 msgid "'row.names' is not a character or integer vector of length %d"
-msgstr "'row.names' não é um vetor de caracteres de comprimento %d -- omitindo. Será um erro!"
+msgstr "'row.names' não é um vetor de caracteres ou inteiros de comprimento %d"
 
 msgid "mismatch of row names in arguments of 'data.frame', item %d"
 msgstr "pareamento errado de nomes de linhas nos argumentos de 'data.frame', item %d"
