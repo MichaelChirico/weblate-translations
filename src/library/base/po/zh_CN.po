@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-11-30 14:39+0100\n"
-"PO-Revision-Date: 2023-11-05 03:05+0000\n"
+"PO-Revision-Date: 2023-11-06 03:05+0000\n"
 "Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
 "Language-Team: Chinese\n"
 "Language: zh_CN\n"
@@ -343,9 +343,9 @@ msgstr "'names'必需是字符向量"
 #: src/gnuwin32/sys-win32.c:149
 #, c-format
 msgid ""
-"expanded path length %llu would be too long for\n"
+"expanded path length %d would be too long for\n"
 "%s\n"
-msgstr ""
+msgstr "扩展路径长度 %d 对于 %s 来说太长\n"
 
 #: src/gnuwin32/sys-win32.c:263
 msgid "character string expected as first argument"
@@ -421,7 +421,7 @@ msgstr "file.show():不存在'%s'这个文件\n"
 #: src/gnuwin32/system.c:1046
 #, c-format
 msgid "Not enough memory"
-msgstr ""
+msgstr "内存不足"
 
 #: src/gnuwin32/system.c:1062 src/unix/system.c:462
 #, c-format
@@ -474,9 +474,8 @@ msgid "object of type '%s' is not subsettable"
 msgstr "类别为'%s'的对象不可以取子集"
 
 #: src/include/Errormsg.h:29
-#, fuzzy
 msgid "missing subscript"
-msgstr "[[ ]] 缺少下标"
+msgstr "缺少下标"
 
 #: src/main/CommandLineArgs.c:176
 msgid "WARNING: no value given for --encoding"
@@ -519,24 +518,20 @@ msgid "WARNING: '--max-ppsize' value is too large: ignored"
 msgstr "警告: '--max-ppsize'的值太大: 忽略不用"
 
 #: src/main/CommandLineArgs.c:257
-#, fuzzy
 msgid "WARNING: no value given for '--max-connections'"
-msgstr "警告: 没有设定'--max-ppsize'的值"
+msgstr "警告: 没有设定'--max-connections'的值"
 
 #: src/main/CommandLineArgs.c:262
-#, fuzzy
 msgid "WARNING: '--max-connections' value is negative: ignored"
-msgstr "警告: '--max-ppsize'的值是负数: 忽略不用"
+msgstr "警告: '--max-connections'的值是负数: 已忽略"
 
 #: src/main/CommandLineArgs.c:264
-#, fuzzy
 msgid "WARNING: '--max-connections' value is too small: ignored"
-msgstr "警告: '--max-ppsize'的值太小: 忽略不用"
+msgstr "警告: '--max-connections'的值太小：已忽略"
 
 #: src/main/CommandLineArgs.c:266
-#, fuzzy
 msgid "WARNING: '--max-connections' value is too large: ignored"
-msgstr "警告: '--max-ppsize'的值太大: 忽略不用"
+msgstr "警告: '--max-connections'的值太大：已忽略"
 
 #: src/main/RNG.c:180
 #, c-format
@@ -666,12 +661,12 @@ msgstr "无效对象。"
 #: src/main/Rdynload.c:427
 #, c-format
 msgid "Invalid entry '%s' in native symbol object."
-msgstr ""
+msgstr "本地符号对象中的条目“%s”无效。"
 
 #: src/main/Rdynload.c:433
 #, c-format
 msgid "Component '%s' missing in symbol object."
-msgstr ""
+msgstr "符号对象中缺少组件“%s”。"
 
 #: src/main/Rdynload.c:445
 msgid "Invalid symbol list."
@@ -680,7 +675,7 @@ msgstr "符号列表无效。"
 #: src/main/Rdynload.c:459
 #, c-format
 msgid "Symbol at %d does not have registration information."
-msgstr ""
+msgstr "%d 处的符号没有注册信息。"
 
 #: src/main/Rdynload.c:495
 msgid "Invalid symbol name."
