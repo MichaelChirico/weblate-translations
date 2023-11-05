@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-11-30 14:39\n"
-"PO-Revision-Date: 2023-09-18 03:05+0000\n"
+"PO-Revision-Date: 2023-11-06 03:05+0000\n"
 "Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
 "Language-Team: Chinese\n"
 "Language: zh_CN\n"
@@ -72,9 +72,8 @@ msgstr "'normal.kind'必需是字符串，而且其长度只能为一。"
 msgid "'%s' is not a valid choice"
 msgstr "%s'不是有效的选择"
 
-#, fuzzy
 msgid "'sample.kind' must be a character string of length 1"
-msgstr "'normal.kind'必需是字符串，而且其长度只能为一。"
+msgstr "“sample.kind”必须是长度为 1 的字符串"
 
 msgid "malformed version string"
 msgstr "版本字串格式有错误"
@@ -205,13 +204,11 @@ msgstr "参数长度为零"
 msgid "can only write character objects"
 msgstr "只能写字符对象"
 
-#, fuzzy
 msgid "'headers' must have names and must not be NA"
-msgstr "'X'必需有带名称的维名"
+msgstr "“headers”必须有名称，并且不能是 NA"
 
-#, fuzzy
 msgid "'name' must be a single character string"
-msgstr "参数'object'必需解析成单一个字符串"
+msgstr "“name”必须是单个字符串"
 
 msgid "'origin' must be one of 'start', 'current' or 'end'"
 msgstr "'origin'参数的值必需是'start'，'current'或'end'中的一个"
@@ -219,9 +216,8 @@ msgstr "'origin'参数的值必需是'start'，'current'或'end'中的一个"
 msgid "can only truncate an open connection"
 msgstr "只能截断已经打开了的链结"
 
-#, fuzzy
 msgid "invalid 'endian' argument"
-msgstr "'name'参数无效"
+msgstr "无效的“endian”参数"
 
 msgid "can only write vector objects"
 msgstr "只能写向量对象"
@@ -241,16 +237,14 @@ msgstr "间隔数目无效"
 msgid "'breaks' are not unique"
 msgstr "'breaks' 的值有重复"
 
-#, fuzzy
 msgid "number of intervals and length of 'labels' differ"
-msgstr "'breaks'和'labels'的长度不一样"
+msgstr "“labels”的间隔数和长度不同"
 
 msgid "invalid 'row.names' length"
 msgstr "'row.names'的长度无效"
 
-#, fuzzy
 msgid "invalid 'make.names'"
-msgstr "程序包名称无效"
+msgstr "无效的“make.names”"
 
 msgid "duplicate 'row.names' are not allowed"
 msgstr "'row.names'里不能有重复的名称"
@@ -261,13 +255,11 @@ msgstr "'row.names'里不能有缺失值"
 msgid "invalid 'dimnames' given for data frame"
 msgstr "数据框的'dimnames'给得无效"
 
-#, fuzzy
 msgid "cannot coerce class %s to a data.frame"
-msgstr "不能把\"%s\"类别强迫变成数据框"
+msgstr "无法将类 %s 强制转换为 data.frame"
 
-#, fuzzy
 msgid "'row.names' is not a character or integer vector of length %d"
-msgstr "'normal.kind'必需是字符串，而且其长度只能为一。"
+msgstr "“row.names”不是长度为 %d 的字符或整数向量"
 
 msgid "mismatch of row names in arguments of 'data.frame', item %d"
 msgstr "'data.frame'参数里%d单元中行名不匹配"
@@ -353,9 +345,8 @@ msgstr "变量的列数不正确"
 msgid "invalid list argument: all variables should have the same length"
 msgstr "列表参数有错误：所有变量的长度都应该是一样的"
 
-#, fuzzy
 msgid "number of columns of result, %d, is not a multiple of vector length %d of arg %d"
-msgstr "更换的项数应该是更换长度的整数倍"
+msgstr "结果的列数 %1$d 不是 arg %3$d 的向量长度 %2$d 的倍数"
 
 msgid "<0 rows> (or 0-length row.names)"
 msgstr "<0 行> (或0-长度的row.names)"
@@ -363,27 +354,23 @@ msgstr "<0 行> (或0-长度的row.names)"
 msgid "invalid 'max' / getOption(\"max.print\"):"
 msgstr "无效的 'max' / getOption(\"max.print\"):"
 
-#, fuzzy
 msgid "non-numeric-alike variable(s) in data frame:"
-msgstr "数据框里有非数值的参数"
+msgstr "数据框中的类似非数值的变量："
 
 msgid ","
 msgstr "，"
 
-#, fuzzy
 msgid "%s only defined for equally-sized data frames"
-msgstr "只适用于大小相同的数据框"
+msgstr "%s 仅针对大小相等的数据框定义"
 
 msgid "list of length %d not meaningful"
 msgstr "%d长度的列表没有意义"
 
-#, fuzzy
 msgid "only defined on a data frame with all numeric-alike variables"
-msgstr "只适用于全数值数据框"
+msgstr "仅在具有所有类似数值变量的数据框上定义"
 
-#, fuzzy
 msgid "cannot xtfrm data frames"
-msgstr "不是数据框"
+msgstr "无法 xtfrm 数据帧"
 
 msgid "all variables should have the same length"
 msgstr "列表参数有错误：所有变量的长度都应该是一样的"
@@ -490,9 +477,8 @@ msgstr "'tzone'的屬性相互有矛盾"
 msgid "as.character(td, ..) no longer obeys a 'format' argument; use format(td, ..) ?"
 msgstr "as.character(td, ..) 不再服从 'format' 参数;使用 format(td, ..) ?"
 
-#, fuzzy
 msgid "'digits' must be numeric, integer valued"
-msgstr "'trim'必需是长度必需为一的数值"
+msgstr "“digits”必须是数字，整数值"
 
 msgid "'tim' is not character or numeric"
 msgstr "'tim'不是字符，也不是数值"
@@ -521,13 +507,11 @@ msgstr "'from'一定得是\"POSIXt\"对象"
 msgid "'to' must be a \"POSIXt\" object"
 msgstr "'to'一定得是\"POSIXt\"对象"
 
-#, fuzzy
 msgid "component subscript must be a character string"
-msgstr "参数'object'必需解析成单一个字符串"
+msgstr "组件下标必须是字符串"
 
-#, fuzzy
 msgid "no Olson database found"
-msgstr "找不到文件"
+msgstr "未找到 Olson 数据库"
 
 msgid "'file' must be a character string or connection"
 msgstr "'file'要么是字符串，要么是连接"
@@ -581,9 +565,8 @@ msgstr "只能替换矩阵的对角"
 msgid "replacement diagonal has wrong length"
 msgstr "对角替换值的长度有误"
 
-#, fuzzy
 msgid "MARGIN = %s is invalid for dim = %s"
-msgstr "MARGIN = %d不能适用于dim = %d"
+msgstr "MARGIN = %s 对于 dim = %s 无效"
 
 msgid "must pass a package name, %s or %s object"
 msgstr "必需提供程序名，%s或%s对象"
@@ -618,9 +601,8 @@ msgstr "'labels'无效；长度%d应该是一或%d"
 msgid "number of levels differs"
 msgstr "水平数目不同"
 
-#, fuzzy
 msgid "%s not meaningful for factors"
-msgstr "对因子没有意义"
+msgstr "%s 对因子没有意义"
 
 msgid "level sets of factors are different"
 msgstr "因子的水平集不同"
@@ -679,13 +661,11 @@ msgstr "'path'参数无效"
 msgid "invalid 'time' argument"
 msgstr "'time'参数无效"
 
-#, fuzzy
 msgid "'vec' must be sorted non-decreasingly and not contain NAs"
-msgstr "'vec'的顺序一定得从小到大"
+msgstr "“vec”必须以非递减方式排序，并且不包含 NA"
 
-#, fuzzy
 msgid "'fun' is not a function"
-msgstr "处理程序必需是函数"
+msgstr "'fn'不是函数"
 
 msgid "using the first element of 'value' of type \"expression\""
 msgstr "用类型为\"expression\"的'value'的第一个元素"
@@ -696,13 +676,11 @@ msgstr "找不到类“%s”的 format() 方法"
 msgid "class of 'x' was discarded"
 msgstr "“X” 类被丢弃"
 
-#, fuzzy
 msgid "'flag' must be a string, i.e., of length 1"
-msgstr "'arg'的长度必需为一"
+msgstr "'flag' 必须是字符串，即长度为 1"
 
-#, fuzzy
 msgid "'flag' should contain only characters from [0+- #'I]"
-msgstr "'flag'只能含'0+- #'"
+msgstr "'flag' 应仅包含 [0+- #'I] 中的字符"
 
 msgid "'mode' must be \"double\" (\"real\"), \"integer\" or \"character\""
 msgstr "'mode'的值必需是\"double\" (\"real\")， \"integer\"或\"character\"中的一个"
@@ -731,9 +709,8 @@ msgstr "“zero.print”被截断以适应格式化的零;考虑'replace=TRUE'"
 msgid "'big.mark' and 'decimal.mark' are both '%s', which could be confusing"
 msgstr "'big.mark' and 'decimal.mark' 都是“%s”，这可能会产生混淆"
 
-#, fuzzy
 msgid "'input.d.mark' has no characters"
-msgstr "'input'和'target'一定都得是字符串"
+msgstr "“input.d.mark”中没有字符"
 
 msgid "'subset' must be logical"
 msgstr "'subset'必需是逻辑值"
@@ -780,9 +757,8 @@ msgstr "非匹配值必需有替换值"
 msgid "must have replacements for matches"
 msgstr "匹配必需有替换"
 
-#, fuzzy
 msgid "No factors specified"
-msgstr "没有指定DLL"
+msgstr "未指定因素"
 
 #, fuzzy
 msgid "invalid '%s': type \"%s\""
