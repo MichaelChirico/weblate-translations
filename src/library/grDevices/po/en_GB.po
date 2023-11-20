@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 2.1.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-11-30 14:39+0100\n"
-"PO-Revision-Date: 2022-11-04 11:04+0000\n"
+"PO-Revision-Date: 2023-11-21 03:05+0000\n"
 "Last-Translator: Heather Turner <ht@heatherturner.net>\n"
 "Language-Team: English\n"
 "Language: en_GB\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=ISO-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.13.1\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: axis_scales.c:37 axis_scales.c:38 axis_scales.c:50
 #, c-format
@@ -925,7 +925,7 @@ msgstr ""
 #: cairo/cairoBM.c:638 cairo/cairoBM.c:643 cairo/cairoBM.c:646
 #, c-format
 msgid "invalid '%s' argument"
-msgstr ""
+msgstr "invalid '%s' argument"
 
 #: cairo/cairoBM.c:193 cairo/cairoBM.c:362
 msgid "unimplemented cairo-based device"
