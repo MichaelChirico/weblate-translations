@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-11-30 14:39\n"
-"PO-Revision-Date: 2023-11-08 03:05+0000\n"
+"PO-Revision-Date: 2023-11-29 03:05+0000\n"
 "Last-Translator: \"Luis D. Verde Arregoitia\" <luisd@ciencias.unam.mx>\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -528,7 +528,6 @@ msgstr ""
 "Las líneas ofensivas deben empezar con:\n"
 "%s"
 
-#, fuzzy
 msgid ""
 "Invalid DCF format.\n"
 "Continuation lines must not start a record.\n"
@@ -537,7 +536,7 @@ msgid ""
 msgstr ""
 "Formato DCF inválido.\n"
 "Las líneas de continuación no deben iniciar un registro.\n"
-"Líneas erróneas empiezan con:\n"
+"Las líneas erróneas empiezan con:\n"
 "%s"
 
 msgid "failed to load the methods package for debugging by signature"
@@ -611,9 +610,8 @@ msgstr "los números de niveles difieren"
 msgid "%s not meaningful for factors"
 msgstr "%s no es significativo para factores"
 
-#, fuzzy
 msgid "level sets of factors are different"
-msgstr "los sets de niveles de factores son diferentes"
+msgstr "los conjuntos de niveles de los factores son diferentes"
 
 #, fuzzy
 msgid "invalid factor level, NA generated"
