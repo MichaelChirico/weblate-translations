@@ -4743,23 +4743,13 @@ msgstr[1] "R_Reprotect: only %d protected items, can't reprotect index %d"
 
 #: src/main/memory.c:3527
 #, c-format
-<<<<<<< /tmp/tmpmi2ll_p_/local.po
 msgid "'R_Calloc' could not allocate memory (%llu of %llu bytes)"
 msgstr ""
-=======
-msgid "'R_Calloc' could not allocate memory (%.0f of %u bytes)"
-msgstr "'R_Calloc' could not allocate memory (%.0f of %u bytes)"
->>>>>>> /tmp/tmpmi2ll_p_/remote.po
 
 #: src/main/memory.c:3538
 #, c-format
-<<<<<<< /tmp/tmpmi2ll_p_/local.po
-msgid "'R_Realloc' could not re-allocate memory (%llu bytes)"
-msgstr ""
-=======
 msgid "'R_Realloc' could not re-allocate memory (%.0f bytes)"
 msgstr "'R_Realloc' could not re-allocate memory (%.0f bytes)"
->>>>>>> /tmp/tmpmi2ll_p_/remote.po
 
 #: src/main/memory.c:3948
 #, c-format
@@ -6274,13 +6264,8 @@ msgstr "NA or infinite index"
 
 #: src/main/sort.c:799
 #, c-format
-<<<<<<< /tmp/tmpmi2ll_p_/local.po
-msgid "index %lld outside bounds"
-msgstr ""
-=======
 msgid "index %ld outside bounds"
 msgstr "index %ld outside bounds"
->>>>>>> /tmp/tmpmi2ll_p_/remote.po
 
 #: src/main/sort.c:804 src/main/sort.c:817
 msgid "NA index"
@@ -6467,13 +6452,8 @@ msgstr "attempt to enlarge non-vector"
 
 #: src/main/subassign.c:147
 #, c-format
-<<<<<<< /tmp/tmpmi2ll_p_/local.po
 msgid "assignment outside vector/list limits (extending from %lld to %lld)"
 msgstr ""
-=======
-msgid "assignment outside vector/list limits (extending from %d to %d)"
-msgstr "assignment outside vector/list limits (extending from %d to %d)"
->>>>>>> /tmp/tmpmi2ll_p_/remote.po
 
 #: src/main/subassign.c:267
 msgid "bad names attribute"
