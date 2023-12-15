@@ -1323,7 +1323,6 @@ msgstr "dims não corresponde ao comprimento do objeto"
 #, c-format
 msgid "dims [product %d] do not match the length of object [%d]"
 msgstr "dims [produto %d] não corresponde ao comprimento do objeto [%d]"
->>>>>>> /tmp/tmp_yex0hsl/remote.po
 
 #: src/main/attrib.c:1328
 #, c-format
