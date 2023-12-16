@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 2.1.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2023-11-30 14:39+0100\n"
-"PO-Revision-Date: 2023-12-16 01:49+0000\n"
+"PO-Revision-Date: 2023-12-17 02:03+0000\n"
 "Last-Translator: Heather Turner <ht@heatherturner.net>\n"
 "Language-Team: English\n"
 "Language: en_GB\n"
@@ -6105,7 +6105,7 @@ msgstr "input string '%s' cannot be translated to UTF-8, is it valid in '%s'?"
 #: src/main/serialize.c:1717
 #, c-format
 msgid "deserializing invalid UTF-8 string '%s'"
-msgstr "deserializing invalid UTF-8 string '%s'"
+msgstr "deserialising invalid UTF-8 string '%s'"
 
 #: src/main/serialize.c:1747
 msgid "strings not representable in native encoding will not be translated"
@@ -6118,18 +6118,18 @@ msgstr ""
 
 #: src/main/serialize.c:1766
 msgid "negative serialized length for vector"
-msgstr "negative serialized length for vector"
+msgstr "negative serialised length for vector"
 
 #: src/main/serialize.c:1774
 msgid "invalid upper part of serialized vector length"
-msgstr "invalid upper part of serialized vector length"
+msgstr "invalid upper part of serialised vector length"
 
 #: src/main/serialize.c:1779
 msgid ""
 "negative serialized vector length:\n"
 "perhaps long vector from 64-bit version of R?"
 msgstr ""
-"negative serialized vector length:\n"
+"negative serialised vector length:\n"
 "perhaps long vector from 64-bit version of R?"
 
 #: src/main/serialize.c:2054
@@ -6199,7 +6199,7 @@ msgstr "binary-mode connection required for ascii=FALSE"
 #: src/main/serialize.c:2800 src/main/serialize.c:2837
 #: src/main/serialize.c:2900
 msgid "serialization is too large to store in a raw vector"
-msgstr "serialization is too large to store in a raw vector"
+msgstr "serialisation is too large to store in a raw vector"
 
 #: src/main/serialize.c:2817
 msgid "cannot allocate buffer"
