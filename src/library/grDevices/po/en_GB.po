@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 2.1.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2023-11-30 14:39+0100\n"
-"PO-Revision-Date: 2023-12-16 01:49+0000\n"
+"PO-Revision-Date: 2023-12-18 03:05+0000\n"
 "Last-Translator: Heather Turner <ht@heatherturner.net>\n"
 "Language-Team: English\n"
 "Language: en_GB\n"
@@ -331,7 +331,9 @@ msgstr "invalid page type '%s' (postscript)"
 
 #: devPS.c:3612 devPS.c:4873 devWindows.c:2345
 msgid "semi-transparency is not supported on this device: reported only once per page"
-msgstr "semi-transparency is not supported on this device: reported only once per page"
+msgstr ""
+"semi-transparency is not supported on this device: reported only once per "
+"page"
 
 #: devPS.c:3723 devPS.c:3734
 #, c-format
