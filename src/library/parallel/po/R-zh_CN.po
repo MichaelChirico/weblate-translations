@@ -6,9 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 2.15.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2020-03-24 10:13\n"
-"PO-Revision-Date: 2023-09-18 03:05+0000\n"
+"PO-Revision-Date: 2023-12-20 13:03+0000\n"
 "Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
 "Language-Team: Chinese\n"
 "Language: zh_CN\n"
@@ -18,9 +18,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=0;\n"
 "X-Generator: Weblate 4.16.4\n"
 
-#, fuzzy
 msgid "invalid value of %s"
-msgstr "'seed'的值无效"
+msgstr "%s 的值无效"
 
 msgid "need at least one argument"
 msgstr "至少需要一个参数"
