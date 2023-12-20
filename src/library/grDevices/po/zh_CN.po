@@ -6,9 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 2.4.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2023-11-30 14:39+0100\n"
-"PO-Revision-Date: 2023-09-18 03:05+0000\n"
+"PO-Revision-Date: 2023-12-20 13:03+0000\n"
 "Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
 "Language-Team: Chinese\n"
 "Language: zh_CN\n"
@@ -28,9 +28,9 @@ msgid "Clipping path ignored (device is appending path)"
 msgstr ""
 
 #: colors.c:69
-#, fuzzy, c-format
+#, c-format
 msgid "color intensity %s, not in [0,1]"
-msgstr "颜色强度%g，不在[0,1]"
+msgstr "颜色强度 %s，不在 [0,1] 范围内"
 
 #: colors.c:71
 #, c-format
@@ -38,9 +38,9 @@ msgid "color intensity %g, not in [0,1]"
 msgstr "颜色强度%g，不在[0,1]"
 
 #: colors.c:78
-#, fuzzy, c-format
+#, c-format
 msgid "color intensity %s, not in 0:255"
-msgstr "颜色强度%d，不在0:255"
+msgstr "颜色强度 %s，不是 0:255"
 
 #: colors.c:80
 #, c-format
@@ -48,9 +48,9 @@ msgid "color intensity %d, not in 0:255"
 msgstr "颜色强度%d，不在0:255"
 
 #: colors.c:87
-#, fuzzy, c-format
+#, c-format
 msgid "alpha level %s, not in [0,1]"
-msgstr "α水平%g，不在[0,1]"
+msgstr "Alpha 级别 %s，不在 [0,1] 范围内"
 
 #: colors.c:89
 #, c-format
@@ -58,9 +58,9 @@ msgid "alpha level %g, not in [0,1]"
 msgstr "α水平%g，不在[0,1]"
 
 #: colors.c:96
-#, fuzzy, c-format
+#, c-format
 msgid "alpha level %s, not in 0:255"
-msgstr "α水平%d，不在0:255"
+msgstr "Alpha 级别 %s，不在 0:255"
 
 #: colors.c:98
 #, c-format
@@ -84,9 +84,8 @@ msgid "invalid hcl color"
 msgstr "hcl颜色无效"
 
 #: colors.c:398
-#, fuzzy
 msgid "invalid value of 'maxColorValue'"
-msgstr "'%s'的值无效"
+msgstr "“maxColorValue”的值无效"
 
 #: colors.c:426
 msgid "invalid 'names' vector"
