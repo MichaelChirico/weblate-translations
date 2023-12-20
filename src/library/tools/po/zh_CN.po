@@ -6,9 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 2.4.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2023-11-30 14:40+0100\n"
-"PO-Revision-Date: 2023-07-12 03:05+0000\n"
+"PO-Revision-Date: 2023-12-20 13:03+0000\n"
 "Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
 "Language-Team: Chinese\n"
 "Language: zh_CN\n"
@@ -23,9 +23,9 @@ msgid "argument 'files' must be character"
 msgstr "参数'files'必需是字符"
 
 #: Rmd5.c:63
-#, fuzzy, c-format
+#, c-format
 msgid "md5 failed on file '%ls'"
-msgstr "用于'%s'文件的md5运行失败"
+msgstr "文件“%ls”的 md5 失败"
 
 #: Rmd5.c:65
 #, c-format
@@ -48,7 +48,7 @@ msgstr "'fmt'的长度必需为一"
 #: getfmts.c:75
 #, c-format
 msgid "'fmt' length exceeds maximal format length %d"
-msgstr "'fmt'的长度超过了最大格式长度%d"
+msgstr "“fmt”长度超过最大格式长度 %d"
 
 #: getfmts.c:96
 #, c-format
@@ -77,12 +77,12 @@ msgstr "坏标记（额外的空间？）在%s：%d：%d"
 #: gramRd.c:3144 y.tab.c:3144
 #, c-format
 msgid "Macro '%s' previously defined."
-msgstr "'%s'宏之前已经定义了"
+msgstr "宏 '%s' 之前定义了。"
 
 #: gramRd.c:3154 y.tab.c:3154
 #, c-format
 msgid "At most 4 arguments are allowed for user defined macros."
-msgstr "用户定义的宏最多只允许四个参数"
+msgstr "用户定义的宏最多允许 4 个参数。"
 
 #: gramRd.c:3196 y.tab.c:3196
 #, c-format
@@ -90,9 +90,9 @@ msgid "No macro definition for '%s'."
 msgstr "'%s'宏的定义没有。"
 
 #: gramRd.c:3258 y.tab.c:3258
-#, fuzzy, c-format
+#, c-format
 msgid "Not enough arguments passed to user macro '%s'"
-msgstr "用户定义的宏最多只允许四个参数"
+msgstr "没有足够的参数传递给用户宏“%s”"
 
 #: gramRd.c:3398 gramRd.c:3402 y.tab.c:3398 y.tab.c:3402
 #, c-format
