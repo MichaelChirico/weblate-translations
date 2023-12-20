@@ -6,9 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 2.4.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2023-07-31 14:59+0200\n"
-"PO-Revision-Date: 2023-09-18 03:05+0000\n"
+"PO-Revision-Date: 2023-12-20 13:03+0000\n"
 "Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
 "Language-Team: Chinese\n"
 "Language: zh_CN\n"
@@ -42,7 +42,7 @@ msgstr "没有能够为'methods'找到骨架调用(程序包被拆離了？) ：
 #: methods_list_dispatch.c:279
 #, c-format
 msgid "no \"allMethods\" slot found in object of class \"%s\" used as methods list for function '%s'"
-msgstr "当函数'%2$s'方法列表来用的，类别为\"%1$s\" 的对象缺少\"allMethods\"这么一个类型。"
+msgstr "在类“%s”的对象中找不到用作函数“%s”的方法列表的“allMethods”槽"
 
 #: methods_list_dispatch.c:407
 #, c-format
@@ -100,7 +100,7 @@ msgstr "方法调度在检查短少参数'%s'时环境出了错：不需要类�
 #: methods_list_dispatch.c:643
 #, c-format
 msgid "error in evaluating the argument '%s' in selecting a method for function '%s': %s"
-msgstr "在为'%2$s'函数选择方法时评估'%1$s'参数出了错: %3$s "
+msgstr "在为函数“%2$s”选择方法时计算参数“%1$s”时出错：%3$s"
 
 #: methods_list_dispatch.c:660
 #, c-format
