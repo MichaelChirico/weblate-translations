@@ -6,9 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2023-11-30 14:39+0100\n"
-"PO-Revision-Date: 2023-11-06 03:05+0000\n"
+"PO-Revision-Date: 2023-12-20 13:03+0000\n"
 "Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
 "Language-Team: Chinese\n"
 "Language: zh_CN\n"
@@ -3149,7 +3149,7 @@ msgstr "'%d'这个pch值在本语言环境下不适用"
 #: src/main/engine.c:2437
 #, c-format
 msgid "unimplemented pch value '%d'"
-msgstr "目前没有实现pch '%d'这样一个值"
+msgstr "未实现的 pch 值“%d”"
 
 #: src/main/engine.c:2454
 #, c-format
@@ -6321,7 +6321,7 @@ msgstr "不是所有的参数都一样长"
 #: src/main/sprintf.c:155 src/main/sprintf.c:266
 #, c-format
 msgid "'fmt' length exceeds maximal format length %d"
-msgstr "'fmt'长度超过了缓冲区最大长度%d"
+msgstr "“fmt”长度超过最大格式长度 %d"
 
 #: src/main/sprintf.c:174
 #, c-format
@@ -7395,12 +7395,12 @@ msgid "InternetOpenUrl failed: '%s'"
 msgstr "InternetOpenUrl失败:’%s'"
 
 #: src/modules/internet/internet.c:599
-#, fuzzy, c-format
+#, c-format, fuzzy
 msgid "cannot open URL '%s': %s status was '%lu %s'"
 msgstr ""
 
 #: src/modules/internet/libcurl.c:217
-#, fuzzy, c-format
+#, c-format, fuzzy
 msgid "cannot open URL '%s': %s status was '%ld %s'"
 msgstr ""
 
