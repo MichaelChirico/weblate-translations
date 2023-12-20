@@ -6,9 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 2.4.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2023-07-31 14:59\n"
-"PO-Revision-Date: 2023-09-18 03:05+0000\n"
+"PO-Revision-Date: 2023-12-20 13:03+0000\n"
 "Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
 "Language-Team: Chinese\n"
 "Language: zh_CN\n"
@@ -34,9 +34,8 @@ msgstr "提供的逻辑'label'的长度为零"
 msgid "Invalid coordinates"
 msgstr "'order'的值无效"
 
-#, fuzzy
 msgid "Invalid grob coordinates"
-msgstr "'grob'名称无效"
+msgstr "无效的grob坐标"
 
 #, fuzzy
 msgid "Invalid gTree coordinates"
