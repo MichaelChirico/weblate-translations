@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.2.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2023-11-30 14:39\n"
-"PO-Revision-Date: 2023-08-30 11:00+0000\n"
-"Last-Translator: Debartha Paul <pauldeep102@gmail.com>\n"
+"PO-Revision-Date: 2024-01-12 03:05+0000\n"
+"Last-Translator: Mandal MSH <mshmandal@gmail.com>\n"
 "Language-Team: none\n"
 "Language: bn\n"
 "MIME-Version: 1.0\n"
@@ -14,7 +14,7 @@ msgstr ""
 "X-Generator: Weblate 4.16.4\n"
 
 msgid "'%s' is defunct."
-msgstr "'%s' বিলুপ্ত‍।"
+msgstr "'%s' এখন অকার্যকর।"
 
 msgid "Use '%s' instead."
 msgstr "পরিবর্তে '%s' ব্যবহার করুন।"
@@ -29,19 +29,19 @@ msgid "'%s' is deprecated."
 msgstr "'%s' এখানে অপ্রচলিত।"
 
 msgid "See help(\"Deprecated\") and help(\"%s-deprecated\")."
-msgstr "help(\"Deprecated\") আর help(\"%s-deprecated\") দেখুন।"
+msgstr "help(\"Deprecated\") এবং help(\"%s-deprecated\") দেখুন।"
 
 msgid "See help(\"Deprecated\")"
 msgstr "help(\"Deprecated\") দেখুন"
 
 msgid "argument to 'La.svd' must be numeric or complex"
-msgstr "'La.svd' এর আর্গুমেন্ট সংখ্যাসূচক অথবা জটিল সংখ্যা হওয়া উচিত"
+msgstr "'La.svd' এর আর্গুমেন্ট অবশ্যই সংখ্যাসূচক অথবা জটিল সংখ্যা হতে হবে"
 
 msgid "infinite or missing values in 'x'"
-msgstr "'x' অসীম অথবা এর কিছু সংখ্যা নেই"
+msgstr "'x' অসীম অথবা এর কিছু সংখ্যা অনুপস্থিত"
 
 msgid "a dimension is zero"
-msgstr "একটির মাপ শূন্য"
+msgstr "একটি মাত্রা শূন্য"
 
 msgid "\"all\" and \"exact\" are mutually exclusive"
 msgstr "\"all\" আর \"exact\" একে অপরের স্বতন্ত্র"
