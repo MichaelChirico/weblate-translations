@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 2.3.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2023-11-30 14:40\n"
-"PO-Revision-Date: 2023-12-20 13:03+0000\n"
+"PO-Revision-Date: 2024-02-18 03:05+0000\n"
 "Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
 "Language-Team: Chinese\n"
 "Language: zh_CN\n"
@@ -1408,7 +1408,7 @@ msgstr[0] "'lib'元素%s不是可写目录"
 
 msgid "There is a binary version available but the source version is later"
 msgid_plural "There are binary versions available but the source versions are later"
-msgstr[0] "有二进制版本的，但源代码版本是后来的"
+msgstr[0] "有二进制版本，但源代码版本更新"
 
 #, fuzzy
 msgid "Do you want to install from sources the package which needs compilation?"
@@ -1430,7 +1430,7 @@ msgstr[0] "程序包%s是源码包，但不是二进制包"
 
 msgid "There is a binary version available (and will be installed) but the source version is later"
 msgid_plural "There are binary versions available (and will be installed) but the source versions are later"
-msgstr[0] "有二进制版本（将被安装），但源代码版本是后来的"
+msgstr[0] "二进制版本可用（将被安装），但源代码版本更新"
 
 msgid "last record incomplete, %d line discarded"
 msgid_plural "last record incomplete, %d lines discarded"
