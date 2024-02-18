@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2023-11-30 14:39+0100\n"
-"PO-Revision-Date: 2023-12-20 13:03+0000\n"
+"PO-Revision-Date: 2024-02-18 03:05+0000\n"
 "Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
 "Language-Team: Chinese\n"
 "Language: zh_CN\n"
@@ -843,9 +843,9 @@ msgstr "regcomp出错：'%s'"
 #: src/main/grep.c:1409 src/main/grep.c:2274 src/main/grep.c:2564
 #: src/main/grep.c:3174 src/main/grep.c:3262 src/main/grep.c:3425
 #: src/main/grep.c:3432
-#, fuzzy, c-format
+#, c-format
 msgid "input string %lld is invalid in this locale"
-msgstr "输入的字符串%d不适用于此语言环境"
+msgstr "输入字符串 %lld 在此区域设置中无效"
 
 #: src/main/agrep.c:528 src/main/agrep.c:768 src/main/connections.c:2456
 #: src/main/grep.c:572 src/main/grep.c:1295 src/main/grep.c:1297
