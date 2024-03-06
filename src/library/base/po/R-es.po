@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.2.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2023-11-30 14:39\n"
-"PO-Revision-Date: 2023-11-29 03:05+0000\n"
+"PO-Revision-Date: 2024-03-07 03:05+0000\n"
 "Last-Translator: \"Luis D. Verde Arregoitia\" <luisd@ciencias.unam.mx>\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -773,7 +773,7 @@ msgid "unknown cost components ignored"
 msgstr "los componentes de coste desconocidos fueron ignorados"
 
 msgid "cost components must be non-negative"
-msgstr ""
+msgstr "los componentes de coste no deben ser negativos"
 
 msgid "%s and %s must have the same length"
 msgstr "%s y %s deben tener la misma longitud"
@@ -811,7 +811,7 @@ msgid "'uplo' must be \"U\" or \"L\""
 msgstr "'from' debe ser de tipo raw o character"
 
 msgid "invalid nrow(z)"
-msgstr ""
+msgstr "nrow(z) no válido"
 
 #, fuzzy
 msgid "triangular matrix should be square"
