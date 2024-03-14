@@ -214,7 +214,7 @@ msgid "Offending entries:"
 msgstr "有问题的条目为:"
 
 msgid "Entries must be names of packages optionally followed by '<=' or '>=', white space, and a valid version number in parentheses."
-msgstr "每条目都必需是程序包的名称，名称后面可以跟'<='或'>=', 空格, "
+msgstr "每条目都必需是程序包的名称，名称后面可以跟'<='或'>=', 空格,"
 "或在括号内的适当版本数目."
 
 msgid "Entries with infeasible comparison operator:"
@@ -677,7 +677,7 @@ msgstr "）因此可以冒险各个输出文件"
 
 #, fuzzy
 msgid "Note: skipping %s"
-msgstr "处理%s "
+msgstr "处理%s"
 
 msgid "Error: Vignette '%s' is non-ASCII but has no declared encoding"
 msgstr ""
@@ -794,7 +794,7 @@ msgid "cannot create directory '%s'"
 msgstr "无法建立目录'%s'"
 
 msgid "processing %s"
-msgstr "处理%s "
+msgstr "处理%s"
 
 msgid ""
 "running %s on vignette '%s' failed with message:\n"
@@ -1329,7 +1329,7 @@ msgid "Running %s"
 msgstr "执行%s"
 
 msgid "Running vignettes for package %s"
-msgstr "执行小文品给程序包%s "
+msgstr "执行小文品给程序包%s"
 
 msgid "Comparing %s to %s ..."
 msgstr "比较%s和%s"
@@ -1470,7 +1470,7 @@ msgid "contains a blank line"
 msgstr "带空行"
 
 msgid "Unknown encoding with non-ASCII data: converting to ASCII"
-msgstr "没有这样带非ASCII数据的编码: 转换为ASCII "
+msgstr "没有这样带非ASCII数据的编码: 转换为ASCII"
 
 #, fuzzy
 msgid "cannot source package code:"

@@ -78,7 +78,7 @@ msgid "'sample.kind' must be a character string of length 1"
 msgstr "'normal.kind'는 반드시 길이가 1인 문자열이어야 합니다."
 
 msgid "malformed version string"
-msgstr "잘못된 버전 "
+msgstr "잘못된 버전"
 
 msgid "target is %s, current is %s"
 msgstr "타겟은 %s이지만, 현재는 %s 입니다"
@@ -1443,7 +1443,7 @@ msgid "'file' must be NULL or an already open connection"
 msgstr "'file'는 반드시 NULL 또는 이미 열려있는 커넥션이어야 합니다"
 
 msgid "cannot split the message connection"
-msgstr "메시지 커넥션을 "
+msgstr "메시지 커넥션을"
 
 msgid "'file' must be NULL, a connection or a character string"
 msgstr "'file'은 반드시 NULL, 커멕션 또는 문자열이어야 합니다"

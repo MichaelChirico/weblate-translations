@@ -130,7 +130,7 @@ msgstr "在方法选择时函数'%s'不能有无默认方法的递归使用"
 #: methods_list_dispatch.c:737
 #, c-format
 msgid "error in evaluating a 'primitive' next method: %s"
-msgstr "評估'primitive'其次方法时出了错: %s "
+msgstr "評估'primitive'其次方法时出了错: %s"
 
 #: methods_list_dispatch.c:893
 #, c-format

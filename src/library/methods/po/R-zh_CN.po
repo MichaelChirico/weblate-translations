@@ -106,7 +106,7 @@ msgstr "必需提供函数%s的骨架，要么是明确地提供，要么通过�
 msgid ""
 "Creating a generic function for %s from %s in %s\n"
 "    (from the saved implicit definition)"
-msgstr " %3$s里的从%2$s为%1$s建立新的泛型函数(从保存的隐式定义)"
+msgstr "%3$s里的从%2$s为%1$s建立新的泛型函数(从保存的隐式定义)"
 
 msgid "Creating a new generic function for %s in %s"
 msgstr "为%2$s里的%1$s建立新的泛型函数"
@@ -235,7 +235,7 @@ msgid "%s is a primitive function; its generic form cannot be redefined"
 msgstr "%s是基元函数；其泛型形式是不能被重新定义的"
 
 msgid "%s is not currently a generic:  define it first to create a non-default implicit form"
-msgstr "%s目前不是泛型函数：请先将之定义以建立一个非较默隐含形式 "
+msgstr "%s目前不是泛型函数：请先将之定义以建立一个非较默隐含形式"
 
 msgid "must provide an environment table; got class %s"
 msgstr "必需提供环境表；得到的是%s类别"
@@ -331,7 +331,7 @@ msgid "trying to match a method signature of class %s; expects a list or a chara
 msgstr "无法同类别为%s的方法标记相对应; 必需用列表或字符向量"
 
 msgid "object to use as a method signature for function %s does not look like a legitimate signature (a vector of single class names): there were %d class names, but %d elements in the signature object"
-msgstr "为函数%1$s作为方法标记而用的对象看来不象是合法的标记(单类别名称向量) "
+msgstr "为函数%1$s作为方法标记而用的对象看来不象是合法的标记(单类别名称向量)"
 "：一共有%2$d类别名称，但标记对象里只有%3$d个元素"
 
 msgid "more elements in the method signature (%d) than in the generic signature (%d) for function %s"
@@ -533,7 +533,7 @@ msgid "argument 'includeSubclasses' must be a logical, either one value or a vec
 msgstr "参数'includeSubclasses'必需是逻辑值，要么是单一值要么是向量，其长度应同参数'classes'相等"
 
 msgid "argument 'abbreviate' must be 0, 1, 2, or 3"
-msgstr "参数'abbreviate'必需为0，1，2，或3 "
+msgstr "参数'abbreviate'必需为0，1，2，或3"
 
 msgid "needed the supplied labels vector of length %d, got %d"
 msgstr "需要的是长度为%d而不是%d的标签向量"
@@ -888,7 +888,7 @@ msgid "need a definition for the method here"
 msgstr "这里需要方法定义"
 
 msgid "Skeleton of method written to %s"
-msgstr "方法骨架写于%s "
+msgstr "方法骨架写于%s"
 
 msgid "invalid object in meta table of methods for %s, label %s, had class %s"
 msgstr "元方法表里方法%1$s，标签%2$s的对象无效，类别不应该是%3$s"

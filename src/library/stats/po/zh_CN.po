@@ -948,7 +948,7 @@ msgstr "第二参数'size'无效"
 #: rcont.c:85
 #, c-format
 msgid "rcont2 [%d,%d]: exp underflow to 0; algorithm failure"
-msgstr " rcont2 [%d,%d]: exp下益到0； 算法失败"
+msgstr "rcont2 [%d,%d]: exp下益到0； 算法失败"
 
 #: smooth.c:107
 #, c-format

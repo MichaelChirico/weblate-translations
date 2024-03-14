@@ -61,7 +61,7 @@ msgstr "Fazendo rolagem.\n"
 
 #: src/gnuwin32/console.c:2302
 msgid "  Keyboard: PgUp, PgDown, Ctrl+Arrows, Ctrl+Home, Ctrl+End,\n"
-msgstr "  Teclado:  PgUp, PgDown, Ctrl+Arrows, Ctrl+Home, Ctrl+End,\n"
+msgstr " Teclado:  PgUp, PgDown, Ctrl+Arrows, Ctrl+Home, Ctrl+End,\n"
 
 #: src/gnuwin32/console.c:2303
 msgid ""
@@ -77,85 +77,85 @@ msgstr "Editando.\n"
 
 #: src/gnuwin32/console.c:2305
 msgid "  Moving the cursor: \n"
-msgstr " Movendo o cursor: \n"
+msgstr "Movendo o cursor: \n"
 
 #: src/gnuwin32/console.c:2306
 msgid "     Left arrow or Ctrl+B: move backward one character;\n"
-msgstr "     Seta esquerda ou Ctrl+B: anda para trás um caractere;\n"
+msgstr "    Seta esquerda ou Ctrl+B: anda para trás um caractere;\n"
 
 #: src/gnuwin32/console.c:2307
 msgid "     Right arrow or Ctrl+F: move forward one character;\n"
-msgstr "     Seta direita ou Ctrl+F: anda para frente um caractere;\n"
+msgstr "    Seta direita ou Ctrl+F: anda para frente um caractere;\n"
 
 #: src/gnuwin32/console.c:2308
 msgid "     Home or Ctrl+A: go to beginning of line;\n"
-msgstr "     Home ou Ctrl+A: vai para o começo da linha;\n"
+msgstr "    Home ou Ctrl+A: vai para o começo da linha;\n"
 
 #: src/gnuwin32/console.c:2309
 msgid "     End or Ctrl+E: go to end of line;\n"
-msgstr "     End ou Ctrl+E: vai para o fim da linha;\n"
+msgstr "    End ou Ctrl+E: vai para o fim da linha;\n"
 
 #: src/gnuwin32/console.c:2310
 msgid "  History: Up and Down Arrows, Ctrl+P, Ctrl+N\n"
-msgstr "  Histórico: setas para Cima e para Baixo, Ctrl+P, Ctrl+N\n"
+msgstr " Histórico: setas para Cima e para Baixo, Ctrl+P, Ctrl+N\n"
 
 #: src/gnuwin32/console.c:2311
 msgid "  Deleting:\n"
-msgstr "  Excluindo:\n"
+msgstr " Excluindo:\n"
 
 #: src/gnuwin32/console.c:2312
 msgid "     Del or Ctrl+D: delete current character or selection;\n"
-msgstr "     Del ou Ctrl+D: exclui o caractere atual;\n"
+msgstr "    Del ou Ctrl+D: exclui o caractere atual;\n"
 
 # precedente ou próximo?
 #: src/gnuwin32/console.c:2313
 msgid "     Backspace: delete preceding character;\n"
-msgstr "     Backspace: exclui o caracter precedente;\n"
+msgstr "    Backspace: exclui o caracter precedente;\n"
 
 # atual ou corrente?
 #: src/gnuwin32/console.c:2314
 msgid "     Ctrl+Del or Ctrl+K: delete text from current character to end of line.\n"
-msgstr "     Ctrl+Del ou Ctrl+K: apaga o texto do caracter atual até o final da linha.\n"
+msgstr "    Ctrl+Del ou Ctrl+K: apaga o texto do caracter atual até o final da linha.\n"
 
 #: src/gnuwin32/console.c:2315
 msgid "     Ctrl+U: delete all text from current line.\n"
-msgstr "     Ctrl+U: exclui todo o texto da linha atual.\n"
+msgstr "    Ctrl+U: exclui todo o texto da linha atual.\n"
 
 #: src/gnuwin32/console.c:2316
 msgid "  Copy and paste.\n"
-msgstr "  Copiar e colar.\n"
+msgstr " Copiar e colar.\n"
 
 #: src/gnuwin32/console.c:2317
 msgid "     Use the mouse (with the left button held down) to mark (select) text.\n"
-msgstr "     Use o mouse (segurando o botão esquerdo) para marcar (selecionar) texto.\n"
+msgstr "    Use o mouse (segurando o botão esquerdo) para marcar (selecionar) texto.\n"
 
 #: src/gnuwin32/console.c:2318
 msgid "     Use Shift+Del (or Ctrl+C) to copy the marked text to the clipboard and\n"
-msgstr "     Use Shift+Del (ou Ctrl+C) para copiar o texto selecionado para a área de transferência e\n"
+msgstr "    Use Shift+Del (ou Ctrl+C) para copiar o texto selecionado para a área de transferência e\n"
 
 #: src/gnuwin32/console.c:2319
 msgid "     Shift+Ins (or Ctrl+V or Ctrl+Y) to paste the content of the clipboard (if any)  \n"
-msgstr "     Shift+Ins (ou Ctrl+V ou Ctrl+Y) para colar o conteúdo da área de transferência (se houver algum)  \n"
+msgstr "    Shift+Ins (ou Ctrl+V ou Ctrl+Y) para colar o conteúdo da área de transferência (se houver algum)  \n"
 
 #: src/gnuwin32/console.c:2320
 msgid "     to the console, Ctrl+X first copy then paste\n"
-msgstr "     para o console, Ctrl+X primeiro copie depois cole\n"
+msgstr "    para o console, Ctrl+X primeiro copie depois cole\n"
 
 #: src/gnuwin32/console.c:2321
 msgid "  Misc:\n"
-msgstr "  Misc:\n"
+msgstr " Misc:\n"
 
 #: src/gnuwin32/console.c:2322
 msgid "     Ctrl+L: Clear the console.\n"
-msgstr "     Ctrl+L: Limpa o console.\n"
+msgstr "    Ctrl+L: Limpa o console.\n"
 
 #: src/gnuwin32/console.c:2323
 msgid "     Ctrl+O or INS: Toggle overwrite mode: initially off.\n"
-msgstr "     Ctrl+O or INS: Alterna o modo de sobrescrita: inicialmente desligado.\n"
+msgstr "    Ctrl+O or INS: Alterna o modo de sobrescrita: inicialmente desligado.\n"
 
 #: src/gnuwin32/console.c:2324
 msgid "     Ctrl+T: Interchange current char with one to the left.\n"
-msgstr "     Ctrl+T: Troca o caracter atual com o da esquerda.\n"
+msgstr "    Ctrl+T: Troca o caracter atual com o da esquerda.\n"
 
 #: src/gnuwin32/console.c:2325
 msgid ""
@@ -247,15 +247,15 @@ msgstr "Para executar uma linha ou seção de código R, selecione o código e use u
 
 #: src/gnuwin32/editor.c:679
 msgid "     Press Ctrl-R\n"
-msgstr "     Pressione Ctrl-R\n"
+msgstr "    Pressione Ctrl-R\n"
 
 #: src/gnuwin32/editor.c:680
 msgid "     Select \"Run line or selection\" from the \"Edit\" menu\n"
-msgstr "     Seleciome \"Executar linha ou seleção\" a partir do menu \"Editar\"\n"
+msgstr "    Seleciome \"Executar linha ou seleção\" a partir do menu \"Editar\"\n"
 
 #: src/gnuwin32/editor.c:681
 msgid "     Press the \"Run line or selection\" icon on the toolbar\n"
-msgstr "     Pressione o ícone \"Executar linha ou seleção\" na barra de ferramentas\n"
+msgstr "    Pressione o ícone \"Executar linha ou seleção\" na barra de ferramentas\n"
 
 #: src/gnuwin32/editor.c:682
 msgid "This will copy the selected commands to the console and evaluate them.\n"

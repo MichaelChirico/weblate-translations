@@ -636,12 +636,12 @@ msgstr ""
 #: src/main/Rdynload.c:194
 #, c-format
 msgid "R_MAX_NUM_DLLS cannot be bigger than %d"
-msgstr "R_MAX_NUM_DLLS의 값이 %d 보다 클 수 없습니다. "
+msgstr "R_MAX_NUM_DLLS의 값이 %d 보다 클 수 없습니다."
 
 #: src/main/Rdynload.c:203
 #, c-format
 msgid "R_MAX_NUM_DLLS cannot be bigger than %d when fd limit is not known"
-msgstr "R_MAX_NUM_DLLS의 값은 fd limt을 알 수 없는 경우에 %d보다 클 수 없습니다. "
+msgstr "R_MAX_NUM_DLLS의 값은 fd limt을 알 수 없는 경우에 %d보다 클 수 없습니다."
 
 #: src/main/Rdynload.c:209 src/main/Rdynload.c:228
 msgid "the limit on the number of open files is too low"
@@ -2839,7 +2839,7 @@ msgstr "패키지 \"%3$s\"에서 \"%1$s\"는 %2$s() 목적으로 사용가능하
 #: src/main/dotcode.c:312
 #, c-format
 msgid "%s symbol name \"%s\" not in DLL for package \"%s\""
-msgstr "패키지 \"%3$s\"에는 %1$s 심볼 이름 \"%2$s\"가 DLL에 없습니다 "
+msgstr "패키지 \"%3$s\"에는 %1$s 심볼 이름 \"%2$s\"가 DLL에 없습니다"
 
 #: src/main/dotcode.c:317
 #, c-format
@@ -3170,12 +3170,12 @@ msgstr "축의 범위가 무한합니다 [GEPretty(%g,%g,%d)]"
 #: src/main/engine.c:2499
 #, fuzzy, c-format
 msgid " new *lo = %g < %g = x1"
-msgstr " .. GEPretty(.): new *lo = %g < %g = x1"
+msgstr ".. GEPretty(.): new *lo = %g < %g = x1"
 
 #: src/main/engine.c:2501
 #, fuzzy, c-format
 msgid " new *up = %g > %g = x2"
-msgstr " .. GEPretty(.): new *up = %g > %g = x2"
+msgstr ".. GEPretty(.): new *up = %g > %g = x2"
 
 #: src/main/engine.c:3021
 msgid "display list redraw incomplete"
@@ -3555,7 +3555,7 @@ msgstr "경고메시지들이 손실되었습니다\n"
 #: src/main/errors.c:602
 msgid "Warning message:"
 msgid_plural "Warning messages:"
-msgstr[0] "경고메시지(들): "
+msgstr[0] "경고메시지(들):"
 
 #: src/main/errors.c:612 src/main/errors.c:640
 #, c-format
@@ -3597,11 +3597,11 @@ msgstr "%s에서 다음과 같은 에러가 발생했습니다:"
 
 #: src/main/errors.c:842 src/main/errors.c:848
 msgid "Error: "
-msgstr "에러: "
+msgstr "에러:"
 
 #: src/main/errors.c:884 src/main/errors.c:1555
 msgid "In addition: "
-msgstr "추가정보: "
+msgstr "추가정보:"
 
 #: src/main/errors.c:1020
 msgid "invalid option \"error\"\n"
@@ -3621,11 +3621,11 @@ msgstr "'%s'는 반드시 문자열(character string)이어야 합니다."
 
 #: src/main/errors.c:1368
 msgid " [invalid string in stop(.)]"
-msgstr " [유효하지 않은 문자열이 stop(.)내에 있습니다]"
+msgstr "[유효하지 않은 문자열이 stop(.)내에 있습니다]"
 
 #: src/main/errors.c:1400
 msgid " [invalid string in warning(.)]"
-msgstr " [유효하지 않은 문자열이 warning(.)내에 있습니다]"
+msgstr "[유효하지 않은 문자열이 warning(.)내에 있습니다]"
 
 #: src/main/errors.c:1416
 #, c-format
@@ -5249,7 +5249,7 @@ msgstr "'%ls'은 이미 존재합니다"
 #: src/main/platform.c:2701 src/main/platform.c:2707
 #, c-format
 msgid "cannot create dir '%ls', reason '%s'"
-msgstr "디렉토리 '%ls'를 만들 수 없습니다. 그 이유는 '%s'입니다. "
+msgstr "디렉토리 '%ls'를 만들 수 없습니다. 그 이유는 '%s'입니다."
 
 #: src/main/platform.c:2741 src/main/platform.c:2982
 msgid "too deep nesting"

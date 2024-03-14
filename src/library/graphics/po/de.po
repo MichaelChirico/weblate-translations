@@ -499,7 +499,7 @@ msgstr "Achsenorientierung nicht berechnet"
 
 #: plot3d.c:1082
 msgid "too few parameters"
-msgstr "zu wenig Parameter "
+msgstr "zu wenig Parameter"
 
 #: plot3d.c:1112
 msgid "invalid 'x' limits"

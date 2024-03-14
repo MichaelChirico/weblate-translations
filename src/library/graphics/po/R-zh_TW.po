@@ -147,7 +147,7 @@ msgid "rows * columns too small"
 msgstr "行 * 列的結果太小"
 
 msgid "Missing rows: %s"
-msgstr "缺少行: %s "
+msgstr "缺少行: %s"
 
 msgid "'expr' must be a function, or a call or an expression containing '%s'"
 msgstr "'expr' 要麼是函式，要麼呼叫，要麼是包含 '%s' 的運算式"
@@ -171,7 +171,7 @@ msgid "invalid specification of 'breaks'"
 msgstr "'breaks' 定義無效"
 
 msgid "Must specify 'breaks' in hist(<Date>)"
-msgstr " hist(<Date>)必須設定 'breaks'"
+msgstr "hist(<Date>)必須設定 'breaks'"
 
 msgid "'x' must be a numeric vector or matrix"
 msgstr "'x' 要麼是數值向量，要麼是矩陣"

@@ -140,7 +140,7 @@ msgid "invalid 'given.values'"
 msgstr "ungültige 'given.values'"
 
 msgid "rows * columns too small"
-msgstr " Zeilen * Spalten zu klein"
+msgstr "Zeilen * Spalten zu klein"
 
 msgid "Missing rows: %s"
 msgstr "fehlende Zeilen %s"

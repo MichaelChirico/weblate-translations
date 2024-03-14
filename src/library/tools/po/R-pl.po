@@ -83,7 +83,7 @@ msgid "Mismatches in argument names:"
 msgstr "Niezgodność w nazwach argumentów:"
 
 msgid "Mismatches in argument default values (first 3):"
-msgstr "Niezgodność w domyslnych wartościach argumentów (pierwsze 3): "
+msgstr "Niezgodność w domyslnych wartościach argumentów (pierwsze 3):"
 
 msgid "Mismatches in argument default values:"
 msgstr "Niezgodność w domyślnych wartościach argumentów:"

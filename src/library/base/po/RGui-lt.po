@@ -59,7 +59,7 @@ msgstr "Slinkimas.\n"
 
 #: src/gnuwin32/console.c:2302
 msgid "  Keyboard: PgUp, PgDown, Ctrl+Arrows, Ctrl+Home, Ctrl+End,\n"
-msgstr "  Klaviatûra: PgUp, PgDown, Ctrl+rodyklës, Ctrl+Home, Ctrl+End,\n"
+msgstr " Klaviatûra: PgUp, PgDown, Ctrl+rodyklës, Ctrl+Home, Ctrl+End,\n"
 
 #: src/gnuwin32/console.c:2303
 msgid ""
@@ -75,83 +75,83 @@ msgstr "Redagavimas.\n"
 
 #: src/gnuwin32/console.c:2305
 msgid "  Moving the cursor: \n"
-msgstr "  Þymeklio perkëlimas: \n"
+msgstr " Þymeklio perkëlimas: \n"
 
 #: src/gnuwin32/console.c:2306
 msgid "     Left arrow or Ctrl+B: move backward one character;\n"
-msgstr "     Rodyklë kairën arba Ctrl+B: judëti atgal per vienà simbolá;\n"
+msgstr "    Rodyklë kairën arba Ctrl+B: judëti atgal per vienà simbolá;\n"
 
 #: src/gnuwin32/console.c:2307
 msgid "     Right arrow or Ctrl+F: move forward one character;\n"
-msgstr "     Rodyklë deðinën arba Ctrl+F: judëti á prieká per vienà simbolá;\n"
+msgstr "    Rodyklë deðinën arba Ctrl+F: judëti á prieká per vienà simbolá;\n"
 
 #: src/gnuwin32/console.c:2308
 msgid "     Home or Ctrl+A: go to beginning of line;\n"
-msgstr "     Home arba Ctrl+A: eiti á eilutës pradþià;\n"
+msgstr "    Home arba Ctrl+A: eiti á eilutës pradþià;\n"
 
 #: src/gnuwin32/console.c:2309
 msgid "     End or Ctrl+E: go to end of line;\n"
-msgstr "     End arba Ctrl+E: eiti á eilutës pabaigà;\n"
+msgstr "    End arba Ctrl+E: eiti á eilutës pabaigà;\n"
 
 #: src/gnuwin32/console.c:2310
 msgid "  History: Up and Down Arrows, Ctrl+P, Ctrl+N\n"
-msgstr "  Istorija: rodyklës aukðtyn ir þemyn, Ctrl+P, Ctrl+N\n"
+msgstr " Istorija: rodyklës aukðtyn ir þemyn, Ctrl+P, Ctrl+N\n"
 
 #: src/gnuwin32/console.c:2311
 msgid "  Deleting:\n"
-msgstr "  Ðalinimas:\n"
+msgstr " Ðalinimas:\n"
 
 #: src/gnuwin32/console.c:2312
 msgid "     Del or Ctrl+D: delete current character or selection;\n"
-msgstr "     Del arba Ctrl+D: naikinti dabartiná simbolá arba pasirinkimà;\n"
+msgstr "    Del arba Ctrl+D: naikinti dabartiná simbolá arba pasirinkimà;\n"
 
 #: src/gnuwin32/console.c:2313
 msgid "     Backspace: delete preceding character;\n"
-msgstr "     Backspace: iðtrinti ankstesná simbolá;\n"
+msgstr "    Backspace: iðtrinti ankstesná simbolá;\n"
 
 #: src/gnuwin32/console.c:2314
 msgid "     Ctrl+Del or Ctrl+K: delete text from current character to end of line.\n"
-msgstr "     Ctrl+Del arba Ctrl+K: ðalinti tekstà nuo dabartinio simbolio iki eilutës pabaigos.\n"
+msgstr "    Ctrl+Del arba Ctrl+K: ðalinti tekstà nuo dabartinio simbolio iki eilutës pabaigos.\n"
 
 #: src/gnuwin32/console.c:2315
 msgid "     Ctrl+U: delete all text from current line.\n"
-msgstr "     Ctrl+U: iðtrinti visà tekstà ið dabartinës eilutës.\n"
+msgstr "    Ctrl+U: iðtrinti visà tekstà ið dabartinës eilutës.\n"
 
 #: src/gnuwin32/console.c:2316
 msgid "  Copy and paste.\n"
-msgstr "  Kopijuoti ir áklijuoti.\n"
+msgstr " Kopijuoti ir áklijuoti.\n"
 
 #: src/gnuwin32/console.c:2317
 msgid "     Use the mouse (with the left button held down) to mark (select) text.\n"
-msgstr "     Norëdami paþymëti tekstà naudokite pelæ (laikyti kairájá mygtukà).\n"
+msgstr "    Norëdami paþymëti tekstà naudokite pelæ (laikyti kairájá mygtukà).\n"
 
 #: src/gnuwin32/console.c:2318
 msgid "     Use Shift+Del (or Ctrl+C) to copy the marked text to the clipboard and\n"
-msgstr "     Naudoti Shift+Del (arba Ctrl+C) nukipijuoti paþymëtà tekstà á iðkarpinæ ir\n"
+msgstr "    Naudoti Shift+Del (arba Ctrl+C) nukipijuoti paþymëtà tekstà á iðkarpinæ ir\n"
 
 #: src/gnuwin32/console.c:2319
 msgid "     Shift+Ins (or Ctrl+V or Ctrl+Y) to paste the content of the clipboard (if any)  \n"
-msgstr "     Shift+Ins (arba Ctrl+V arba Ctrl+Y) áklijuoti iðkarpinës turiná (jei yra)  \n"
+msgstr "    Shift+Ins (arba Ctrl+V arba Ctrl+Y) áklijuoti iðkarpinës turiná (jei yra)  \n"
 
 #: src/gnuwin32/console.c:2320
 msgid "     to the console, Ctrl+X first copy then paste\n"
-msgstr "     á konsolæ, Ctrl+X pirmiausia nukopijuokite tada áklijuokite\n"
+msgstr "    á konsolæ, Ctrl+X pirmiausia nukopijuokite tada áklijuokite\n"
 
 #: src/gnuwin32/console.c:2321
 msgid "  Misc:\n"
-msgstr "  Kita:\n"
+msgstr " Kita:\n"
 
 #: src/gnuwin32/console.c:2322
 msgid "     Ctrl+L: Clear the console.\n"
-msgstr "     Ctrl+L: iðvalyti konsolæ.\n"
+msgstr "    Ctrl+L: iðvalyti konsolæ.\n"
 
 #: src/gnuwin32/console.c:2323
 msgid "     Ctrl+O or INS: Toggle overwrite mode: initially off.\n"
-msgstr "     Ctrl+O arba INS: perjungti perraðymo reþimà: ið pradþiø iðjungta.\n"
+msgstr "    Ctrl+O arba INS: perjungti perraðymo reþimà: ið pradþiø iðjungta.\n"
 
 #: src/gnuwin32/console.c:2324
 msgid "     Ctrl+T: Interchange current char with one to the left.\n"
-msgstr "     Ctrl+T: apsikeisti dabartiná simbolá su vienu á kairæ.\n"
+msgstr "    Ctrl+T: apsikeisti dabartiná simbolá su vienu á kairæ.\n"
 
 #: src/gnuwin32/console.c:2325
 msgid ""
@@ -243,15 +243,15 @@ msgstr "Norëdami vykdyti R kodo eilutæ arba sekcijà, pasirinkite kodà ir arba\n"
 
 #: src/gnuwin32/editor.c:679
 msgid "     Press Ctrl-R\n"
-msgstr "     Spausti Ctrl-R\n"
+msgstr "    Spausti Ctrl-R\n"
 
 #: src/gnuwin32/editor.c:680
 msgid "     Select \"Run line or selection\" from the \"Edit\" menu\n"
-msgstr "     Ið meniu „Redaguoti“ pasirinkite „Vykdyti eilutæ arba pasirinkimà“\n"
+msgstr "    Ið meniu „Redaguoti“ pasirinkite „Vykdyti eilutæ arba pasirinkimà“\n"
 
 #: src/gnuwin32/editor.c:681
 msgid "     Press the \"Run line or selection\" icon on the toolbar\n"
-msgstr "     Árankiø juostoje paspauskite piktogramà „Vykdyti eilutæ arba pasirinkimà“\n"
+msgstr "    Árankiø juostoje paspauskite piktogramà „Vykdyti eilutæ arba pasirinkimà“\n"
 
 #: src/gnuwin32/editor.c:682
 msgid "This will copy the selected commands to the console and evaluate them.\n"
@@ -822,7 +822,7 @@ msgstr "Klausimas"
 
 #: src/extra/graphapp/dialogs.c:249
 msgid " Change working directory to:"
-msgstr " Keisti darbiná katalogà á:"
+msgstr "Keisti darbiná katalogà á:"
 
 #: src/extra/graphapp/dialogs.c:251
 #, c-format

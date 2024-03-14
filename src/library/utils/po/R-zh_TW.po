@@ -913,7 +913,7 @@ msgid "not all columns named in 'as.is' exist"
 msgstr "有此 'as.is' 所設定的行並不存在"
 
 msgid "'as.is' has the wrong length %d  != cols = %d"
-msgstr "'as.is' 的長度不對 %d  ！= cols = %d "
+msgstr "'as.is' 的長度不對 %d  ！= cols = %d"
 
 msgid "invalid 'row.names' specification"
 msgstr "'row.names' 設定得無效"
@@ -1226,7 +1226,7 @@ msgstr ""
 "嘗試刪除 %s"
 
 msgid "ERROR: failed to create lock directory %s"
-msgstr "錯誤：無法建立鎖定目錄 %s "
+msgstr "錯誤：無法建立鎖定目錄 %s"
 
 msgid "restored %s"
 msgstr "回覆了 %s"

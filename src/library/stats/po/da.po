@@ -845,7 +845,7 @@ msgstr "ugyldig værdi for lag.max"
 #: port.c:133
 #, c-format
 msgid "Rf_divset: alg = %d must be 1, 2, 3, or 4"
-msgstr "Rf_divsæt: alg = %d skal være 1, 2, 3 eller 4 "
+msgstr "Rf_divsæt: alg = %d skal være 1, 2, 3 eller 4"
 
 #: port.c:149
 msgid "port algorithms 3 or higher are not supported"

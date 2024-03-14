@@ -111,7 +111,7 @@ msgstr "巨集巢狀過深：無限遞迴？"
 #: gramRd.c:3858 y.tab.c:3858
 #, c-format
 msgid "Unable to find macro %s"
-msgstr "找不到巨集 %s "
+msgstr "找不到巨集 %s"
 
 #: gramRd.c:4057 y.tab.c:4057
 #, c-format

@@ -960,7 +960,7 @@ msgstr "第二引數 'size' 無效"
 #: rcont.c:85
 #, c-format
 msgid "rcont2 [%d,%d]: exp underflow to 0; algorithm failure"
-msgstr " rcont2 [%d,%d]: exp 下益到 0； 演算法失敗"
+msgstr "rcont2 [%d,%d]: exp 下益到 0； 演算法失敗"
 
 #: smooth.c:107
 #, c-format

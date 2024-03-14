@@ -62,7 +62,7 @@ msgid "the series is entirely NA"
 msgstr "seri tamamen NA"
 
 msgid "frequency must be a positive integer >= 2 for BSM"
-msgstr "BSM için sıklık pozitif, 2 ye eşit veya daha büyük tamsayı olmalı "
+msgstr "BSM için sıklık pozitif, 2 ye eşit veya daha büyük tamsayı olmalı"
 
 msgid "only implemented for univariate time series"
 msgstr "sadece tek değişkenli zaman serileri için tanımlı"
@@ -828,7 +828,7 @@ msgstr "faktör analizi sadece sayısal değişkenlere uygulanabilir"
 
 #, fuzzy
 msgid "'covmat' is of unknown type"
-msgstr "bilinmeyen tipte 'covmat' "
+msgstr "bilinmeyen tipte 'covmat'"
 
 msgid "requested scores without an 'x' matrix"
 msgstr "'x' matrisi olmadan puanlar istendi"
@@ -1223,7 +1223,7 @@ msgstr "'k' bir çekirdek değil"
 
 #, fuzzy
 msgid "'x' is shorter than kernel 'k'"
-msgstr "'x' k "
+msgstr "'x' k"
 
 msgid "'kernapply' is not available for object 'x'"
 msgstr "'kernapply' 'x' nesnesi için mevcut değil"

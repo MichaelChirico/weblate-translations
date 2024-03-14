@@ -111,7 +111,7 @@ msgstr "宏嵌套过深：无限递归？"
 #: gramRd.c:3858 y.tab.c:3858
 #, c-format
 msgid "Unable to find macro %s"
-msgstr "找不到宏%s "
+msgstr "找不到宏%s"
 
 #: gramRd.c:4057 y.tab.c:4057
 #, c-format

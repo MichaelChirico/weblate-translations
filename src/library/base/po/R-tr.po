@@ -114,7 +114,7 @@ msgid "'x' must have named dimnames"
 msgstr ""
 
 msgid "incorrect value for 'MARGIN'"
-msgstr " 'MARGIN' için geçersiz değer"
+msgstr "'MARGIN' için geçersiz değer"
 
 msgid "dim(x) must have a positive length"
 msgstr ""

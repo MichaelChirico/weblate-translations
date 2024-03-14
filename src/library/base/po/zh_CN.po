@@ -2801,7 +2801,7 @@ msgstr "分配设备内存不足(GEcreateDevDesc)"
 
 #: src/main/devices.c:545
 msgid "Hit <Return> to see next plot: "
-msgstr "按<Return>键来看下一个图: "
+msgstr "按<Return>键来看下一个图:"
 
 #: src/main/dotcode.c:127 src/main/dotcode.c:157
 msgid "NULL value passed as symbol address"
@@ -3165,12 +3165,12 @@ msgstr "座标范围不能是无限值[GEPretty(%g,%g,%d)]"
 #: src/main/engine.c:2499
 #, fuzzy, c-format
 msgid " new *lo = %g < %g = x1"
-msgstr " .. GEPretty(.): new *lo =%g <%g = x1"
+msgstr ".. GEPretty(.): new *lo =%g <%g = x1"
 
 #: src/main/engine.c:2501
 #, fuzzy, c-format
 msgid " new *up = %g > %g = x2"
-msgstr " .. GEPretty(.): new *up =%g >%g = x2"
+msgstr ".. GEPretty(.): new *up =%g >%g = x2"
 
 #: src/main/engine.c:3021
 msgid "display list redraw incomplete"
@@ -3302,7 +3302,7 @@ msgstr "无法给这个数据库指定变量"
 #: src/main/envir.c:1843
 #, c-format
 msgid "cannot add binding of '%s' to the base environment"
-msgstr "无法在基本环境里加联编'%s' "
+msgstr "无法在基本环境里加联编'%s'"
 
 #: src/main/envir.c:1872
 msgid "only the first element is used as variable name"
@@ -3574,7 +3574,7 @@ msgstr "警告多于%d个(用warnings()来显示第一个到第%d个)\n"
 
 #: src/main/errors.c:758
 msgid "Error during wrapup: "
-msgstr "收捲时出错: "
+msgstr "收捲时出错:"
 
 #: src/main/errors.c:769
 msgid "Error: no more error handlers available (recursive errors?); invoking 'abort' restart\n"
@@ -3587,7 +3587,7 @@ msgstr "错误于"
 #: src/main/errors.c:810 src/main/errors.c:817
 #, fuzzy, c-format
 msgid "Error in %s (from %s) : "
-msgstr " (从%s) : "
+msgstr "(从%s) :"
 
 #: src/main/errors.c:819
 #, fuzzy, c-format
@@ -3596,11 +3596,11 @@ msgstr "错误于"
 
 #: src/main/errors.c:842 src/main/errors.c:848
 msgid "Error: "
-msgstr "错误: "
+msgstr "错误:"
 
 #: src/main/errors.c:884 src/main/errors.c:1555
 msgid "In addition: "
-msgstr "此外: "
+msgstr "此外:"
 
 #: src/main/errors.c:1020
 msgid "invalid option \"error\"\n"
@@ -3620,11 +3620,11 @@ msgstr "'sep'必需是字符串"
 
 #: src/main/errors.c:1368
 msgid " [invalid string in stop(.)]"
-msgstr " [stop(.)里的字符串无效]"
+msgstr "[stop(.)里的字符串无效]"
 
 #: src/main/errors.c:1400
 msgid " [invalid string in warning(.)]"
-msgstr " [warning(.)里的字符串无效]"
+msgstr "[warning(.)里的字符串无效]"
 
 #: src/main/errors.c:1416
 #, c-format
@@ -3773,7 +3773,7 @@ msgstr "不适用于非函数"
 #: src/main/eval.c:1301
 #, c-format
 msgid "%s at %s#%d: "
-msgstr "%s在%s#%d: "
+msgstr "%s在%s#%d:"
 
 #: src/main/eval.c:2428 src/main/eval.c:3636
 #, c-format
@@ -4478,7 +4478,7 @@ msgstr "dummy - do not translate"
 #: src/main/main.c:335
 #, fuzzy
 msgid "error during cleanup\n"
-msgstr "收捲时出错: "
+msgstr "收捲时出错:"
 
 #: src/main/main.c:344
 msgid "Execution halted\n"
@@ -4499,7 +4499,7 @@ msgstr "无法復原保存在%s里的数据\n"
 
 #: src/main/main.c:1177
 msgid "During startup - "
-msgstr "在启动过程中 - "
+msgstr "在启动过程中 -"
 
 #: src/main/main.c:1193
 #, fuzzy
@@ -4809,11 +4809,11 @@ msgstr "\"%s\"没有适用于\"%s\"目标对象的方法"
 
 #: src/main/objects.c:725
 msgid "'NextMethod' called from outside a function"
-msgstr "不能在函数外调用'NextMethod' "
+msgstr "不能在函数外调用'NextMethod'"
 
 #: src/main/objects.c:731
 msgid "'NextMethod' called from an anonymous function"
-msgstr "不能在匿名函数内调用'NextMethod' "
+msgstr "不能在匿名函数内调用'NextMethod'"
 
 #: src/main/objects.c:752
 msgid "no calling generic was found: was a method called directly?"
@@ -4897,7 +4897,7 @@ msgstr "'standardGeneric'的参数必需是非空字符串"
 #: src/main/objects.c:1342
 #, c-format
 msgid "call to standardGeneric(\"%s\") apparently not from the body of that generic function"
-msgstr "不能从非泛型函数体内调用standardGeneric(\"%s\") "
+msgstr "不能从非泛型函数体内调用standardGeneric(\"%s\")"
 
 #: src/main/objects.c:1441
 #, c-format
@@ -4929,7 +4929,7 @@ msgstr "分派错误"
 #: src/main/objects.c:1668
 #, c-format
 msgid "primitive function \"%s\" has been set for methods but no generic function supplied"
-msgstr "原始函数\"%s\"有了设定的方法，但却没有同属函数 "
+msgstr "原始函数\"%s\"有了设定的方法，但却没有同属函数"
 
 #: src/main/objects.c:1699
 msgid "C level MAKE_CLASS macro called with NULL string pointer"
@@ -5030,7 +5030,7 @@ msgstr "'dec'必需为单节字符"
 
 #: src/main/options.c:793 src/main/options.c:890
 msgid "\"par.ask.default\" has been replaced by \"device.ask.default\""
-msgstr "\"device.ask.default\"代替了\"par.ask.default\" "
+msgstr "\"device.ask.default\"代替了\"par.ask.default\""
 
 #: src/main/options.c:820
 #, fuzzy
@@ -5294,7 +5294,7 @@ msgstr "读取文件目录%s时出了问题：%s"
 #: src/main/platform.c:2819
 #, c-format
 msgid "problem copying %ls to %ls: %s"
-msgstr "拷贝%ls到%ls时出了问题：%s "
+msgstr "拷贝%ls到%ls时出了问题：%s"
 
 #: src/main/platform.c:3030
 #, c-format
@@ -5314,7 +5314,7 @@ msgstr "读取文件目录%s时出了问题：%s"
 #: src/main/platform.c:3078
 #, c-format
 msgid "problem copying %s to %s: %s"
-msgstr "拷贝%s到%s出了问题: %s "
+msgstr "拷贝%s到%s出了问题: %s"
 
 #: src/main/platform.c:3238
 msgid "'mode' must be of length at least one"
@@ -5438,7 +5438,7 @@ msgstr ""
 
 #: src/main/printutils.c:755
 msgid "it is not known that wchar_t is Unicode on this platform"
-msgstr " wchar_t在本平台上不应该是Unicode"
+msgstr "wchar_t在本平台上不应该是Unicode"
 
 #: src/main/qsort.c:55
 msgid "argument is not a numeric vector"
@@ -6223,7 +6223,7 @@ msgstr "无法排序原始向量"
 
 #: src/main/sort.c:796
 msgid "NA or infinite index"
-msgstr "出现了NA或无限大的index "
+msgstr "出现了NA或无限大的index"
 
 #: src/main/sort.c:799
 #, fuzzy, c-format
@@ -6584,7 +6584,7 @@ msgstr "只有负下标里才能有零"
 
 #: src/main/subscript.c:807
 msgid "subscript too large for 32-bit R"
-msgstr "标过大，因为是32位的R "
+msgstr "标过大，因为是32位的R"
 
 #: src/main/subscript.c:1052
 msgid "subscripting on non-vector"
@@ -6811,7 +6811,7 @@ msgstr "无法创建'R_TempDir'"
 
 #: src/main/sysutils.c:2118 src/main/sysutils.c:2129 src/main/sysutils.c:2134
 msgid "unable to set R_SESSION_TMPDIR"
-msgstr "无法设制R_SESSION_TMPDIR "
+msgstr "无法设制R_SESSION_TMPDIR"
 
 #: src/main/sysutils.c:2184
 msgid "temporary name too long"
@@ -7792,7 +7792,7 @@ msgstr ""
 #: src/nmath/pnbinom.c:82
 #, c-format
 msgid "pnbinom_mu() -> bratio() gave error code %d"
-msgstr "pnbinom_mu() -> bratio()得到了错误代码%d "
+msgstr "pnbinom_mu() -> bratio()得到了错误代码%d"
 
 #: src/nmath/pnchisq.c:304
 #, fuzzy, c-format

@@ -877,7 +877,7 @@ msgid "using weights as inverse variances"
 msgstr "nutze Gewichte als inverse Varianzen"
 
 msgid "'variance' \"%s\" is invalid: possible values are \"mu(1-mu)\", \"mu\", \"mu^2\", \"mu^3\" and \"constant\""
-msgstr "'variance' \"%s\" ist unzulässig: mögliche Werte sind \"mu(1-mu)\", \"mu\", \"mu^2\", \"mu^3\" und \"constant\" "
+msgstr "'variance' \"%s\" ist unzulässig: mögliche Werte sind \"mu(1-mu)\", \"mu\", \"mu^2\", \"mu^3\" und \"constant\""
 
 msgid "length mismatch in convolution"
 msgstr "Längen in Faltung passen nicht"
@@ -1692,7 +1692,7 @@ msgid "'varying' has wrong length"
 msgstr "'varying' hat falsche Länge"
 
 msgid "'varying' must be logical, integer or character"
-msgstr "'varying' muss logisch, ganzzahlig oder Zeichenkette sein "
+msgstr "'varying' muss logisch, ganzzahlig oder Zeichenkette sein"
 
 msgid "invalid argument to 'getProfile'"
 msgstr "unzulässiges Argument für 'getProfile'"

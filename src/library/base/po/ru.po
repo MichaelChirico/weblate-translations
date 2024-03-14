@@ -1245,7 +1245,7 @@ msgstr "не могу присвоить 'tsp' нулевому вектору"
 
 #: src/main/attrib.c:492
 msgid "attempt to set invalid 'comment' attribute"
-msgstr "попытка установить неправильный атрибут 'comment' "
+msgstr "попытка установить неправильный атрибут 'comment'"
 
 #: src/main/attrib.c:544
 msgid "adding class \"factor\" to an invalid object"
@@ -2889,7 +2889,7 @@ msgstr "'NAME' отсутствует"
 #: src/main/dotcode.c:563 src/main/dotcode.c:1546 src/main/dotcode.c:1807
 #, c-format
 msgid "Incorrect number of arguments (%d), expecting %d for '%s'"
-msgstr "Неправильное количество аргументов (%d), ожидается %d для '%s' "
+msgstr "Неправильное количество аргументов (%d), ожидается %d для '%s'"
 
 #: src/main/dotcode.c:1514 src/main/dotcode.c:2660
 msgid "too many arguments, sorry"
@@ -3180,12 +3180,12 @@ msgstr "бесконечная протяженность оси [GEPretty(%g,%g
 #: src/main/engine.c:2499
 #, c-format
 msgid " new *lo = %g < %g = x1"
-msgstr " новая *lo = %g < %g = x1"
+msgstr "новая *lo = %g < %g = x1"
 
 #: src/main/engine.c:2501
 #, c-format
 msgid " new *up = %g > %g = x2"
-msgstr " новая *up = %g > %g = x2"
+msgstr "новая *up = %g > %g = x2"
 
 #: src/main/engine.c:3021
 msgid "display list redraw incomplete"
@@ -3588,7 +3588,7 @@ msgstr "Было %d или более предупреждений (введит
 
 #: src/main/errors.c:758
 msgid "Error during wrapup: "
-msgstr "Ошибка во время создания сводки: "
+msgstr "Ошибка во время создания сводки:"
 
 #: src/main/errors.c:769
 msgid "Error: no more error handlers available (recursive errors?); invoking 'abort' restart\n"
@@ -3596,12 +3596,12 @@ msgstr "Ошибка: больше нет доступных обработчи�
 
 #: src/main/errors.c:788
 msgid "Error in "
-msgstr "Ошибка в "
+msgstr "Ошибка в"
 
 #: src/main/errors.c:810 src/main/errors.c:817
 #, c-format
 msgid "Error in %s (from %s) : "
-msgstr "Ошибка в %s (из %s) : "
+msgstr "Ошибка в %s (из %s) :"
 
 #: src/main/errors.c:819
 #, c-format
@@ -3610,11 +3610,11 @@ msgstr "Ошибка в %s :"
 
 #: src/main/errors.c:842 src/main/errors.c:848
 msgid "Error: "
-msgstr "Ошибка: "
+msgstr "Ошибка:"
 
 #: src/main/errors.c:884 src/main/errors.c:1555
 msgid "In addition: "
-msgstr "Вдобавок: "
+msgstr "Вдобавок:"
 
 #: src/main/errors.c:1020
 msgid "invalid option \"error\"\n"
@@ -3634,11 +3634,11 @@ msgstr "'%s' должен быть текстовой строкой"
 
 #: src/main/errors.c:1368
 msgid " [invalid string in stop(.)]"
-msgstr " [неправильная строка в stop(.)]"
+msgstr "[неправильная строка в stop(.)]"
 
 #: src/main/errors.c:1400
 msgid " [invalid string in warning(.)]"
-msgstr " [неправильная строка в warning(.)]"
+msgstr "[неправильная строка в warning(.)]"
 
 #: src/main/errors.c:1416
 #, c-format
@@ -3785,7 +3785,7 @@ msgstr "попытка применить не-функцию"
 #: src/main/eval.c:1301
 #, c-format
 msgid "%s at %s#%d: "
-msgstr "%s на %s#%d: "
+msgstr "%s на %s#%d:"
 
 #: src/main/eval.c:2428 src/main/eval.c:3636
 #, c-format
@@ -4405,12 +4405,12 @@ msgstr "нулевой образец"
 #: src/main/grep.c:3071
 #, c-format
 msgid "'pcre2_patterninfo' returned '%d' "
-msgstr "'pcre2_patterninfo' вернул '%d' "
+msgstr "'pcre2_patterninfo' вернул '%d'"
 
 #: src/main/grep.c:3088
 #, c-format
 msgid "'pcre_fullinfo' returned '%d' "
-msgstr "'pcre_fullinfo' вернул '%d' "
+msgstr "'pcre_fullinfo' вернул '%d'"
 
 #: src/main/identical.c:144
 msgid "ignoring non-pairlist attributes"
@@ -4506,7 +4506,7 @@ msgstr "не могу восстановить сохраненные в %s да
 
 #: src/main/main.c:1177
 msgid "During startup - "
-msgstr "Во время загрузки - "
+msgstr "Во время загрузки -"
 
 #: src/main/main.c:1193
 msgid "unable to initialize the JIT\n"
@@ -5289,7 +5289,7 @@ msgstr "не могу записать не-директорию %ls повер�
 #: src/main/platform.c:2780
 #, c-format
 msgid "problem creating directory %ls: %s"
-msgstr "проблема с созданием каталога %ls: %s "
+msgstr "проблема с созданием каталога %ls: %s"
 
 #: src/main/platform.c:2802
 #, c-format
@@ -5851,7 +5851,7 @@ msgstr "слишком много элементов"
 
 #: src/main/scan.c:692
 msgid "empty 'what' specified"
-msgstr "указан пустой 'what' "
+msgstr "указан пустой 'what'"
 
 #: src/main/scan.c:751
 #, c-format

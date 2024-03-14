@@ -103,7 +103,7 @@ msgstr "'mcexit' fehlgeschlagen"
 
 #: fork.c:1241 fork.c:1250
 msgid "invalid CPU affinity specification"
-msgstr "unzulässige CPU-Affinitätsspezifikation "
+msgstr "unzulässige CPU-Affinitätsspezifikation"
 
 #: fork.c:1261
 msgid "requested CPU set is too large for this system"

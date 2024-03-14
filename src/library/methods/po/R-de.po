@@ -330,7 +330,7 @@ msgid "invalid element in a list for \"signature\" argument; element %d is neith
 msgstr "unzlässiges Element in einer Liste für das \"signature\" Argument; Element %d ist weder eine Klassendefinition noch ein Klassenname"
 
 msgid "trying to match a method signature of class %s; expects a list or a character vector"
-msgstr "Versuche eine Methodensignatur mit Klasse %s zu matchen; erwartet eine Liste oder einen Zeichenkettenvektor "
+msgstr "Versuche eine Methodensignatur mit Klasse %s zu matchen; erwartet eine Liste oder einen Zeichenkettenvektor"
 
 msgid "object to use as a method signature for function %s does not look like a legitimate signature (a vector of single class names): there were %d class names, but %d elements in the signature object"
 msgstr "Objekt, welches als Methodensignatur für Funktion %s genutzt werden soll, sieht nicht wie eine zulässige Signatur (Vektor von einzelnen Klassennamen) aus; es gab %d Klassennamen, aber %d Elemente im Signaturobjekt"
@@ -1243,7 +1243,7 @@ msgid "no method in methods table for %s for signature %s"
 msgstr "keine Methode in der Methodentabelle für %s für Signatur %s"
 
 msgid "unloading 'methods' package ..."
-msgstr "entferne 'methods' Paket ... "
+msgstr "entferne 'methods' Paket ..."
 
 msgid "apparently bad method or class metadata in saved environment;"
 msgstr "anscheinend unbrauchbare Methode oder Klassenmetadaten in gespeicherter Umgebung"

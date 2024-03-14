@@ -291,7 +291,7 @@ msgstr "número de dispositivo gráfico no válido"
 
 #: src/gnuwin32/extra.c:928
 msgid "bad device"
-msgstr "dispositivo defectuoso "
+msgstr "dispositivo defectuoso"
 
 #: src/gnuwin32/extra.c:1054 src/main/platform.c:1719
 msgid "file choice cancelled"
@@ -700,7 +700,7 @@ msgstr "no fue posible adjudicar memoria para el símbolo nativo registrado (%d b
 #: src/main/Rdynload.c:500
 #, fuzzy, c-format
 msgid "Symbol '%s' does not have a valid native address."
-msgstr " flujo de archivos no tiene encabezado válido de gzip "
+msgstr "flujo de archivos no tiene encabezado válido de gzip "
 
 #: src/main/Rdynload.c:502
 #, c-format
@@ -1343,7 +1343,7 @@ msgstr "exactamente 1 atributo 'which' debe ser especificado"
 #: src/main/subscript.c:302 src/main/subset.c:1332 src/main/subset.c:1390
 #, c-format
 msgid "partial match of '%s' to '%s'"
-msgstr " encuentros parciales de '%s' to '%s'"
+msgstr "encuentros parciales de '%s' to '%s'"
 
 #: src/main/attrib.c:1601
 #, fuzzy
@@ -2356,7 +2356,7 @@ msgstr ""
 #: src/main/connections.c:4109
 #, fuzzy, c-format
 msgid "incomplete final line found on '%s'"
-msgstr " readLines encontró la línea final incompleta en '%s'"
+msgstr "readLines encontró la línea final incompleta en '%s'"
 
 #: src/main/connections.c:4115
 msgid "too few lines read in readLines"
@@ -2470,7 +2470,7 @@ msgstr "sólo puede dar vuelta en una conexión abierta para lectura"
 
 #: src/main/connections.c:5165
 msgid "can only push back on text-mode connections"
-msgstr " sólo puede dar vuelta en conexiones de modo texto"
+msgstr "sólo puede dar vuelta en conexiones de modo texto"
 
 #: src/main/connections.c:5229 src/main/connections.c:5299
 msgid "sink stack is full"
@@ -2528,7 +2528,7 @@ msgstr "flujo de archivos no tiene número mágico de gzip"
 
 #: src/main/connections.c:5798
 msgid "file stream does not have valid gzip header"
-msgstr " flujo de archivos no tiene encabezado válido de gzip "
+msgstr "flujo de archivos no tiene encabezado válido de gzip "
 
 #: src/main/connections.c:5863
 msgid "writing error whilst flushing 'gzcon' connection"
@@ -2779,7 +2779,7 @@ msgstr "no usar 'tracemem' para referencias débiles u objetos externos"
 
 #: src/main/debug.c:180 src/main/debug.c:187
 msgid "R was not compiled with support for memory profiling"
-msgstr "R no fue compilado con soporte para perfil de memoria 'R profiling' "
+msgstr "R no fue compilado con soporte para perfil de memoria 'R profiling'"
 
 #: src/main/deparse.c:176
 #, fuzzy
@@ -2792,7 +2792,7 @@ msgstr "deparse puede estar incompleto"
 
 #: src/main/deparse.c:308
 msgid "deparse may be not be source()able in R < 2.7.0"
-msgstr " deparse may be not be source()able in R < 2.7.0"
+msgstr "deparse may be not be source()able in R < 2.7.0"
 
 #: src/main/deparse.c:396 src/main/deparse.c:441 src/main/source.c:203
 #, fuzzy
@@ -3231,12 +3231,12 @@ msgstr "extensión de los ejes infinita [GEPretty(%g,%g,%d)]"
 #: src/main/engine.c:2499
 #, fuzzy, c-format
 msgid " new *lo = %g < %g = x1"
-msgstr " .. GEPretty(.): nuevo *lo = %g < %g = x1"
+msgstr ".. GEPretty(.): nuevo *lo = %g < %g = x1"
 
 #: src/main/engine.c:2501
 #, fuzzy, c-format
 msgid " new *up = %g > %g = x2"
-msgstr " .. GEPretty(.): nuevo *up = %g > %g = x2"
+msgstr ".. GEPretty(.): nuevo *up = %g > %g = x2"
 
 #: src/main/engine.c:3021
 #, fuzzy
@@ -3652,7 +3652,7 @@ msgstr "Hubo %d o más avisos (use warnings() para ver los primeros %d)"
 
 #: src/main/errors.c:758
 msgid "Error during wrapup: "
-msgstr "Error durante el wrapup: "
+msgstr "Error durante el wrapup:"
 
 #: src/main/errors.c:769
 msgid "Error: no more error handlers available (recursive errors?); invoking 'abort' restart\n"
@@ -3660,7 +3660,7 @@ msgstr ""
 
 #: src/main/errors.c:788
 msgid "Error in "
-msgstr "Error en "
+msgstr "Error en"
 
 #: src/main/errors.c:810 src/main/errors.c:817
 #, c-format
@@ -3670,11 +3670,11 @@ msgstr ""
 #: src/main/errors.c:819
 #, fuzzy, c-format
 msgid "Error in %s : "
-msgstr "Error en "
+msgstr "Error en"
 
 #: src/main/errors.c:842 src/main/errors.c:848
 msgid "Error: "
-msgstr "Error: "
+msgstr "Error:"
 
 #: src/main/errors.c:884 src/main/errors.c:1555
 msgid "In addition: "
@@ -3698,11 +3698,11 @@ msgstr "'sep' debe ser una cadena (string) de caracteres"
 
 #: src/main/errors.c:1368
 msgid " [invalid string in stop(.)]"
-msgstr " [string inválido en stop(.)]"
+msgstr "[string inválido en stop(.)]"
 
 #: src/main/errors.c:1400
 msgid " [invalid string in warning(.)]"
-msgstr " [string inválido en warning(.)]"
+msgstr "[string inválido en warning(.)]"
 
 #: src/main/errors.c:1416
 #, c-format
@@ -3851,7 +3851,7 @@ msgstr "tentativa de aplicar una no-función"
 #: src/main/eval.c:1301
 #, c-format
 msgid "%s at %s#%d: "
-msgstr "%s en %s#%d: "
+msgstr "%s en %s#%d:"
 
 #: src/main/eval.c:2428 src/main/eval.c:3636
 #, fuzzy, c-format
@@ -4483,12 +4483,12 @@ msgstr "patrón de longitud 0"
 #: src/main/grep.c:3071
 #, fuzzy, c-format
 msgid "'pcre2_patterninfo' returned '%d' "
-msgstr "pcre_fullinfo retornado '%d' "
+msgstr "pcre_fullinfo retornado '%d'"
 
 #: src/main/grep.c:3088
 #, fuzzy, c-format
 msgid "'pcre_fullinfo' returned '%d' "
-msgstr "pcre_fullinfo retornado '%d' "
+msgstr "pcre_fullinfo retornado '%d'"
 
 #: src/main/identical.c:144
 msgid "ignoring non-pairlist attributes"
@@ -4665,7 +4665,7 @@ msgstr "el argumento %d concuerda con multiples argumentos formales"
 #: src/main/match.c:278
 #, c-format
 msgid "partial argument match of '%s' to '%s'"
-msgstr " argumentos parcialmente correctos de '%s' a '%s'"
+msgstr "argumentos parcialmente correctos de '%s' a '%s'"
 
 #: src/main/match.c:375
 #, c-format
@@ -5064,7 +5064,7 @@ msgstr "Objeto de la clase \"%s\" no corresponde a un objeto válido S3"
 
 #: src/main/options.c:136 src/main/options.c:211
 msgid "corrupted options list"
-msgstr " opsiones de lista corruptos"
+msgstr "opsiones de lista corruptos"
 
 #: src/main/options.c:146
 #, fuzzy, c-format
@@ -5524,12 +5524,12 @@ msgstr "largo de carácter inválido en dblepr"
 #: src/main/print.c:1159
 #, fuzzy
 msgid "invalid character length in 'intpr'"
-msgstr " largo de carácter inválido en intpr"
+msgstr "largo de carácter inválido en intpr"
 
 #: src/main/print.c:1181
 #, fuzzy
 msgid "invalid character length in 'realpr'"
-msgstr " largo de carácter inválido en realpr"
+msgstr "largo de carácter inválido en realpr"
 
 #: src/main/print.c:1191
 #, fuzzy
@@ -5547,7 +5547,7 @@ msgstr "muy pocos rótulos de filas"
 
 #: src/main/printarray.c:342
 msgid "too few column labels"
-msgstr " muy pocos rótulos de columnas"
+msgstr "muy pocos rótulos de columnas"
 
 #: src/main/printarray.c:376
 #, fuzzy, c-format
@@ -5730,7 +5730,7 @@ msgstr "error de lectura"
 
 #: src/main/saveload.c:337
 msgid "a I read error occurred"
-msgstr " ocurrió un error de lectura en I "
+msgstr "ocurrió un error de lectura en I "
 
 #: src/main/saveload.c:347
 msgid "a R read error occurred"
@@ -5738,11 +5738,11 @@ msgstr "ocurrió un error de lectura en R "
 
 #: src/main/saveload.c:357
 msgid "a C read error occurred"
-msgstr " ocurrió un error de lectura en C "
+msgstr "ocurrió un error de lectura en C "
 
 #: src/main/saveload.c:367
 msgid "a S read error occurred"
-msgstr " ocurrió un error de lectura en S "
+msgstr "ocurrió un error de lectura en S "
 
 #: src/main/saveload.c:392 src/main/saveload.c:400 src/main/saveload.c:408
 #: src/main/saveload.c:1607 src/main/saveload.c:1615
@@ -5832,7 +5832,7 @@ msgstr "ocurrió un error de lectura binario"
 
 #: src/main/saveload.c:1593 src/main/saveload.c:1694
 msgid "out of memory reading binary string"
-msgstr " memoria insuficiente en lectura de string binario"
+msgstr "memoria insuficiente en lectura de string binario"
 
 #: src/main/saveload.c:1598
 msgid "a binary string read error occurred"
@@ -5844,27 +5844,27 @@ msgstr "ocurrió un error de escritura de un entero xdr "
 
 #: src/main/saveload.c:1665
 msgid "an xdr integer data read error occurred"
-msgstr " ocurrió un error de lectura de un entero xdr "
+msgstr "ocurrió un error de lectura de un entero xdr "
 
 #: src/main/saveload.c:1680 src/main/saveload.c:1699
 msgid "an xdr string data write error occurred"
-msgstr " ocurrió un error de escritura de string xdr "
+msgstr "ocurrió un error de escritura de string xdr "
 
 #: src/main/saveload.c:1707
 msgid "an xdr real data write error occurred"
-msgstr " ocurrió un error de escritura de un real xdr "
+msgstr "ocurrió un error de escritura de un real xdr "
 
 #: src/main/saveload.c:1714
 msgid "an xdr real data read error occurred"
-msgstr " ocurrió un error de lectura de un real xdr "
+msgstr "ocurrió un error de lectura de un real xdr "
 
 #: src/main/saveload.c:1721
 msgid "an xdr complex data write error occurred"
-msgstr " ocurrió un error de escritura de un complejo xdr"
+msgstr "ocurrió un error de escritura de un complejo xdr"
 
 #: src/main/saveload.c:1728
 msgid "an xdr complex data read error occurred"
-msgstr " ocurrió un error de lectura de un complejo xdr"
+msgstr "ocurrió un error de lectura de un complejo xdr"
 
 #: src/main/saveload.c:1805 src/main/serialize.c:2413 src/main/serialize.c:3040
 #: src/modules/internet/internet.c:390 src/modules/internet/internet.c:463
@@ -6313,7 +6313,7 @@ msgstr "operaciones binarias requieren dos argumentos"
 #: src/main/serialize.c:2800 src/main/serialize.c:2837
 #: src/main/serialize.c:2900
 msgid "serialization is too large to store in a raw vector"
-msgstr " demasiado largo para ser guardado en un vector"
+msgstr "demasiado largo para ser guardado en un vector"
 
 #: src/main/serialize.c:2817
 msgid "cannot allocate buffer"
@@ -8109,7 +8109,7 @@ msgstr "etiqueta inválida"
 #: src/unix/sys-unix.c:849
 #, c-format
 msgid "running command '%s' had status %d and error message '%s'"
-msgstr "comando ejecuta '%s' tiene estatus %d y mensaje de error '%s' "
+msgstr "comando ejecuta '%s' tiene estatus %d y mensaje de error '%s'"
 
 #: src/unix/sys-unix.c:887
 msgid "non-empty character argument expected"

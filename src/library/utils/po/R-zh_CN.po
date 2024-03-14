@@ -1249,7 +1249,7 @@ msgstr ""
 "尝试删除%s"
 
 msgid "ERROR: failed to create lock directory %s"
-msgstr "错误：无法建立锁定目录%s "
+msgstr "错误：无法建立锁定目录%s"
 
 msgid "restored %s"
 msgstr "回复了%s"

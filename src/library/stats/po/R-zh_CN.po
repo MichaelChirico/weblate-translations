@@ -719,7 +719,7 @@ msgid "'weights' must not be negative"
 msgstr "'weights'不能是负数的"
 
 msgid "sum(weights) != 1  -- will not get true density"
-msgstr " sum(weights) != 1，因此无法取得真密度函数"
+msgstr "sum(weights) != 1，因此无法取得真密度函数"
 
 msgid "need at least 2 points to select a bandwidth automatically"
 msgstr "自动选择頻寬至少需要两个数据点"
@@ -1684,7 +1684,7 @@ msgid "f.lower = f(lower) is NA"
 msgstr "f.lower = f(lower)的值为NA"
 
 msgid "f.upper = f(upper) is NA"
-msgstr "f.upper = f(upper)的值为NA "
+msgstr "f.upper = f(upper)的值为NA"
 
 #, fuzzy
 msgid "invalid 'extendInt'; please report"
@@ -1805,7 +1805,7 @@ msgstr ""
 "用\"Brent\"或直接用optimize()"
 
 msgid "method = \"Brent\" is only available for one-dimensional optimization"
-msgstr " method = \"Brent\" 只适用于一维优化"
+msgstr "method = \"Brent\" 只适用于一维优化"
 
 msgid "'lower' and 'upper' must be finite values"
 msgstr "'lower'和'upper'必需都是有限值"
@@ -2167,7 +2167,7 @@ msgid "'y' must be numeric vector"
 msgstr "'y'必需是数值向量"
 
 msgid "number of observations in 'x' and 'y' must match."
-msgstr " 'x'和'y'里的观察量数目必需相等。"
+msgstr "'x'和'y'里的观察量数目必需相等。"
 
 msgid "number of weights must match number of observations."
 msgstr "权数数目必需和观察量数目相同。"

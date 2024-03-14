@@ -1119,10 +1119,10 @@ msgid "file size is limited to 8GB"
 msgstr "Dateigröße limitiert auf 8GB"
 
 msgid "invalid uid value replaced by that for user 'nobody'"
-msgstr "ungültiger Wert für uid durch den für 'nobody' ersetzt "
+msgstr "ungültiger Wert für uid durch den für 'nobody' ersetzt"
 
 msgid "invalid gid value replaced by that for user 'nobody'"
-msgstr "ungültiger Wert für gid durch den für den Nutzer 'nobody' ersetzt "
+msgstr "ungültiger Wert für gid durch den für den Nutzer 'nobody' ersetzt"
 
 msgid ""
 "vignette %s found more than once,\n"

@@ -40,7 +40,7 @@ msgstr ""
 
 #: ansari.c:118
 msgid "probabilities outside [0,1] in qansari()"
-msgstr "probabilidades em qansari() fora do intervalo [0,1] "
+msgstr "probabilidades em qansari() fora do intervalo [0,1]"
 
 #: approx.c:114
 msgid "approx(): invalid f value"

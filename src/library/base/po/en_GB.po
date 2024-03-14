@@ -2826,7 +2826,7 @@ msgstr "not enough memory to allocate device (in GEcreateDevDesc)"
 
 #: src/main/devices.c:545
 msgid "Hit <Return> to see next plot: "
-msgstr "Hit <Return> to see next plot: "
+msgstr "Hit <Return> to see next plot:"
 
 #: src/main/dotcode.c:127 src/main/dotcode.c:157
 msgid "NULL value passed as symbol address"
@@ -2974,7 +2974,7 @@ msgstr "mode '%s' is not supported in call_R"
 #: src/main/dounzip.c:179
 #, c-format
 msgid " not overwriting file '%s"
-msgstr " not overwriting file '%s"
+msgstr "not overwriting file '%s"
 
 #: src/main/dounzip.c:269
 #, c-format
@@ -3195,12 +3195,12 @@ msgstr "non-finite axis extents [GEPretty(%g,%g, n=%d)]"
 #: src/main/engine.c:2499
 #, c-format
 msgid " new *lo = %g < %g = x1"
-msgstr " new *lo = %g < %g = x1"
+msgstr "new *lo = %g < %g = x1"
 
 #: src/main/engine.c:2501
 #, c-format
 msgid " new *up = %g > %g = x2"
-msgstr " new *up = %g > %g = x2"
+msgstr "new *up = %g > %g = x2"
 
 #: src/main/engine.c:3021
 msgid "display list redraw incomplete"
@@ -3610,7 +3610,7 @@ msgstr "There were %d or more warnings (use warnings() to see the first %d)"
 
 #: src/main/errors.c:758
 msgid "Error during wrapup: "
-msgstr "Error during wrapup: "
+msgstr "Error during wrapup:"
 
 #: src/main/errors.c:769
 msgid "Error: no more error handlers available (recursive errors?); invoking 'abort' restart\n"
@@ -3620,25 +3620,25 @@ msgstr ""
 
 #: src/main/errors.c:788
 msgid "Error in "
-msgstr "Error in "
+msgstr "Error in"
 
 #: src/main/errors.c:810 src/main/errors.c:817
 #, c-format
 msgid "Error in %s (from %s) : "
-msgstr "Error in %s (from %s) : "
+msgstr "Error in %s (from %s) :"
 
 #: src/main/errors.c:819
 #, c-format
 msgid "Error in %s : "
-msgstr "Error in %s : "
+msgstr "Error in %s :"
 
 #: src/main/errors.c:842 src/main/errors.c:848
 msgid "Error: "
-msgstr "Error: "
+msgstr "Error:"
 
 #: src/main/errors.c:884 src/main/errors.c:1555
 msgid "In addition: "
-msgstr "In addition: "
+msgstr "In addition:"
 
 #: src/main/errors.c:1020
 msgid "invalid option \"error\"\n"
@@ -3658,11 +3658,11 @@ msgstr "'%s' must be a character string"
 
 #: src/main/errors.c:1368
 msgid " [invalid string in stop(.)]"
-msgstr " [invalid string in stop(.)]"
+msgstr "[invalid string in stop(.)]"
 
 #: src/main/errors.c:1400
 msgid " [invalid string in warning(.)]"
-msgstr " [invalid string in warning(.)]"
+msgstr "[invalid string in warning(.)]"
 
 #: src/main/errors.c:1416
 #, c-format
@@ -3812,7 +3812,7 @@ msgstr "attempt to apply non-function"
 #: src/main/eval.c:1301
 #, c-format
 msgid "%s at %s#%d: "
-msgstr "%s at %s#%d: "
+msgstr "%s at %s#%d:"
 
 #: src/main/eval.c:2428 src/main/eval.c:3636
 #, c-format
@@ -4444,12 +4444,12 @@ msgstr "zero-length pattern"
 #: src/main/grep.c:3071
 #, c-format
 msgid "'pcre2_patterninfo' returned '%d' "
-msgstr "'pcre2_patterninfo' returned '%d' "
+msgstr "'pcre2_patterninfo' returned '%d'"
 
 #: src/main/grep.c:3088
 #, c-format
 msgid "'pcre_fullinfo' returned '%d' "
-msgstr "'pcre_fullinfo' returned '%d' "
+msgstr "'pcre_fullinfo' returned '%d'"
 
 #: src/main/identical.c:144
 msgid "ignoring non-pairlist attributes"
@@ -4543,7 +4543,7 @@ msgstr "unable to restore saved data in %s\n"
 
 #: src/main/main.c:1177
 msgid "During startup - "
-msgstr "During startup - "
+msgstr "During startup -"
 
 #: src/main/main.c:1193
 msgid "unable to initialize the JIT\n"

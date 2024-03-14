@@ -160,7 +160,7 @@ msgid "an object with that name already exists"
 msgstr "对象的名称已经存在"
 
 msgid "autoloader did not find '%s' in '%s'"
-msgstr "自动载入器在'%2$s'找不到'%1$s' "
+msgstr "自动载入器在'%2$s'找不到'%1$s'"
 
 msgid "can only splice inside a call"
 msgstr "只能在调用内拼接"
@@ -328,7 +328,7 @@ msgid "duplicate subscripts for columns"
 msgstr "列里有重复的下标"
 
 msgid "only valid calls are x[[j]] <- value or x[[i,j]] <- value"
-msgstr "正确调用的写法是x[[j]] <- value或x[[i,j]] <- value "
+msgstr "正确调用的写法是x[[j]] <- value或x[[i,j]] <- value"
 
 msgid "replacing element in non-existent column: %s"
 msgstr "在不存在的列里替换单元: %s"
@@ -418,7 +418,7 @@ msgid "'length.out' must be of length 1"
 msgstr "'length.out'的长度必需为一"
 
 msgid "exactly two of 'to', 'by' and 'length.out' / 'along.with' must be specified"
-msgstr " 'to'，'by'，'length.out'/'along.with'中四个只能同时选两个"
+msgstr "'to'，'by'，'length.out'/'along.with'中四个只能同时选两个"
 
 msgid "'by' must be of length 1"
 msgstr "'by'的长度必需为一"
@@ -551,7 +551,7 @@ msgid "'x' must be a square matrix"
 msgstr "'x'必需是正方形矩阵"
 
 msgid "'determinant' not currently defined for complex matrices"
-msgstr "目前还不能算复数矩阵的'determinant' "
+msgstr "目前还不能算复数矩阵的'determinant'"
 
 msgid "'nrow' or 'ncol' cannot be specified when 'x' is a matrix"
 msgstr "如果'x'是矩阵的话不能直接设定'nrow'或'ncol'"
@@ -686,7 +686,7 @@ msgid "'mode' must be \"double\" (\"real\"), \"integer\" or \"character\""
 msgstr "'mode'的值必需是\"double\" (\"real\")， \"integer\"或\"character\"中的一个"
 
 msgid "coercing argument to \"character\" for format=\"s\""
-msgstr "用format=\"s\"时参数被强迫转变成\"character\" "
+msgstr "用format=\"s\"时参数被强迫转变成\"character\""
 
 msgid "'format' must be one of {\"f\",\"e\",\"E\",\"g\",\"G\", \"fg\", \"s\"}"
 msgstr "'format'的值必需从{\"f\",\"e\",\"E\",\"g\",\"G\", \"fg\", \"s\"}中选一个"
@@ -1484,7 +1484,7 @@ msgid "'x' must be atomic"
 msgstr "'x'必需为基元"
 
 msgid "'index.return' only for 'na.last = NA'"
-msgstr "只有'na.last = NA'才能用'index.return' "
+msgstr "只有'na.last = NA'才能用'index.return'"
 
 msgid "unsupported options for partial sorting"
 msgstr "部分排序时不支持这些选项"

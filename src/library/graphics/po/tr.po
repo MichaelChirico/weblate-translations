@@ -314,7 +314,7 @@ msgstr "geçersiz grafik yapısı"
 #: plot.c:1408
 #, c-format
 msgid "'x' and 'y' lengths differ in %s()"
-msgstr "%s() içinde 'x' ve 'y' uzunlukları farklı "
+msgstr "%s() içinde 'x' ve 'y' uzunlukları farklı"
 
 #: plot.c:1616
 #, c-format

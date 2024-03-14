@@ -599,7 +599,7 @@ msgstr ".Random.seed[0] geçerli bir Normal yazım değil"
 #: src/main/RNG.c:385
 #, fuzzy
 msgid "'.Random.seed[1] = 5' but no user-supplied generator, so ignored"
-msgstr ".Random.seed[1] = 5 "
+msgstr ".Random.seed[1] = 5"
 
 #: src/main/RNG.c:390
 #, fuzzy
@@ -838,7 +838,7 @@ msgstr "giriş dizesi çok uzun"
 
 #: src/main/Rstrptime.h:1304
 msgid "invalid multibyte input string"
-msgstr "geçersiz çokbaytlı giriş dizesi "
+msgstr "geçersiz çokbaytlı giriş dizesi"
 
 #: src/main/Rstrptime.h:1307
 msgid "format string is too long"
@@ -846,7 +846,7 @@ msgstr "biçim dizesi çok uzun"
 
 #: src/main/Rstrptime.h:1309
 msgid "invalid multibyte format string"
-msgstr "geçersiz çokbaytlı biçim dizesi "
+msgstr "geçersiz çokbaytlı biçim dizesi"
 
 #: src/main/agrep.c:134 src/main/agrep.c:780 src/main/character.c:1455
 #: src/main/character.c:1459 src/main/grep.c:1304 src/main/grep.c:2158
@@ -1014,7 +1014,7 @@ msgstr "uygun olmayan diziler"
 
 #: src/main/arithmetic.c:654 src/main/logic.c:137 src/main/relop.c:226
 msgid "longer object length is not a multiple of shorter object length"
-msgstr "uzun olan nesne uzunluğu kısa olan nesne uzunluğunun bir katı değil "
+msgstr "uzun olan nesne uzunluğu kısa olan nesne uzunluğunun bir katı değil"
 
 #: src/main/arithmetic.c:720
 msgid "invalid argument to unary operator"
@@ -1212,7 +1212,7 @@ msgstr ""
 #: src/main/attrib.c:309 src/main/attrib.c:434 src/main/attrib.c:481
 #: src/main/attrib.c:535
 msgid "attempt to set an attribute on NULL"
-msgstr "BOŞ'a nitelik belirleme denemesi "
+msgstr "BOŞ'a nitelik belirleme denemesi"
 
 #: src/main/attrib.c:81
 #, c-format
@@ -1716,7 +1716,7 @@ msgstr "geçersiz UTF-8 dizesi 'new'"
 
 #: src/main/character.c:1534
 msgid "invalid multibyte string 'new'"
-msgstr "geçersiz çokbaytlı dize 'new' "
+msgstr "geçersiz çokbaytlı dize 'new'"
 
 #: src/main/character.c:1562 src/main/character.c:1652
 msgid "'old' is longer than 'new'"
@@ -1966,7 +1966,7 @@ msgstr "%s bu bağlantı için etkin değil"
 
 #: src/main/connections.c:519
 msgid "invalid char string in output conversion"
-msgstr "çıkış dönüşümünde geçersiz karakter dizesi "
+msgstr "çıkış dönüşümünde geçersiz karakter dizesi"
 
 #: src/main/connections.c:600
 #, c-format
@@ -2865,7 +2865,7 @@ msgstr "aygıtı yerleştirmek için yeterli bellek yok (GEcreateDevDes içinde)
 
 #: src/main/devices.c:545
 msgid "Hit <Return> to see next plot: "
-msgstr "Sonraki çizimi görmek için <Enter>'a basın: "
+msgstr "Sonraki çizimi görmek için <Enter>'a basın:"
 
 #: src/main/dotcode.c:127 src/main/dotcode.c:157
 msgid "NULL value passed as symbol address"
@@ -3014,7 +3014,7 @@ msgstr "call_R içinde '%s' modu desteklenmiyor"
 #: src/main/dounzip.c:179
 #, c-format
 msgid " not overwriting file '%s"
-msgstr " '%s dosyasının üzerine yazılmıyor"
+msgstr "'%s dosyasının üzerine yazılmıyor"
 
 #: src/main/dounzip.c:269
 #, c-format
@@ -3173,7 +3173,7 @@ msgstr "kaydı kaldırılacak grafik sistemi bulunmuyor"
 #: src/main/engine.c:444 src/main/engine.c:449 src/main/engine.c:457
 #: src/main/engine.c:464 src/main/engine.c:478 src/modules/X11/devX11.c:1166
 msgid "invalid line end"
-msgstr "geçersiz dize sonu "
+msgstr "geçersiz dize sonu"
 
 #: src/main/engine.c:509 src/main/engine.c:514 src/main/engine.c:522
 #: src/main/engine.c:529 src/main/engine.c:543 src/modules/X11/devX11.c:1184
@@ -3245,12 +3245,12 @@ msgstr "sonsuz eksen uzatımı [GEPretty(%g,%g,%d)]"
 #: src/main/engine.c:2499
 #, fuzzy, c-format
 msgid " new *lo = %g < %g = x1"
-msgstr " .. GEPretty(.): new *lo = %g < %g = x1"
+msgstr ".. GEPretty(.): new *lo = %g < %g = x1"
 
 #: src/main/engine.c:2501
 #, fuzzy, c-format
 msgid " new *up = %g > %g = x2"
-msgstr " .. GEPretty(.): new *up = %g > %g = x2"
+msgstr ".. GEPretty(.): new *up = %g > %g = x2"
 
 #: src/main/engine.c:3021
 #, fuzzy
@@ -3298,7 +3298,7 @@ msgstr "geçersiz çizgi tipi: 2, 4, 6, veya 8 uzunluğunda olmalıdır"
 
 #: src/main/engine.c:3419
 msgid "invalid line type: zeroes are not allowed"
-msgstr "geçersiz çizgi tipi: sıfırlara izin verilmiyor "
+msgstr "geçersiz çizgi tipi: sıfırlara izin verilmiyor"
 
 #: src/main/engine.c:3428 src/main/engine.c:3436 src/main/engine.c:3443
 msgid "invalid line type"
@@ -3547,7 +3547,7 @@ msgstr "aktif bir bağlayıcı ayrılamaz"
 #: src/main/envir.c:3774
 #, fuzzy
 msgid "bad namespace name"
-msgstr "hatalı "
+msgstr "hatalı"
 
 #: src/main/envir.c:3787
 #, fuzzy
@@ -3567,7 +3567,7 @@ msgstr "hatalı değişken isimleri"
 #: src/main/envir.c:3905
 #, fuzzy
 msgid "bad namespace"
-msgstr "hatalı "
+msgstr "hatalı"
 
 #: src/main/envir.c:3941
 #, c-format
@@ -3660,7 +3660,7 @@ msgstr "50 yada daha fazla uyarı oluştu (ilk 50'sini görmek için warnings() 
 
 #: src/main/errors.c:758
 msgid "Error during wrapup: "
-msgstr "wrapup sırasında hata: "
+msgstr "wrapup sırasında hata:"
 
 #: src/main/errors.c:769
 msgid "Error: no more error handlers available (recursive errors?); invoking 'abort' restart\n"
@@ -3668,7 +3668,7 @@ msgstr ""
 
 #: src/main/errors.c:788
 msgid "Error in "
-msgstr "Hata oluştu: "
+msgstr "Hata oluştu:"
 
 #: src/main/errors.c:810 src/main/errors.c:817
 #, c-format
@@ -3678,15 +3678,15 @@ msgstr ""
 #: src/main/errors.c:819
 #, fuzzy, c-format
 msgid "Error in %s : "
-msgstr "Hata oluştu: "
+msgstr "Hata oluştu:"
 
 #: src/main/errors.c:842 src/main/errors.c:848
 msgid "Error: "
-msgstr "Hata: "
+msgstr "Hata:"
 
 #: src/main/errors.c:884 src/main/errors.c:1555
 msgid "In addition: "
-msgstr "Ek olarak: "
+msgstr "Ek olarak:"
 
 #: src/main/errors.c:1020
 msgid "invalid option \"error\"\n"
@@ -3706,11 +3706,11 @@ msgstr "'sep' bir karakter dizesi olmalı"
 
 #: src/main/errors.c:1368
 msgid " [invalid string in stop(.)]"
-msgstr " [stop(.)'da geçersiz dize]"
+msgstr "[stop(.)'da geçersiz dize]"
 
 #: src/main/errors.c:1400
 msgid " [invalid string in warning(.)]"
-msgstr " [warning(.)'de geçersiz dize]"
+msgstr "[warning(.)'de geçersiz dize]"
 
 #: src/main/errors.c:1416
 #, c-format
@@ -3760,7 +3760,7 @@ msgstr "üst seviye tutarsızlık?"
 
 #: src/main/errors.c:1797
 msgid "bad handler data"
-msgstr "hatalı "
+msgstr "hatalı"
 
 #: src/main/errors.c:1955
 msgid "error message not a string"
@@ -3842,7 +3842,7 @@ msgstr "R profilleme bu sistemde mevcut değil"
 
 #: src/main/eval.c:944
 msgid "promise already under evaluation: recursive default argument reference or earlier problems?"
-msgstr "promise zaten hesaplama altında: tekrarlamalı varsayılan argüman referansı veya "
+msgstr "promise zaten hesaplama altında: tekrarlamalı varsayılan argüman referansı veya"
 
 #: src/main/eval.c:949
 msgid "restarting interrupted promise evaluation"
@@ -3859,7 +3859,7 @@ msgstr "fonksiyon olmayana uygulama denemesi"
 #: src/main/eval.c:1301
 #, c-format
 msgid "%s at %s#%d: "
-msgstr "%s (%s#%d'de): "
+msgstr "%s (%s#%d'de):"
 
 #: src/main/eval.c:2428 src/main/eval.c:3636
 #, c-format
@@ -4569,7 +4569,7 @@ msgstr ""
 #: src/main/main.c:335
 #, fuzzy
 msgid "error during cleanup\n"
-msgstr "wrapup sırasında hata: "
+msgstr "wrapup sırasında hata:"
 
 #: src/main/main.c:344
 msgid "Execution halted\n"
@@ -4590,7 +4590,7 @@ msgstr ".RData'da kayıtlı veri geri alınamadı\n"
 
 #: src/main/main.c:1177
 msgid "During startup - "
-msgstr "Başlangıç sırasında - "
+msgstr "Başlangıç sırasında -"
 
 #: src/main/main.c:1193
 #, fuzzy
@@ -4995,7 +4995,7 @@ msgstr "standardGeneric argümanı bir boş olmayan karakter dizesi olmalı"
 #: src/main/objects.c:1342
 #, c-format
 msgid "call to standardGeneric(\"%s\") apparently not from the body of that generic function"
-msgstr "standardGeneric(\"%s\")'e çağrı görünürde genel fonksiyonun gövdesinden değil "
+msgstr "standardGeneric(\"%s\")'e çağrı görünürde genel fonksiyonun gövdesinden değil"
 
 #: src/main/objects.c:1441
 #, c-format
@@ -5688,7 +5688,7 @@ msgstr "bu tipler için karşılaştırma tanımlanmadı"
 
 #: src/main/relop.c:363
 msgid "invalid comparison with complex values"
-msgstr "karışık değerlerle geçersiz karşılaştırma "
+msgstr "karışık değerlerle geçersiz karşılaştırma"
 
 #: src/main/relop.c:638 src/main/relop.c:683 src/main/relop.c:717
 #, fuzzy
@@ -5947,7 +5947,7 @@ msgstr "giriş mevcut değil"
 
 #: src/main/saveload.c:2504
 msgid "the input does not start with a magic number compatible with loading from a connection"
-msgstr "girdi bir bağlant  "
+msgstr "girdi bir bağlant "
 
 #: src/main/scan.c:374 src/main/scan.c:424
 msgid "EOF within quoted string"
@@ -6087,17 +6087,17 @@ msgstr "argüman negatif olmayan tamsayıya zorlanabilmeli"
 #: src/main/seq.c:1128
 #, fuzzy
 msgid "'lengths' is not of mode integer"
-msgstr "argüman mod karakterinin değil "
+msgstr "argüman mod karakterinin değil"
 
 #: src/main/seq.c:1131
 #, fuzzy
 msgid "'from' is not of mode integer"
-msgstr "argüman mod karakterinin değil "
+msgstr "argüman mod karakterinin değil"
 
 #: src/main/seq.c:1134
 #, fuzzy
 msgid "'by' is not of mode integer"
-msgstr "argüman mod karakterinin değil "
+msgstr "argüman mod karakterinin değil"
 
 #: src/main/seq.c:1141
 #, fuzzy
@@ -6542,7 +6542,7 @@ msgstr "vektör/liste sınırları dışına atama (%lld'den %lld'e uzatılıyor
 #: src/main/subassign.c:267
 #, fuzzy
 msgid "bad names attribute"
-msgstr "hatalı "
+msgstr "hatalı"
 
 #: src/main/subassign.c:482
 #, c-format
@@ -7003,7 +7003,7 @@ msgstr "'match' vektör argüman gerektirir"
 #: src/main/unique.c:1545 src/main/unique.c:1683
 #, fuzzy
 msgid "argument is not of mode character"
-msgstr "argüman mod karakterinin değil "
+msgstr "argüman mod karakterinin değil"
 
 #: src/main/unique.c:1806
 #, fuzzy
@@ -7789,12 +7789,12 @@ msgstr "'a' boyutları > 0 olmalı"
 #: src/modules/lapack/Lapack.c:1100
 #, fuzzy, c-format
 msgid "the leading minor of order %d is not positive"
-msgstr "sıra %d in baş minörü pozitif "
+msgstr "sıra %d in baş minörü pozitif"
 
 #: src/modules/lapack/Lapack.c:1115
 #, fuzzy
 msgid "the matrix is either rank-deficient or not positive definite"
-msgstr "sıra %d in baş minörü pozitif "
+msgstr "sıra %d in baş minörü pozitif"
 
 #: src/modules/lapack/Lapack.c:1143
 msgid "'size' argument must be a positive integer"
@@ -7948,7 +7948,7 @@ msgstr "deriv = %d > %d (= n_max)\n"
 #: src/nmath/rmultinom.c:78
 #, c-format
 msgid "rbinom: probability sum should be 1, but is %g"
-msgstr "rbinom: olasılıklar toplamı 1 olmalı, ancak sonuç %g "
+msgstr "rbinom: olasılıklar toplamı 1 olmalı, ancak sonuç %g"
 
 #: src/nmath/signrank.c:77
 msgid "signrank allocation error"

@@ -147,7 +147,7 @@ msgid "rows * columns too small"
 msgstr "行 * 列的结果太小"
 
 msgid "Missing rows: %s"
-msgstr "缺少行: %s "
+msgstr "缺少行: %s"
 
 msgid "'expr' must be a function, or a call or an expression containing '%s'"
 msgstr "'expr'要么是函数，要么调用，要么是包含'%s'的表达式"

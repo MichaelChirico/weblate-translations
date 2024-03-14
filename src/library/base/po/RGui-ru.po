@@ -76,83 +76,83 @@ msgstr "Редактирование.\n"
 
 #: src/gnuwin32/console.c:2305
 msgid "  Moving the cursor: \n"
-msgstr "  Перемещение курсора: \n"
+msgstr " Перемещение курсора: \n"
 
 #: src/gnuwin32/console.c:2306
 msgid "     Left arrow or Ctrl+B: move backward one character;\n"
-msgstr "     Левая стрелка или Ctrl+B: назад на один символ;\n"
+msgstr "    Левая стрелка или Ctrl+B: назад на один символ;\n"
 
 #: src/gnuwin32/console.c:2307
 msgid "     Right arrow or Ctrl+F: move forward one character;\n"
-msgstr "     Стрелка вправо или Ctrl+F: вперед на один символ;\n"
+msgstr "    Стрелка вправо или Ctrl+F: вперед на один символ;\n"
 
 #: src/gnuwin32/console.c:2308
 msgid "     Home or Ctrl+A: go to beginning of line;\n"
-msgstr "     Home или Ctrl+A: к началу строки;\n"
+msgstr "    Home или Ctrl+A: к началу строки;\n"
 
 #: src/gnuwin32/console.c:2309
 msgid "     End or Ctrl+E: go to end of line;\n"
-msgstr "     End или Ctrl+E: в конец строки;\n"
+msgstr "    End или Ctrl+E: в конец строки;\n"
 
 #: src/gnuwin32/console.c:2310
 msgid "  History: Up and Down Arrows, Ctrl+P, Ctrl+N\n"
-msgstr "  История: стрелки вверх и вниз, Ctrl+P, Ctrl+N\n"
+msgstr " История: стрелки вверх и вниз, Ctrl+P, Ctrl+N\n"
 
 #: src/gnuwin32/console.c:2311
 msgid "  Deleting:\n"
-msgstr "  Удаление:\n"
+msgstr " Удаление:\n"
 
 #: src/gnuwin32/console.c:2312
 msgid "     Del or Ctrl+D: delete current character or selection;\n"
-msgstr "     Del или Ctrl+D: удалить текущий символ или выделение;\n"
+msgstr "    Del или Ctrl+D: удалить текущий символ или выделение;\n"
 
 #: src/gnuwin32/console.c:2313
 msgid "     Backspace: delete preceding character;\n"
-msgstr "     Backspace: удалить предыдущий символ;\n"
+msgstr "    Backspace: удалить предыдущий символ;\n"
 
 #: src/gnuwin32/console.c:2314
 msgid "     Ctrl+Del or Ctrl+K: delete text from current character to end of line.\n"
-msgstr "     Ctrl+Del или Ctrl+K: удалить текст от текущего символа до конца строки.\n"
+msgstr "    Ctrl+Del или Ctrl+K: удалить текст от текущего символа до конца строки.\n"
 
 #: src/gnuwin32/console.c:2315
 msgid "     Ctrl+U: delete all text from current line.\n"
-msgstr "     Ctrl+U: удалить весь текст текущей строки.\n"
+msgstr "    Ctrl+U: удалить весь текст текущей строки.\n"
 
 #: src/gnuwin32/console.c:2316
 msgid "  Copy and paste.\n"
-msgstr "  Копирование и вставка:\n"
+msgstr " Копирование и вставка:\n"
 
 #: src/gnuwin32/console.c:2317
 msgid "     Use the mouse (with the left button held down) to mark (select) text.\n"
-msgstr "     Использовать мышь (с нажатой левой кнопкой) для выделения текста.\n"
+msgstr "    Использовать мышь (с нажатой левой кнопкой) для выделения текста.\n"
 
 #: src/gnuwin32/console.c:2318
 msgid "     Use Shift+Del (or Ctrl+C) to copy the marked text to the clipboard and\n"
-msgstr "     Использовать Shift+Del (или Ctrl+C) для копирования выделения в буфер\n"
+msgstr "    Использовать Shift+Del (или Ctrl+C) для копирования выделения в буфер\n"
 
 #: src/gnuwin32/console.c:2319
 msgid "     Shift+Ins (or Ctrl+V or Ctrl+Y) to paste the content of the clipboard (if any)  \n"
-msgstr "     Shift+Ins (или Ctrl+V или Ctrl+Y) для вставки содержимого буфера (если есть)  \n"
+msgstr "    Shift+Ins (или Ctrl+V или Ctrl+Y) для вставки содержимого буфера (если есть)  \n"
 
 #: src/gnuwin32/console.c:2320
 msgid "     to the console, Ctrl+X first copy then paste\n"
-msgstr "     на консоль, Ctrl+X сначала копирует, потом вставляет.\n"
+msgstr "    на консоль, Ctrl+X сначала копирует, потом вставляет.\n"
 
 #: src/gnuwin32/console.c:2321
 msgid "  Misc:\n"
-msgstr "  Разное:\n"
+msgstr " Разное:\n"
 
 #: src/gnuwin32/console.c:2322
 msgid "     Ctrl+L: Clear the console.\n"
-msgstr "     Ctrl+L: Очистить консоль.\n"
+msgstr "    Ctrl+L: Очистить консоль.\n"
 
 #: src/gnuwin32/console.c:2323
 msgid "     Ctrl+O or INS: Toggle overwrite mode: initially off.\n"
-msgstr "     Ctrl+O: Переключить замену/вставку символов: вначале отключена.\n"
+msgstr "    Ctrl+O: Переключить замену/вставку символов: вначале отключена.\n"
 
 #: src/gnuwin32/console.c:2324
 msgid "     Ctrl+T: Interchange current char with one to the left.\n"
-msgstr "     Ctrl+T: Поменять текущий символ с предыдущим.\n"
+msgstr "    Ctrl+T: Поменять текущий символ с предыдущим.\n"
 
 #: src/gnuwin32/console.c:2325
 msgid ""
@@ -244,15 +244,15 @@ msgstr "Чтобы запустить строку или блок кода R, выделите текст и или\n"
 
 #: src/gnuwin32/editor.c:679
 msgid "     Press Ctrl-R\n"
-msgstr "     Нажмите Ctrl-R\n"
+msgstr "    Нажмите Ctrl-R\n"
 
 #: src/gnuwin32/editor.c:680
 msgid "     Select \"Run line or selection\" from the \"Edit\" menu\n"
-msgstr "     Выберите \"Запустить строку или блок\" из меню \"Правка\"\n"
+msgstr "    Выберите \"Запустить строку или блок\" из меню \"Правка\"\n"
 
 #: src/gnuwin32/editor.c:681
 msgid "     Press the \"Run line or selection\" icon on the toolbar\n"
-msgstr "     Нажмите на панели кнопку \"Запустить строку или блок\"\n"
+msgstr "    Нажмите на панели кнопку \"Запустить строку или блок\"\n"
 
 #: src/gnuwin32/editor.c:682
 msgid "This will copy the selected commands to the console and evaluate them.\n"
@@ -823,7 +823,7 @@ msgstr "Вопрос"
 
 #: src/extra/graphapp/dialogs.c:249
 msgid " Change working directory to:"
-msgstr " Изменить рабочую папку на:"
+msgstr "Изменить рабочую папку на:"
 
 #: src/extra/graphapp/dialogs.c:251
 #, c-format

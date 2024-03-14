@@ -516,7 +516,7 @@ msgid "Objective function increased at outer iteration %d"
 msgstr "Função objetiva aumentou na iteração externa %d"
 
 msgid "Objective function decreased at outer iteration %d"
-msgstr "Função objetiva diminui na iteração externa %d "
+msgstr "Função objetiva diminui na iteração externa %d"
 
 msgid "contrasts not defined for %d degrees of freedom"
 msgstr "contrastes não definidos para %d graus de liberdade"

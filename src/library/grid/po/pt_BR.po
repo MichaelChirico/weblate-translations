@@ -46,7 +46,7 @@ msgstr ""
 #: grid.c:909 grid.c:914 grid.c:1035 grid.c:1040
 #, fuzzy
 msgid "cannot pop the top-level viewport ('grid' and 'graphics' output mixed?)"
-msgstr "Não é possível mostrar a viewport de nível máximo (saidas gráficas e grid misturadas?) "
+msgstr "Não é possível mostrar a viewport de nível máximo (saidas gráficas e grid misturadas?)"
 
 #: grid.c:1241
 msgid "attempt to plot on null device"

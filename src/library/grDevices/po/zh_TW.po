@@ -360,7 +360,7 @@ msgstr "postscript()裝置裡沒有 CID 系列 '%s'"
 #: devPS.c:3938 devPS.c:3949 devPS.c:4387 devPS.c:4417 devPS.c:4626
 #, c-format
 msgid "family '%s' not included in postscript() device"
-msgstr " postscript()裝置裡沒有 '%s' 系列"
+msgstr "postscript()裝置裡沒有 '%s' 系列"
 
 #: devPS.c:4454
 #, c-format
@@ -917,7 +917,7 @@ msgstr ""
 #: qdBitmap.c:84
 #, c-format
 msgid "QuartzBitmap_Output - unable to open file '%s'"
-msgstr " QuartzBitmap_Output - 打不開 '%s' 檔案"
+msgstr "QuartzBitmap_Output - 打不開 '%s' 檔案"
 
 #: qdBitmap.c:99
 msgid "not a supported scheme, no image data written"

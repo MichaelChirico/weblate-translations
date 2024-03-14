@@ -635,7 +635,7 @@ msgid "invalid 'oldPkgs'; must be a character vector or a result from old.packag
 msgstr "유효하지 않은 'oldPkgs'입니다.  반드시 문자형 벡터이거나 old.packages()으로부터 나온 결과이어야 합니다"
 
 msgid "ill-formed 'instPkgs' matrix"
-msgstr " 올바르게 구성되지 않은 'instPkgs' 행렬입니다"
+msgstr "올바르게 구성되지 않은 'instPkgs' 행렬입니다"
 
 msgid "no installed packages for (invalid?) 'lib.loc=%s'"
 msgstr "'lib.loc=%s'에 설치된 패키지들이 없습니다"

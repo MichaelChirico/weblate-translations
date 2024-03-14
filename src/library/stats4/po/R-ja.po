@@ -38,10 +38,10 @@ msgstr ""
 "収束していなかったことになります "
 
 msgid "levels truncated to positive values only"
-msgstr " 水準 (levels) は正の値のみに切りつめられました "
+msgstr "水準 (levels) は正の値のみに切りつめられました"
 
 msgid "extra arguments discarded"
-msgstr " 余分な引数が破棄されました "
+msgstr "余分な引数が破棄されました"
 
 #~ msgid "'start' must be a named list"
 #~ msgstr " 'start' は名前付きリストでなければなりません "

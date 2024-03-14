@@ -3588,21 +3588,21 @@ msgstr ""
 
 #: src/main/errors.c:788
 msgid "Error in "
-msgstr "Fejl i "
+msgstr "Fejl i"
 
 #: src/main/errors.c:810 src/main/errors.c:817
 #, c-format
 msgid "Error in %s (from %s) : "
-msgstr "Fejl i %s (fra %s) : "
+msgstr "Fejl i %s (fra %s) :"
 
 #: src/main/errors.c:819
 #, c-format
 msgid "Error in %s : "
-msgstr "Fejl i %s : "
+msgstr "Fejl i %s :"
 
 #: src/main/errors.c:842 src/main/errors.c:848
 msgid "Error: "
-msgstr "Fejl: "
+msgstr "Fejl:"
 
 #: src/main/errors.c:884 src/main/errors.c:1555
 msgid "In addition: "
@@ -3626,11 +3626,11 @@ msgstr "'%s' skal være en tegnstreng"
 
 #: src/main/errors.c:1368
 msgid " [invalid string in stop(.)]"
-msgstr " [ugyldig streng i stop(.)]"
+msgstr "[ugyldig streng i stop(.)]"
 
 #: src/main/errors.c:1400
 msgid " [invalid string in warning(.)]"
-msgstr " [ugyldig streng i warning(.)]"
+msgstr "[ugyldig streng i warning(.)]"
 
 #: src/main/errors.c:1416
 #, c-format

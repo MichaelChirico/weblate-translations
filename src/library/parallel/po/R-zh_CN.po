@@ -110,7 +110,7 @@ msgid "fork clusters are not supported on Windows"
 msgstr "Windows不支持分叉集群"
 
 msgid "'mc.cores' > 1 is not supported on Windows"
-msgstr " Windows不支持'mc.cores' > 1"
+msgstr "Windows不支持'mc.cores' > 1"
 
 msgid "Cluster setup failed. %d worker of %d failed to connect."
 msgid_plural "Cluster setup failed. %d of %d workers failed to connect."

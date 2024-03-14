@@ -139,7 +139,7 @@ msgstr "Ungültige \\usage Zeile im Dokumentations-Objekt '%s' gefunden:"
 
 #, fuzzy
 msgid "S3 methods shown with full name in Rd file '%s':"
-msgstr "S3 Methoden mit vollem Namen im Dokumentations-Objekt '%s' gezeigt: "
+msgstr "S3 Methoden mit vollem Namen im Dokumentations-Objekt '%s' gezeigt:"
 
 msgid "you must specify 'package', 'dir' or 'file'"
 msgstr "sie müssen 'package', 'dir' oder 'file' angeben"
@@ -703,7 +703,7 @@ msgid "Vignette engine %s is not registered by any of the packages %s"
 msgstr "Vignetten-Treiber %s ist nicht von irgendeinem der Pakete %s registriert"
 
 msgid "Engine name %s and package %s do not match"
-msgstr "Treibername %s und Paket %s passen nicht "
+msgstr "Treibername %s und Paket %s passen nicht"
 
 msgid "Argument %s must be a function and not %s"
 msgstr "Argument %s muss eine Funktion sein und nicht %s"
@@ -816,7 +816,7 @@ msgid "invalid value for '--compact-vignettes', assuming %s"
 msgstr "unzulässiger Wert für '--compact-vignettes', nehme %s an"
 
 msgid "Error: cannot rename directory to %s"
-msgstr "Fehler: kann  Verzeichnis nicht in %s umbennen "
+msgstr "Fehler: kann  Verzeichnis nicht in %s umbennen"
 
 msgid "elapsed-time limit of %g %s reached for sub-process"
 msgstr "Grenze für Zeitverbrauch von %g %s für Subprozess erreicht"
@@ -1569,8 +1569,8 @@ msgstr[1] "Benötigte Felder fehlen oder sind leer:"
 
 msgid "Help on topic '%s' was found in the following package:"
 msgid_plural "Help on topic '%s' was found in the following packages:"
-msgstr[0] "Zum Stichwort '%s' wurde Hilfe im folgenden Paket gefunden: "
-msgstr[1] "Zum Stichwort '%s' wurde Hilfe in folgenden Paketen gefunden: "
+msgstr[0] "Zum Stichwort '%s' wurde Hilfe im folgenden Paket gefunden:"
+msgstr[1] "Zum Stichwort '%s' wurde Hilfe in folgenden Paketen gefunden:"
 
 msgid "object %s is created by more than one data call"
 msgid_plural "objects %s are created by more than one data call"

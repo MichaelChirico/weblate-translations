@@ -645,7 +645,7 @@ msgstr "簡介原始碼檔案 (%s) 偵測到分享的名稱 (%s) 因此可以冒
 
 #, fuzzy
 msgid "Note: skipping %s"
-msgstr "處理 %s "
+msgstr "處理 %s"
 
 #, fuzzy
 msgid "Error: Vignette '%s' is non-ASCII but has no declared encoding"
@@ -755,7 +755,7 @@ msgid "cannot create directory '%s'"
 msgstr "無法建立目錄 '%s'"
 
 msgid "processing %s"
-msgstr "處理 %s "
+msgstr "處理 %s"
 
 msgid ""
 "running %s on vignette '%s' failed with message:\n"
@@ -817,7 +817,7 @@ msgid "Run R CMD build with --no-build-vignettes to prevent rebuilding."
 msgstr "以 --no-build-vignettes 執行 R 命令組建以避免重新組建。"
 
 msgid "invalid value for '--compact-vignettes', assuming %s"
-msgstr "--compact-vignettes 的值不對，假定用 %s "
+msgstr "--compact-vignettes 的值不對，假定用 %s"
 
 msgid "Error: cannot rename directory to %s"
 msgstr "錯誤：無法變更目錄名稱到時 %s"
@@ -1286,7 +1286,7 @@ msgid "Running %s"
 msgstr "執行 %s"
 
 msgid "Running vignettes for package %s"
-msgstr "執行簡介給程式套件 %s "
+msgstr "執行簡介給程式套件 %s"
 
 msgid "Comparing %s to %s ..."
 msgstr "比較 %s 和 %s"
@@ -1425,7 +1425,7 @@ msgid "contains a blank line"
 msgstr "帶空列"
 
 msgid "Unknown encoding with non-ASCII data: converting to ASCII"
-msgstr "不明帶非 ASCII 資料的編碼: 轉換為 ASCII "
+msgstr "不明帶非 ASCII 資料的編碼: 轉換為 ASCII"
 
 msgid "cannot source package code:"
 msgstr "無法讀取套件來源編碼"

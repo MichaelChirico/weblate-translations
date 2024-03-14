@@ -97,7 +97,7 @@ msgid "compiling '%s'"
 msgstr "編譯 '%s'"
 
 msgid "saving to file \"%s\" ..."
-msgstr "儲存到檔案\"%s\" … "
+msgstr "儲存到檔案\"%s\" …"
 
 msgid "done"
 msgstr "做完了"

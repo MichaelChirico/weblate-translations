@@ -2412,7 +2412,7 @@ msgid "cannot fit an asymptotic regression model to these data"
 msgstr "nie można dopasować modelu regresji asymptotycznej do tych danych"
 
 msgid "too few observations to fit an asymptotic regression model"
-msgstr "zbyt mało obserwacji aby dopasować model regresji asymptotycznej "
+msgstr "zbyt mało obserwacji aby dopasować model regresji asymptotycznej"
 
 msgid "too few distinct input values to fit the 'asympOff' model"
 msgstr "zbyt mało różnych wartości wejściowych aby dopasować model 'asympOff'"

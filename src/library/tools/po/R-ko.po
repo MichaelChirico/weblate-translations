@@ -573,7 +573,7 @@ msgid "Converting Rd files to LaTeX ..."
 msgstr "Rd 파일들을 LaTeX 로 변환하고 있습니다..."
 
 msgid "-t option without value"
-msgstr "-t 옵션의 값이 없습니다 "
+msgstr "-t 옵션의 값이 없습니다"
 
 msgid "-o option without value"
 msgstr "-o 옵션의 값이 없습니다"
@@ -890,7 +890,7 @@ msgid "Vignettes:"
 msgstr "비니에트:"
 
 msgid "Code demonstrations:"
-msgstr "코드 설명: "
+msgstr "코드 설명:"
 
 msgid "Help pages:"
 msgstr "도움말 페이지:"
